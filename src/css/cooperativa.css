@@ -1,0 +1,460 @@
+.cooperativa section {
+  width: 100%;
+  margin: auto;
+  padding: 4.38rem;
+}
+.cooperativa section.head {
+  padding-bottom: 0;
+}
+.cooperativa section.head p {
+  font-family: var(--display-font);
+  margin-bottom: 1.1rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.1%; /* 1.8615rem */
+}
+.cooperativa section.head h2 {
+  font-family: var(--display-font);
+  font-weight: 900;
+  max-width: 54.24513rem;
+  width: 100%;
+  font-size: 2.5rem;
+  line-height: 124.1%; /* 3.1025rem */
+}
+.cooperativa section.head .image-wrapper {
+  display: flex;
+  margin-top: 3rem;
+  align-items: end;
+  justify-content: right;
+}
+.cooperativa section.head img {
+  margin-right: 4.5rem;
+  width: 36.95506rem;
+  height: auto;
+}
+@media screen and (max-width: 1023px) {
+  .cooperativa section.head {
+    padding: 4.38rem;
+  }
+  .cooperativa section.head h2 {
+    font-size: 2.25rem;
+  }
+  .cooperativa section.head .image-wrapper {
+    margin-top: 5.12rem;
+  }
+  .cooperativa section.head img {
+    margin-right: 0;
+    border-radius: 1rem;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .cooperativa section {
+    padding: 3rem 1.4rem;
+  }
+  .cooperativa section.head {
+    padding: 3rem 1.4rem;
+  }
+  .cooperativa section.head p {
+    font-size: 1.25rem;
+  }
+  .cooperativa section.head h2 {
+    font-size: 1.625rem;
+  }
+  .cooperativa section.head .image-wrapper {
+    margin-top: 3.5rem;
+  }
+  .cooperativa section.head img {
+    margin-right: 0;
+    border-radius: 1rem;
+    width: 100%;
+    height: 14.40238rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .cooperativa section {
+    max-width: 1500px;
+  }
+}
+
+.cooperativa section.principios {
+  width: 100%;
+  background-color: var(--primary);
+  color: var(--white);
+  padding-bottom: 3.3rem;
+}
+.cooperativa section.principios h2 {
+  font-size: 2.25rem;
+  font-family: var(--display-font);
+  font-weight: 900;
+}
+.cooperativa section.principios .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-top: 1.92rem;
+  gap: 1.5rem;
+}
+.cooperativa section.principios .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 16.75rem;
+  margin: auto;
+  padding: 2rem;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: center;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 0.81rem;
+  box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.15);
+}
+.cooperativa section.principios .card h4 {
+  font-size: 1.5rem;
+  font-family: var(--title-font);
+  font-weight: 600;
+}
+.cooperativa section.principios .card img {
+  width: 6.25rem;
+}
+.cooperativa section.principios .line {
+  display: flex;
+  justify-content: right;
+  margin-top: 2.26rem;
+}
+.cooperativa section.principios p {
+  text-align: right;
+  width: 35.70506rem;
+  font-family: var(--display-font);
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 143.6%; /* 2.872rem */
+}
+@media screen and (max-width: 1023px) {
+  .cooperativa section.principios .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cooperativa section.principios .card {
+    width: 100%;
+    height: 13.875rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .cooperativa section.principios {
+    padding-bottom: 2rem;
+  }
+  .cooperativa section.principios h2 {
+    font-size: 1.5rem;
+  }
+  .cooperativa section.principios .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+  }
+  .cooperativa section.principios .card {
+    width: 100%;
+    height: 16.75rem;
+  }
+  .cooperativa section.principios .card h4 {
+    font-family: var(--title-font);
+    font-size: 1.25rem;
+  }
+  .cooperativa section.principios .line {
+    margin-top: 2.5rem;
+  }
+  .cooperativa section.principios p {
+    width: 100%;
+    font-size: 1.125rem;
+  }
+}
+.cooperativa section.equipo h2,
+.cooperativa section.motivaciones h2,
+.cooperativa section.ods h2,
+.cooperativa section.contacto h2 {
+  font-family: var(--display-font);
+  font-weight: 900;
+  font-size: 2.25rem;
+  text-align: center;
+  line-height: 124.1%;
+  padding-bottom: 3.5rem;
+}
+@media screen and (max-width: 1023px) {
+  .cooperativa section.equipo h2,
+  .cooperativa section.motivaciones h2,
+  .cooperativa section.ods h2,
+  .cooperativa section.contacto h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .cooperativa section.equipo h2,
+  .cooperativa section.motivaciones h2,
+  .cooperativa section.ods h2,
+  .cooperativa section.contacto h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.cooperativa section.equipo {
+  background-color: var(--white);
+}
+.cooperativa section.equipo .personas {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+.cooperativa section.equipo .personas .avatar {
+  position: relative;
+  border-radius: 100%;
+  border: 4px solid var(--primary);
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+.cooperativa section.equipo .personas .avatar img {
+  width: 100%;
+  height: 100%;
+}
+.cooperativa section.equipo .personas .avatar .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--primary);
+}
+.cooperativa section.equipo .personas .avatar:hover .overlay {
+  opacity: 1;
+}
+.cooperativa section.equipo .personas .avatar .text {
+  color: white;
+  width: 100%;
+  font-family: var(--title-font);
+  font-size: 1.125rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 190%;
+}
+.cooperativa section.equipo .personas .avatar .text strong {
+  font-weight: 600;
+}
+.cooperativa section.equipo .personas .you {
+  border: none;
+  top: 74rem;
+  left: 6rem;
+}
+.cooperativa section.equipo .colabora {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.cooperativa section.equipo .colabora h3 {
+  font-family: var(--display-font);
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 124.1%;
+  text-transform: uppercase;
+}
+.cooperativa section.equipo .colabora p {
+  text-align: right;
+  font-family: var(--body-font);
+  font-size: 1.5rem;
+  line-height: 140%; /* 1.81125rem */
+  margin-top: 1rem;
+}
+@media screen and (max-width: 1023px) {
+  .cooperativa section.equipo .personas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 640px) {
+  .cooperativa section.equipo .colabora {
+    margin-top: 2rem;
+  }
+  .cooperativa section.equipo .colabora h3 {
+    font-size: 1.5rem;
+  }
+  .cooperativa section.equipo .colabora p {
+    font-size: 1.125rem;
+  }
+  .cooperativa section.equipo .personas .avatar .text {
+    font-size: 0.75rem;
+  }
+}
+
+.cooperativa section.motivaciones p {
+  font-family: var(--body-font);
+  margin: auto;
+  text-align: center;
+  width: 62.25rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 1.75rem */
+}
+.cooperativa section.motivaciones .partners {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.cooperativa section.motivaciones .partners .partner {
+  text-decoration: none;
+  display: flex;
+  width: 24rem;
+  margin-bottom: 1.5rem;
+  padding: 2.625rem 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-radius: 0.8125rem;
+  background: #fff;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.15);
+}
+.cooperativa section.motivaciones .partners .partner h4 {
+  color: var(--primary);
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 2.1rem */
+}
+.cooperativa section.motivaciones .partners .partner p {
+  width: 100%;
+  text-align: left;
+  color: var(--black);
+  font-family: var(--body-font);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 1.75rem */
+}
+.cooperativa section.motivaciones .partners .partner span {
+  color: var(--black);
+  display: block;
+  font-size: 1rem;
+}
+.cooperativa section.motivaciones .partners .partner span img {
+  margin-left: 0.5rem;
+  width: 0.7rem;
+  height: auto;
+}
+@media screen and (max-width: 1023px) {
+  .cooperativa section.motivaciones .partners .partner {
+    width: 100%;
+  }
+  .cooperativa section.motivaciones .partners .partner h4 {
+    font-size: 1.25rem;
+  }
+  .cooperativa section.motivaciones .partners .partner p {
+    font-size: 1rem;
+  }
+  .cooperativa section.motivaciones p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cooperativa section.motivaciones p {
+    font-size: 1.125rem;
+  }
+}
+
+.cooperativa section.ods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cooperativa section.ods .ods-button {
+  border-radius: 100%;
+}
+.cooperativa section.ods .ods-button a {
+  display: block;
+  border-radius: 100%;
+  width: 18.75rem;
+  height: 18.75rem;
+  object-fit: cover;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  border: 3px solid transparent;
+  transition: 0.5s ease;
+}
+.cooperativa section.ods .ods-button a img {
+  border-radius: 100%;
+  width: 100%;
+  height: auto;
+}
+.cooperativa section.ods .ods-button a:hover {
+  border: 3px solid var(--primary);
+}
+.cooperativa section.contacto {
+  text-align: center;
+}
+.cooperativa section.contacto h2 {
+  border-bottom: 1px solid var(--primary);
+  margin: auto 8rem;
+  margin-bottom: 3.5rem;
+}
+.cooperativa section.contacto .list .sevilla,
+.cooperativa section.contacto .list .malaga {
+  padding: 0 2rem;
+}
+.cooperativa section.contacto .list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cooperativa section.contacto h3 {
+  color: var(--primary);
+  font-size: 2rem;
+  font-family: var(--display-font);
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+.cooperativa section.contacto p {
+  font-family: var(--body-font);
+  font-size: 1.25rem;
+  line-height: 150%;
+  margin: auto;
+  margin-bottom: 1.8rem;
+}
+.cooperativa section.contacto p strong {
+  font-weight: 600;
+}
+@media screen and (max-width: 1023px) {
+  .cooperativa section.contacto .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .cooperativa section.contacto h2 {
+    margin: auto 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .cooperativa section.contacto h3 {
+    font-size: 1.5rem;
+  }
+  .cooperativa section.contacto p {
+    font-size: 0.9375rem;
+  }
+}

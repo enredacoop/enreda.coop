@@ -58,7 +58,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .proyecto .lead-desktop {
     display: none;
   }
@@ -116,7 +116,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .proyecto .body {
     display: flex;
     flex-direction: column;

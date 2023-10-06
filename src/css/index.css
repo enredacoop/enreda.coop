@@ -36,7 +36,7 @@ section.hero .phone {
   z-index: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   section.hero h1 {
     width: 19.375rem;
     font-size: 2.375rem;
@@ -73,7 +73,7 @@ section.intro img {
   height: 3.27938rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   section.intro {
     padding: 2.5rem 1.5rem 1.3rem 1.5rem;
   }
@@ -87,13 +87,18 @@ section.participation,
 section.citizen,
 section.projects {
   width: 100%;
-  max-width: 1500px;
   margin: auto;
   padding: 4.38rem;
 }
 @media screen and (min-width: 1920px) {
+  section.bigdata,
+  section.participation,
+  section.citizen,
+  section.projects {
+    max-width: 1500px;
+  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   section.bigdata,
   section.participation,
   section.citizen,
@@ -157,7 +162,7 @@ section.bigdata .left a {
   font-size: 0.9375rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   section.bigdata {
     display: flex;
     flex-direction: column;
@@ -216,7 +221,7 @@ section.participation .right a {
   text-decoration: none;
   border-radius: 1.88rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   section.participation {
     display: flex;
     flex-direction: column-reverse;
@@ -299,7 +304,7 @@ section.citizen .citizen-img {
   object-position: top;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   section.citizen h3 {
     font-size: 1.5rem;
   }
@@ -416,7 +421,7 @@ section.projects .project-list .see-more {
   font-size: 0.9375rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   section.projects img {
     width: 5.125rem;
   }

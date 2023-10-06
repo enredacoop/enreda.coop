@@ -19,6 +19,11 @@
   --default-font-size: 1.17130307vw; /* 16px on 1366px width */
 }
 
+/* Breakpoints§ */
+/* Desktop < 1920px; */
+/* Tablet < 1024px; */
+/* Mobile < 640px; */
+
 html {
   font-size: var(--default-font-size);
   font-family: var(--body-font);
@@ -30,13 +35,18 @@ body {
   background-color: var(--white) !important;
 }
 @media screen and (min-width: 1920px) {
-  html {
-    font-size: 16px;
+  :root {
+    --default-font-size: 16px;
   }
 }
-@media screen and (max-width: 768px) {
-  html {
-    font-size: 4.4vw;
+@media screen and (max-width: 1023px) {
+  :root {
+    --default-font-size: 2.15vw; /* 16px on 1024px width */
+  }
+}
+@media screen and (max-width: 640px) {
+  :root {
+    --default-font-size: 4.4vw; /* 16px on 640px width */
   }
 }
 
@@ -131,6 +141,18 @@ body {
 /* Work Sans */
 @font-face {
   font-family: "Work Sans";
+  src: url("../assets/fonts/Work_Sans/WorkSans-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/Work_Sans/WorkSans-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
   src: url("../assets/fonts/Work_Sans/WorkSans-Regular.ttf");
   font-weight: normal;
   font-style: normal;
@@ -194,7 +216,7 @@ header > nav .navlink[aria-current="page"] {
   color: var(--primary);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   header {
     padding: 0 1.25rem;
     height: 5rem;
@@ -377,7 +399,7 @@ footer .subfooter p a {
   color: var(--white) !important;
   text-decoration: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   footer .main {
     flex-direction: column-reverse;
     align-items: center;
