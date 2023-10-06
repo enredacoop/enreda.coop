@@ -31,7 +31,7 @@ module.exports = function (eleventyConfig) {
     });
     // write idx to JSON file
     require("fs").writeFileSync(
-      "src/js/search_index.json",
+      "dist/js/search_index.json",
       JSON.stringify({ index: idx, elements: dataMap })
     );
     return data;

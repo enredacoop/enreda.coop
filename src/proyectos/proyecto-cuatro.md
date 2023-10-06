@@ -1,10 +1,10 @@
 ---
 layout: proyecto.html
-title: UrbanData
-subtitle: Un sistema de gestión de ODS
-client: Naciones Unidas para el Desarrollo (PNUD)
+title: Proyecto Cuatro
+subtitle: Otro proyecto
+client: Masproyectos
 tags: ["Participación ciudadana", Participación digital", "Diseño y desarrollo"]
-summary: Esto es un proyecto que se hizo para facilitar la gestión del cumplimiento de la agenda 2030 y los Objetivos de Desarrollo Sostenible
+summary: etcetera
 ---
 
 Todo esto es el cuerpo del proyecto. Se puede ve que se pueden añadir imágenes.
