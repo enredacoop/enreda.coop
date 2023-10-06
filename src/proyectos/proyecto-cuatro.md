@@ -4,7 +4,7 @@ title: Proyecto Cuatro
 image: https://ik.imagekit.io/5sj5zvywt/formamos.jpg?updatedAt=1693227703424
 subtitle: Otro proyecto
 client: Masproyectos
-tags: ["Participación ciudadana", Participación digital", "Diseño y desarrollo"]
+tags: ["Participación ciudadana"]
 summary: etcetera
 ---
 

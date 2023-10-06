@@ -81,26 +81,24 @@ layout: base.html
   <h3>Proyectos destacados</h3>
   <div class="project-list">
     {% for proyecto in collections.proyecto %}
-    <a href="{{ proyecto.url }}">
-      <div class="project-card">
-        <div class="thumbnail">
-          <img src="{{proyecto.data.image}}" alt="" />
+    <a class="project-card" href="{{ proyecto.url }}">
+      <div class="thumbnail">
+        <img src="{{proyecto.data.image}}" alt="" />
+      </div>
+      <div class="content">
+        <div>
+          <h4>{{ proyecto.data.title }}</h4>
+          <h5>{{ proyecto.data.subtitle }}</h5>
         </div>
-        <div class="content">
-          <div>
-            <h4>{{ proyecto.data.title }}</h4>
-            <h5>{{ proyecto.data.subtitle }}</h5>
+        <div>
+          <div class="client">
+            <p class="client-label">Cliente</p>
+            <p class="client-name">{{ proyecto.data.client }}</p>
           </div>
-          <div>
-            <div class="client">
-              <p class="client-label">Cliente</p>
-              <p class="client-name">{{ proyecto.data.client }}</p>
-            </div>
-            <div class="tags"></div>
-            <div class="action">
-              <span>Ver projecto</span>
-              <img width="64" height="8" src="/assets/img/arrow-right.svg" alt="" />
-            </div>
+          <div class="tags"></div>
+          <div class="action">
+            <span>Ver projecto</span>
+            <img width="64" height="8" src="/assets/img/arrow-right.svg" alt="" />
           </div>
         </div>
       </div>

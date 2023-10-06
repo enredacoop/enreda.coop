@@ -1,0 +1,136 @@
+.project-card {
+  text-decoration: none;
+  color: var(--black);
+  display: flex;
+  flex-direction: row;
+  gap: 2.65rem;
+  background-color: var(--white);
+  padding: 2.63rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 27.5625rem;
+  margin: auto;
+}
+
+.project-card .thumbnail img {
+  width: 27.32944rem;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+}
+.project-card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-card .content h4 {
+  font-family: var(--title-font);
+  text-transform: none;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.project-card .content h5 {
+  font-family: var(--title-font);
+  text-transform: none;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+.project-card .content .client,
+.project-card .content .tags {
+  margin-bottom: 2.62rem;
+}
+.project-card .content .client .client-label {
+  color: #747272;
+  font-family: var(--title-font);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+.project-card .content .client .client-name {
+  font-family: var(--title-font);
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+.project-card .content .action {
+  display: flex;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.project-card .content .action img {
+  margin-left: 1.25rem;
+  width: 3.86769rem;
+}
+@media screen and (max-width: 1023px) {
+  .project-card {
+    flex-direction: column;
+    gap: 1.5rem;
+    height: auto;
+    padding: 1.5rem;
+  }
+  .project-card .thumbnail img {
+    width: 100%;
+    height: 12.5rem;
+  }
+  .project-card .content h4 {
+    font-size: 1.25rem;
+  }
+  .project-card .content h5 {
+    font-size: 0.94rem;
+    margin-bottom: 1.5rem;
+  }
+  .project-card .content .client,
+  .project-card .content .tags {
+    margin-bottom: 1.5rem;
+  }
+  .project-card .content .client .client-label {
+    font-size: 0.75rem;
+  }
+  .project-card .content .client .client-name {
+    font-size: 0.875rem;
+  }
+  .project-card .content .action {
+    font-size: 0.75rem;
+  }
+  .project-card .content .action img {
+    width: 2.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .project-card {
+    flex-direction: column;
+    gap: 1.5rem;
+    height: auto;
+    padding: 1.5rem;
+  }
+  .project-card .thumbnail img {
+    width: 100%;
+    height: 12.5rem;
+  }
+  .project-card .content h4 {
+    font-size: 1.25rem;
+  }
+  .project-card .content h5 {
+    font-size: 0.94rem;
+    margin-bottom: 1.5rem;
+  }
+  .project-card .content .client,
+  .project-card .content .tags {
+    margin-bottom: 1.5rem;
+  }
+  .project-card .content .client .client-label {
+    font-size: 0.75rem;
+  }
+  .project-card .content .client .client-name {
+    font-size: 0.875rem;
+  }
+  .project-card .content .action {
+    font-size: 0.75rem;
+  }
+  .project-card .content .action img {
+    width: 2.5rem;
+  }
+}

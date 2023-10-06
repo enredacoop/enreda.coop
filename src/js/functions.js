@@ -1,4 +1,4 @@
-import { getPathName } from "./utils.js";
+import { getPathName, delay } from "./utils.js";
 
 export function setEventListener() {
   navigation.addEventListener("navigate", function (event) {
@@ -167,64 +167,173 @@ async function resetServicesMenu() {
   );
 }
 
-export async function initSearch() {
+export async function initProjectSearch() {
+  // search when the user types
+  const searchInput = document.getElementById("text-input");
+  searchInput.addEventListener("input", () => {
+    // get selected category
+    const category = document.querySelector('input[name="category"]:checked').value;
+    _projectSearch(searchInput.value, category);
+  });
+  // search when the user selects a category
+  const categoryInputs = document.querySelectorAll('input[name="category"]');
+  categoryInputs.forEach((input) => {
+    input.addEventListener("change", () => {
+      console.log(input.value);
+      _projectSearch(searchInput.value, input.value);
+    });
+  });
+  const urlParams = new URLSearchParams(window.location.search);
+  // const queryText = urlParams.get("q") || "";
+  const category = urlParams.get("category") || "";
+  if (category) {
+    document.querySelector(`input[name="category"][value="${category}"]`).checked = true;
+    await _projectSearch("", category);
+  }
+}
+
+async function _projectSearch(query, category) {
   // load the index data into lunr
-  const indexData = await requestIndex();
+  const indexData = await _requestIndex();
   const idx = lunr.Index.load(indexData.index);
 
-  // search when the user types
-  const searchInput = document.getElementById("search-input");
+  const textSearchResults = idx.query((q) => {
+    lunr.tokenizer(query).forEach((token) => {
+      q.term(token.toString(), {
+        fields: ["title"],
+        boost: 10,
+        wildcard:
+          lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING | lunr.Query.wildcard.NONE,
+      });
+      q.term(token.toString(), {
+        fields: ["subtitle"],
+        boost: 5,
+        wildcard:
+          lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING | lunr.Query.wildcard.NONE,
+      });
+      q.term(token.toString(), {
+        fields: ["client"],
+        boost: 6,
+        wildcard:
+          lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING | lunr.Query.wildcard.NONE,
+      });
+      q.term(token.toString(), {
+        fields: ["content"],
+        boost: 5,
+        wildcard:
+          lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING | lunr.Query.wildcard.NONE,
+      });
+    });
+  });
+  // const results = idx.search(`*${query}*`);
+  // clear old results
   const searchResults = document.getElementById("search-results");
-  // searchInput.addEventListener("input", () => {
-  //   search(searchInput.value);
-  // });
-  const urlParams = new URLSearchParams(window.location.search);
-  const queryText = urlParams.get("q") || "";
-  search(queryText);
-  searchInput.value = queryText;
-  searchInput.focus();
+  searchResults.innerHTML = "";
+  const resultList = document.createElement("div");
+  resultList.classList.add("results");
+  textSearchResults.forEach((result) => {
+    const elementID = result.ref;
+    const element = indexData.elements[elementID];
+    // filter by category
+    if (category && category !== "all" && !element.tags.includes(category)) {
+      return;
+    }
+    // project-card
+    // Create a new anchor element
+    var projectCard = document.createElement("a");
+    projectCard.classList.add("project-card");
+    projectCard.setAttribute("href", element.url);
 
-  function search(query) {
-    const results = idx.search(`*${query}*`);
-    // clear old results
-    searchResults.innerHTML = "";
-    const resultList = document.createElement("div");
-    results.forEach((result) => {
-      const elementID = result.ref;
-      const element = indexData.elements[elementID];
-      const article = document.createElement("article");
-      const title = document.createElement("h2");
-      const subtitle = document.createElement("p");
-      const link = document.createElement("a");
-      title.textContent = element.title;
-      subtitle.textContent = element.subtitle;
-      link.textContent = "Ver proyecto";
-      link.href = element.url;
-      article.appendChild(title);
-      article.appendChild(subtitle);
-      article.appendChild(link);
-      resultList.appendChild(article);
-    });
-    searchResults.appendChild(resultList);
-  }
+    // Create the thumbnail div and its child image element
+    var thumbnail = document.createElement("div");
+    thumbnail.classList.add("thumbnail");
+    var image = document.createElement("img");
+    image.setAttribute("src", element.image);
+    image.setAttribute("alt", "");
 
-  function requestIndex() {
-    return new Promise((resolve, reject) => {
-      const xhr = new XMLHttpRequest();
-      xhr.open("GET", "/js/search_index.json");
-      xhr.onload = () => {
-        if (xhr.status === 200) {
-          const indexData = JSON.parse(xhr.responseText);
-          resolve(indexData);
-        } else {
-          console.error(xhr.statusText);
-          reject(xhr.statusText);
-        }
-      };
-      xhr.onerror = () => {
+    // Append the image to the thumbnail div
+    thumbnail.appendChild(image);
+
+    // Create the content div and its child divs and elements
+    var content = document.createElement("div");
+    content.classList.add("content");
+
+    var contentDiv1 = document.createElement("div");
+
+    var title = document.createElement("h4");
+    title.textContent = element.title;
+
+    var subtitle = document.createElement("h5");
+    subtitle.textContent = element.subtitle;
+
+    contentDiv1.appendChild(title);
+    contentDiv1.appendChild(subtitle);
+
+    var contentDiv2 = document.createElement("div");
+    var clientDiv = document.createElement("div");
+    clientDiv.classList.add("client");
+
+    var clientLabel = document.createElement("p");
+    clientLabel.classList.add("client-label");
+    clientLabel.textContent = "Cliente";
+
+    var clientName = document.createElement("p");
+    clientName.classList.add("client-name");
+    clientName.textContent = element.client;
+
+    clientDiv.appendChild(clientLabel);
+    clientDiv.appendChild(clientName);
+
+    var tagsDiv = document.createElement("div");
+    tagsDiv.classList.add("tags");
+
+    var actionDiv = document.createElement("div");
+    actionDiv.classList.add("action");
+
+    var actionSpan = document.createElement("span");
+    actionSpan.textContent = "Ver projecto";
+
+    var arrowImage = document.createElement("img");
+    arrowImage.setAttribute("src", "/assets/img/arrow-right.svg");
+    arrowImage.setAttribute("width", "64");
+    arrowImage.setAttribute("height", "8");
+    arrowImage.setAttribute("alt", "");
+
+    actionDiv.appendChild(actionSpan);
+    actionDiv.appendChild(arrowImage);
+
+    contentDiv2.appendChild(clientDiv);
+    contentDiv2.appendChild(tagsDiv);
+    contentDiv2.appendChild(actionDiv);
+
+    content.appendChild(contentDiv1);
+    content.appendChild(contentDiv2);
+
+    // Append the thumbnail and content divs to the projectCard anchor element
+    projectCard.appendChild(thumbnail);
+    projectCard.appendChild(content);
+
+    resultList.appendChild(projectCard);
+  });
+  searchResults.appendChild(resultList);
+}
+
+function _requestIndex() {
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "/js/search_index.json");
+    xhr.onload = () => {
+      if (xhr.status === 200) {
+        const indexData = JSON.parse(xhr.responseText);
+        resolve(indexData);
+      } else {
+        console.error(xhr.statusText);
         reject(xhr.statusText);
-      };
-      xhr.send();
-    });
-  }
+      }
+    };
+    xhr.onerror = () => {
+      reject(xhr.statusText);
+    };
+    xhr.send();
+  });
 }

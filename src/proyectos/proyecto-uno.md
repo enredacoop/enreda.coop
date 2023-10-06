@@ -4,7 +4,7 @@ title: Observatorio
 image: https://ik.imagekit.io/5sj5zvywt/formamos.jpg?updatedAt=1693227703424
 subtitle: Un observatorio
 client: Naciones Unidas para el Desarrollo (PNUD)
-tags: ["Participación ciudadana", Participación digital", "Diseño y desarrollo"]
+tags: ["Participación ciudadana", "Participación digital", "Diseño y desarrollo"]
 summary: Observatoriooooo
 ---
 

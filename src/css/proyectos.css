@@ -1,0 +1,123 @@
+.proyectos section {
+  width: 100%;
+  margin: auto;
+  padding: 4.38rem;
+}
+@media screen and (min-width: 1920px) {
+  .proyectos section {
+    max-width: 1500px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .proyectos section {
+    padding: 1.3rem;
+  }
+}
+.proyectos section.head {
+  padding-bottom: 0;
+}
+.proyectos section.head p {
+  font-family: var(--display-font);
+  margin-bottom: 1.1rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.1%; /* 1.8615rem */
+}
+.proyectos section.head h2 {
+  font-family: var(--display-font);
+  font-weight: 900;
+  max-width: 54.24513rem;
+  width: 100%;
+  font-size: 2.5rem;
+  line-height: 124.1%; /* 3.1025rem */
+}
+@media screen and (max-width: 640px) {
+  .proyectos section.head p {
+    font-size: 1.25rem;
+    line-height: 124.1%; /* 2.01663rem */
+  }
+  .proyectos section.head h2 {
+    font-size: 1.625rem;
+    line-height: 124.1%; /* 2.01663rem */
+  }
+}
+
+.proyectos section.search {
+  padding-bottom: 0;
+}
+.proyectos section.search .category {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+.proyectos section.search .radio label {
+  display: inline-block;
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 124.1%; /* 1.8615rem */
+  border: 1px solid var(--black);
+  color: var(--black);
+  border-radius: 6.25rem;
+  padding: 0.5rem 1.5rem;
+}
+.proyectos section.search .radio label:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+}
+.proyectos section.search .radio input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.proyectos section.search .radio input:checked ~ label {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.proyectos section.search #text-input {
+  appearance: none;
+  all: unset;
+  font-family: var(--title-font);
+  border-bottom: 1px solid var(--black);
+  padding: 0.5rem 0;
+  line-height: 1.65625rem; /* 176.667% */
+  width: 18rem;
+  margin-bottom: 4rem;
+}
+.proyectos section#search-results {
+  padding-top: 3.75rem;
+}
+.proyectos section#search-results .results {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 3.5rem;
+}
+@media screen and (max-width: 1023px) {
+  .proyectos section#search-results .results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .proyectos section.search .radio label {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.75rem;
+    line-height: 1.65625rem; /* 189.286% */
+  }
+  .proyectos section#search-results {
+    padding-top: 1.5rem;
+  }
+  .proyectos section.search #text-input {
+    margin-bottom: 1.5rem;
+  }
+  .proyectos section#search-results .results {
+    grid-template-columns: 1fr;
+    grid-gap: 2.5rem;
+  }
+}

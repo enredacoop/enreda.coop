@@ -10,20 +10,30 @@ module.exports = function (eleventyConfig) {
     const data = [];
     const searchableCollection = collectionApi.getFilteredByTag("proyecto");
     searchableCollection.forEach((el) => {
-      const id = el.fileSlug;
-      const url = el.url;
-      const title = el.data.title;
-      const subtitle = el.data.subtitle;
-      data.push({ id, url, title, subtitle });
+      data.push({
+        id: el.fileSlug,
+        url: el.url,
+        title: el.data.title,
+        subtitle: el.data.subtitle,
+        image: el.data.image,
+        client: el.data.client,
+        tags: el.data.tags,
+        content: el.template._frontMatter.content,
+      });
     });
+    console.log(data);
     const idx = lunr(function () {
       this.ref("id");
       this.field("url");
       this.field("title");
       this.field("subtitle");
+      this.field("image");
+      this.field("client");
+      this.field("tags");
+      this.field("content");
 
       data.forEach((el) => {
-        this.add({ id: el.id, url: el.url, title: el.title, subtitle: el.subtitle });
+        this.add({ ...el });
       });
     });
     let dataMap = {};

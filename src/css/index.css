@@ -343,74 +343,7 @@ section.projects .project-list {
   flex-direction: column;
   gap: 3.75rem;
 }
-section.projects .project-list a {
-  text-decoration: none;
-  color: var(--black);
-}
-section.projects .project-card {
-  display: flex;
-  flex-direction: row;
-  gap: 2.65rem;
-  background-color: var(--white);
-  padding: 2.63rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.15);
-  width: 100%;
-  height: 27.5625rem;
-  margin: auto;
-}
 
-section.projects .project-card .thumbnail img {
-  width: 27.32944rem;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 1rem;
-}
-section.projects .project-card .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-section.projects .project-card .content h4 {
-  font-family: var(--title-font);
-  text-transform: none;
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 0.75rem;
-}
-section.projects .project-card .content h5 {
-  font-family: var(--title-font);
-  text-transform: none;
-  font-weight: 400;
-  font-size: 1.125rem;
-}
-section.projects .project-card .content .client,
-section.projects .project-card .content .tags {
-  margin-bottom: 2.62rem;
-}
-section.projects .project-card .content .client .client-label {
-  color: #747272;
-  font-family: var(--title-font);
-  font-size: 0.875rem;
-  font-weight: 500;
-  margin-bottom: 0.75rem;
-}
-section.projects .project-card .content .client .client-name {
-  font-family: var(--title-font);
-  font-size: 0.9375rem;
-  font-weight: 500;
-}
-section.projects .project-card .content .action {
-  display: flex;
-  font-size: 0.9375rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-section.projects .project-card .content .action img {
-  margin-left: 1.25rem;
-  width: 3.86769rem;
-}
 section.projects .project-list .see-more {
   width: fit-content;
   margin: auto;
@@ -430,38 +363,5 @@ section.projects .project-list .see-more {
   }
   section.projects .project-list {
     margin-top: 3.75rem;
-  }
-  section.projects .project-card {
-    flex-direction: column;
-    gap: 1.5rem;
-    height: auto;
-    padding: 1.5rem;
-  }
-  section.projects .project-card .thumbnail img {
-    width: 100%;
-    height: 12.5rem;
-  }
-  section.projects .project-card .content h4 {
-    font-size: 1.25rem;
-  }
-  section.projects .project-card .content h5 {
-    font-size: 0.94rem;
-    margin-bottom: 1.5rem;
-  }
-  section.projects .project-card .content .client,
-  section.projects .project-card .content .tags {
-    margin-bottom: 1.5rem;
-  }
-  section.projects .project-card .content .client .client-label {
-    font-size: 0.75rem;
-  }
-  section.projects .project-card .content .client .client-name {
-    font-size: 0.875rem;
-  }
-  section.projects .project-card .content .action {
-    font-size: 0.75rem;
-  }
-  section.projects .project-card .content .action img {
-    width: 2.5rem;
   }
 }

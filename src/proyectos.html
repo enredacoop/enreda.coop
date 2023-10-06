@@ -3,37 +3,78 @@ layout: base.html
 title: Proyectos
 ---
 
-<p>Estos son los proyectos en los que hemos trabajado</p>
-
-<div>
-  <form action="?" method="get">
+<div class="proyectos">
+  <section class="head">
+    <p>Proyectos</p>
+    <h2>Contribuimos, desde la economía social y solidaria, a transformar la realidad social</h2>
+  </section>
+  <section class="search">
+    <!-- <form action="?" method="get"> -->
     <div class="search-form" role="search">
       <input
-        id="search-input"
+        id="text-input"
         type="text"
-        aria-label="Search this site"
-        placeholder="Search this site"
+        aria-label="Buscar proyecto..."
+        placeholder="Buscar proyecto..."
         autocorrect="off"
         autocapitalize="off"
         autocomplete="off"
         spellcheck="false"
         name="q"
       />
-      <button type="submit" aria-label="search">Buscar</button>
+      <div class="category">
+        <div class="radio">
+          <input type="radio" id="radio1" name="category" value="all" checked />
+          <label for="radio1">Todos</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="radio2" name="category" value="Participación ciudadana" />
+          <label for="radio2">Participación ciudadana</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="radio3" name="category" value="Sostenibilidad" />
+          <label for="radio3">Sostenibilidad</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="radio4" name="category" value="Diseño y desarrollo" />
+          <label for="radio4">Diseño y desarrollo</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="radio5" name="category" value="tecnologia" />
+          <label for="radio5">Tecnología</label>
+        </div>
+      </div>
+      <!-- <button type="submit" aria-label="search">Buscar</button> -->
     </div>
-  </form>
-
+    <!-- </form> -->
+  </section>
   <section id="search-results">
-    <p class="message"></p>
-    <div class="results"></div>
+    <div class="results">
+      {% for proyecto in collections.proyecto %}
+      <a class="project-card" href="{{ proyecto.url }}">
+        <div class="thumbnail">
+          <img src="{{proyecto.data.image}}" alt="" />
+        </div>
+        <div class="content">
+          <div>
+            <h4>{{ proyecto.data.title }}</h4>
+            <h5>{{ proyecto.data.subtitle }}</h5>
+          </div>
+          <div>
+            <div class="client">
+              <p class="client-label">Cliente</p>
+              <p class="client-name">{{ proyecto.data.client }}</p>
+            </div>
+            <div class="tags"></div>
+            <div class="action">
+              <span>Ver projecto</span>
+              <img width="64" height="8" src="/assets/img/arrow-right.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+      <!-- These project-cards are being generted via Javascript in initSearch() inside /js/functions.js  -->
+    </div>
   </section>
 </div>
-<!-- <div id="default-results">
-  {% for proyecto in collections.proyecto %}
-  <article>
-    <h2>{{ proyecto.data.title }}</h2>
-    <p>{{ proyecto.data.subtitle }}</p>
-    <a href="{{ proyecto.url }}">Ver proyecto</a>
-  </article>
-  {% endfor %}
-</div> -->
