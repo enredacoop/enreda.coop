@@ -136,7 +136,7 @@ section.bigdata .left p {
   margin-left: 2rem;
   font-family: var(--body-font);
   font-weight: 300;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 161%; /* 1.81125rem */
 }
 section.bigdata .left a {
@@ -197,7 +197,7 @@ section.participation .right p {
   font-family: var(--body-font);
   width: 28.52119rem;
   font-weight: 300;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 161%; /* 1.81125rem */
   margin-top: 1rem;
 }
