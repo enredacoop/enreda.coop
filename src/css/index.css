@@ -54,7 +54,7 @@
   }
 }
 
-section.hero {
+.index section.hero {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@ section.hero {
   overflow-y: hidden;
   z-index: 0;
 }
-section.hero h1 {
+.index section.hero h1 {
   font-family: var(--display-font);
   font-weight: 900;
   text-align: center;
@@ -74,10 +74,10 @@ section.hero h1 {
   margin: 5.97rem auto 0 auto;
   z-index: 1;
 }
-section.hero h1 span {
+.index section.hero h1 span {
   color: var(--primary);
 }
-section.hero .scroll-down {
+.index section.hero .scroll-down {
   position: absolute;
   width: 7.8125rem;
   height: auto;
@@ -86,38 +86,38 @@ section.hero .scroll-down {
   transform: translateX(-50%);
   z-index: 1;
 }
-section.hero .phone {
+.index section.hero .phone {
   max-width: 35.94931rem;
   width: 100%;
   z-index: 0;
 }
 
 @media screen and (max-width: 1023px) {
-  section.hero h1 {
+  .index section.hero h1 {
     padding: 0 3.8rem;
     font-size: 4.5rem;
   }
-  section.hero .scroll-down {
+  .index section.hero .scroll-down {
     display: none;
   }
 }
 
 @media screen and (max-width: 640px) {
-  section.hero h1 {
+  .index section.hero h1 {
     width: 19.375rem;
     font-size: 2.375rem;
     padding: 0;
   }
-  section.hero img {
+  .index section.hero img {
     max-width: 100%;
     width: 100%;
   }
-  section.hero .scroll-down {
+  .index section.hero .scroll-down {
     display: none;
   }
 }
 
-section.intro {
+.index section.intro {
   font-family: var(--title-font);
   font-weight: 300;
   font-size: var(--intro-font-size);
@@ -133,48 +133,48 @@ section.intro {
   padding: var(--intro-padding-y);
   margin-bottom: 1.25rem;
 }
-section.intro p {
+.index section.intro p {
   margin-bottom: 1.5rem;
   max-width: 53.27588rem;
 }
-section.intro img {
+.index section.intro img {
   height: 3.25rem;
 }
 
-section.bigdata,
-section.participation,
-section.citizen,
-section.projects {
+.index section.bigdata,
+.index section.participation,
+.index section.citizen,
+.index section.projects {
   width: 100%;
   margin: auto;
   padding: var(--section-padding);
 }
 @media screen and (min-width: 1920px) {
-  section.bigdata,
-  section.participation,
-  section.citizen,
-  section.projects {
+  .index section.bigdata,
+  .index section.participation,
+  .index section.citizen,
+  .index section.projects {
     max-width: 1500px;
   }
 }
 
-section.bigdata {
+.index section.bigdata {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 4fr 7fr;
   gap: var(--section-gap);
   align-items: center;
 }
-section.bigdata .right img {
+.index section.bigdata .right img {
   width: 100%;
   margin: auto;
 }
-section.bigdata .left img {
+.index section.bigdata .left img {
   height: var(--section-icon-height);
   width: auto;
   margin-bottom: var(--section-icon-margin-bottom);
 }
-section.bigdata .left ul {
+.index section.bigdata .left ul {
   font-family: var(--display-font);
   font-weight: 700;
   font-size: var(--section-title-font-size);
@@ -182,11 +182,11 @@ section.bigdata .left ul {
   list-style: none; /* Remove default bullets */
   margin-bottom: var(--section-title-margin-bottom);
 }
-section.bigdata .left ul li {
+.index section.bigdata .left ul li {
   position: relative;
   margin-left: 2rem;
 }
-section.bigdata .left ul li::before {
+.index section.bigdata .left ul li::before {
   position: absolute;
   top: -0.25rem;
   left: -2rem;
@@ -195,7 +195,7 @@ section.bigdata .left ul li::before {
   font-weight: bold; /* If you want it to be bold */
   font-size: 3.75rem;
 }
-section.bigdata .left p {
+.index section.bigdata .left p {
   margin-top: 1.25rem;
   margin-left: 2rem;
   font-family: var(--body-font);
@@ -204,59 +204,59 @@ section.bigdata .left p {
   line-height: var(--section-body-line-height);
   margin-bottom: var(--section-body-margin-bottom);
 }
-section.bigdata .left a {
+.index section.bigdata .left a {
   margin-left: 2rem;
 }
 @media screen and (max-width: 1023px) {
-  section.bigdata {
+  .index section.bigdata {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section.bigdata .left p {
+  .index section.bigdata .left p {
     font-size: 1.125rem;
   }
 }
 @media screen and (max-width: 640px) {
-  section.bigdata {
+  .index section.bigdata {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section.bigdata .left img {
+  .index section.bigdata .left img {
     width: 6.57031rem;
   }
-  section.bigdata .left ul {
+  .index section.bigdata .left ul {
     line-height: 2.25rem;
   }
-  section.bigdata .left p {
+  .index section.bigdata .left p {
     margin-left: 0;
   }
-  section.bigdata .left a {
+  .index section.bigdata .left a {
     margin-left: 0;
   }
 }
 
-section.participation {
+.index section.participation {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 6fr 5fr;
   gap: var(--section-gap);
   align-items: center;
 }
-section.participation .left img {
+.index section.participation .left img {
   width: 100%;
   margin: auto;
 }
-section.participation .right {
+.index section.participation .right {
   margin-right: 5rem;
 }
-section.participation .right img {
+.index section.participation .right img {
   height: var(--section-icon-height);
   width: auto;
   margin-bottom: var(--section-icon-margin-bottom);
 }
-section.participation .right h3 {
+.index section.participation .right h3 {
   font-family: var(--display-font);
   font-weight: 700;
   font-size: var(--section-title-font-size);
@@ -264,7 +264,7 @@ section.participation .right h3 {
   list-style: none; /* Remove default bullets */
   margin-bottom: var(--section-title-margin-bottom);
 }
-section.participation .right p {
+.index section.participation .right p {
   margin-top: 1.25rem;
   font-family: var(--body-font);
   font-weight: 300;
@@ -273,28 +273,28 @@ section.participation .right p {
   margin-bottom: var(--section-body-margin-bottom);
 }
 @media screen and (max-width: 1023px) {
-  section.participation {
+  .index section.participation {
     display: flex;
     flex-direction: column-reverse;
   }
-  section.participation .right {
+  .index section.participation .right {
     margin-right: 0;
   }
 }
 
-section.citizen {
+.index section.citizen {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section.citizen h3 {
+.index section.citizen h3 {
   font-family: var(--display-font);
   font-weight: 700;
   font-size: var(--section-title-font-size);
   text-align: center;
   margin-bottom: 1.25rem;
 }
-section.citizen p {
+.index section.citizen p {
   text-align: center;
   font-family: var(--body-font);
   font-weight: 300;
@@ -303,7 +303,7 @@ section.citizen p {
   margin-bottom: var(--citizen-gap);
 }
 
-section.citizen .cards {
+.index section.citizen .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
@@ -311,7 +311,7 @@ section.citizen .cards {
   margin-bottom: var(--citizen-gap);
 }
 
-section.citizen .card {
+.index section.citizen .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -326,11 +326,11 @@ section.citizen .card {
   border-radius: 0.81rem;
   box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.15);
 }
-section.citizen .card img {
+.index section.citizen .card img {
   width: 5.125rem;
   height: auto;
 }
-section.citizen .card h4 {
+.index section.citizen .card h4 {
   font-family: var(--title-font);
   font-size: 1rem;
   font-weight: 600;
@@ -338,7 +338,7 @@ section.citizen .card h4 {
   text-transform: uppercase;
 }
 
-section.citizen .citizen-img {
+.index section.citizen .citizen-img {
   width: 100%;
   height: 30rem;
   border-radius: 1rem;
@@ -346,33 +346,33 @@ section.citizen .citizen-img {
   object-position: top;
 }
 @media screen and (max-width: 1023px) {
-  section.citizen .cards {
+  .index section.citizen .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 640px) {
-  section.citizen .cards {
+  .index section.citizen .cards {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-section.projects {
+.index section.projects {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section.projects .icon {
+.index section.projects .icon {
   height: var(--section-icon-height);
   width: auto;
   margin-bottom: var(--section-icon-margin-bottom);
 }
-section.projects > h3 {
+.index section.projects > h3 {
   font-family: var(--display-font);
   font-weight: 700;
   font-size: var(--section-title-font-size);
   margin-bottom: var(--projects-title-margin-bottom);
 }
-section.projects .project-list {
+.index section.projects .project-list {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -380,17 +380,17 @@ section.projects .project-list {
   gap: var(--projects-project-list-gap);
   margin-bottom: var(--projects-project-list-gap);
 }
-section.projects .button-primary {
+.index section.projects .button-primary {
   width: fit-content;
   margin: auto;
 }
 @media screen and (max-width: 1023px) {
-  section.projects .project-list {
+  .index section.projects .project-list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 640px) {
-  section.projects .project-list {
+  .index section.projects .project-list {
     grid-template-columns: repeat(1, 1fr);
   }
 }
