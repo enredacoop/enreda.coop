@@ -1,0 +1,43 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #d3d3d3;
+  height: 80px;
+}
+header > .logo,
+header > .logo > img {
+  height: 100%;
+}
+
+main {
+  position: relative;
+}
+#serviceMenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  background-color: #fff;
+  border-bottom: 1px solid #d3d3d3;
+  z-index: 1;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+#serviceMenuButton:checked ~ label {
+  color: red;
+}
