@@ -6,8 +6,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
 
   eleventyConfig.addCollection("searchable", function (collectionApi) {
-    console.log("collectionApi");
-    console.log(collectionApi);
     const data = [];
     const searchableCollection = collectionApi.getFilteredByTag("proyecto");
     searchableCollection.forEach((el) => {

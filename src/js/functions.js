@@ -12,9 +12,9 @@ export function setEventListener() {
         document.startViewTransition(() => {
           document.querySelector("#content").innerHTML = newContent;
           document.documentElement.scrollTop = 0;
+          console.log("Navigated to " + toUrl.pathname);
+          document.dispatchEvent(new Event("changed-view"));
         });
-        console.log("Navigated to " + toUrl.pathname);
-        document.dispatchEvent(new Event("changed-view"));
         return true;
       },
     });
@@ -86,20 +86,26 @@ export async function initSearch() {
 
   function search(query) {
     const results = idx.search(`*${query}*`);
+    // clear old results
     searchResults.innerHTML = "";
+    const resultList = document.createElement("div");
     results.forEach((result) => {
       const elementID = result.ref;
       const element = indexData.elements[elementID];
-      const resultItem = document.createElement("div");
-      resultItem.innerHTML = `
-        <article>
-          <h2>${element.title}</h2>
-          <p>${element.subtitle}</p>
-          <a href="${element.url}">Ver proyecto</a>
-        </article>
-      `;
-      searchResults.appendChild(resultItem);
+      const article = document.createElement("article");
+      const title = document.createElement("h2");
+      const subtitle = document.createElement("p");
+      const link = document.createElement("a");
+      title.textContent = element.title;
+      subtitle.textContent = element.subtitle;
+      link.textContent = "Ver proyecto";
+      link.href = element.url;
+      article.appendChild(title);
+      article.appendChild(subtitle);
+      article.appendChild(link);
+      resultList.appendChild(article);
     });
+    searchResults.appendChild(resultList);
   }
 
   function requestIndex() {
