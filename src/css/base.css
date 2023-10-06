@@ -26,12 +26,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
   background-color: var(--white) !important;
 }
 @media screen and (max-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 4.4vw;
   }
 }
 
@@ -205,7 +205,7 @@ menu.menu {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 5rem);
   background-color: #fff;
   border-bottom: 1px solid #d3d3d3;
   z-index: 1;
@@ -213,6 +213,7 @@ menu.menu {
   transition: transform 0.3s ease-in-out;
   font-family: var(--display-font);
   font-weight: 900;
+  overflow: hidden;
 }
 menu.menu li {
   list-style: none;
@@ -232,29 +233,29 @@ menu.menu li a {
 }
 
 #mobileMenuButton ~ label {
-  width: 30px;
-  height: 20px;
+  width: 1.875rem;
+  height: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
 }
 .bar {
-  width: 30px;
-  height: 2px;
+  width: 1.875rem;
+  height: 0.125rem;
   background-color: var(--black);
   transition: transform 0.3s;
 }
 
 /* Active state */
 #mobileMenuButton:checked ~ label .bar:nth-child(1) {
-  transform: translate(5px, 9px) rotate(45deg);
+  transform: translate(0.3125rem, 0.5625rem) rotate(45deg);
 }
 #mobileMenuButton:checked ~ label .bar:nth-child(2) {
   opacity: 0;
 }
 #mobileMenuButton:checked ~ label .bar:nth-child(3) {
-  transform: translate(5px, -9px) rotate(-45deg);
+  transform: translate(0.3125rem, -0.5625rem) rotate(-45deg);
 }
 
 /* Service Menu */
@@ -361,11 +362,18 @@ footer .subfooter p a {
   text-decoration: none;
 }
 @media screen and (max-width: 768px) {
-  footer .main,
-  footer .subfooter {
-    flex-direction: column;
+  footer .main {
+    flex-direction: column-reverse;
     align-items: center;
-    text-align: center;
+    margin: 0 1.25rem;
+  }
+  footer .main .logos {
+    margin-bottom: 4rem;
+    gap: 1.5rem;
+  }
+  footer .main .logos img {
+    height: 1.9rem;
+    width: auto;
   }
   footer .main .contact {
     align-items: center;
@@ -374,13 +382,24 @@ footer .subfooter p a {
     text-align: center;
   }
   footer .main .contact .links {
+    margin-top: 2rem;
     align-items: center;
-  }
-  footer .main .logos img {
-    height: 38px;
-    width: auto;
   }
   footer .main .ods {
     align-items: center;
+  }
+  footer .main .ods h4 {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  footer .main .ods img {
+    margin-bottom: 4rem;
+  }
+  footer .subfooter {
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  footer .subfooter img {
+    width: 12.61263rem;
   }
 }

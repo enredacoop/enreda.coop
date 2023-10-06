@@ -25,6 +25,17 @@ section.hero img {
   z-index: 0;
 }
 
+@media screen and (max-width: 768px) {
+  section.hero h1 {
+    width: 19.375rem;
+    font-size: 2.375rem;
+  }
+  section.hero img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
 section.intro {
   font-family: var(--title-font);
   font-weight: 300;
@@ -48,6 +59,15 @@ section.intro img {
   height: 3.27938rem;
 }
 
+@media screen and (max-width: 768px) {
+  section.intro {
+    padding: 2.5rem 1.5rem 1.3rem 1.5rem;
+  }
+  section.intro p {
+    font-size: 1.25rem;
+  }
+}
+
 section.bigdata,
 section.participation,
 section.citizen,
@@ -55,6 +75,15 @@ section.projects {
   width: 100%;
   margin: auto;
   padding: 4.38rem;
+}
+
+@media screen and (max-width: 768px) {
+  section.bigdata,
+  section.participation,
+  section.citizen,
+  section.projects {
+    padding: 1.3rem;
+  }
 }
 
 section.bigdata {
@@ -96,7 +125,7 @@ section.bigdata .left p {
   font-family: var(--body-font);
   font-weight: 300;
   font-size: 1.125rem;
-  line-height: 153.5%; /* 1.72688rem */
+  line-height: 161%; /* 1.81125rem */
 }
 section.bigdata .left a {
   display: inline-block;
@@ -110,6 +139,26 @@ section.bigdata .left a {
   text-decoration: none;
   border-radius: 1.88rem;
   font-size: 0.9375rem;
+}
+
+@media screen and (max-width: 768px) {
+  section.bigdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.bigdata .left img {
+    width: 6.57031rem;
+  }
+  section.bigdata .left ul {
+    font-size: 1.5rem;
+  }
+  section.bigdata .left p {
+    margin-left: 0;
+  }
+  section.bigdata .left a {
+    margin-left: 0;
+  }
 }
 
 section.participation {
@@ -150,6 +199,24 @@ section.participation .right a {
   padding: 0.56rem 1.5rem;
   text-decoration: none;
   border-radius: 1.88rem;
+}
+@media screen and (max-width: 768px) {
+  section.participation {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  section.participation .right img {
+    width: 4.375rem;
+  }
+  section.participation .right h3 {
+    font-size: 1.5rem;
+  }
+  section.participation .right p {
+    width: 100%;
+  }
+  section.participation .right a {
+    margin-bottom: 1.5rem;
+  }
 }
 
 section.citizen {
@@ -214,6 +281,23 @@ section.citizen .citizen-img {
   border-radius: 1rem;
   object-fit: cover;
   object-position: top;
+}
+
+@media screen and (max-width: 768px) {
+  section.citizen h3 {
+    font-size: 1.5rem;
+  }
+  section.citizen .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  section.citizen p {
+    font-size: 1.125rem;
+  }
+  section.citizen .citizen-img {
+    margin-top: 1.56rem;
+    height: 15.67031rem;
+    margin-bottom: 3rem;
+  }
 }
 
 section.projects {
@@ -314,4 +398,49 @@ section.projects .project-list .see-more {
   padding: 0.56rem 1.5rem;
   border-radius: 1.88rem;
   font-size: 0.9375rem;
+}
+
+@media screen and (max-width: 768px) {
+  section.projects img {
+    width: 5.125rem;
+  }
+  section.projects h3 {
+    font-size: 1.5rem;
+  }
+  section.projects .project-list {
+    margin-top: 3.75rem;
+  }
+  section.projects .project-card {
+    flex-direction: column;
+    gap: 1.5rem;
+    height: auto;
+    padding: 1.5rem;
+  }
+  section.projects .project-card .thumbnail img {
+    width: 100%;
+    height: 12.5rem;
+  }
+  section.projects .project-card .content h4 {
+    font-size: 1.25rem;
+  }
+  section.projects .project-card .content h5 {
+    font-size: 0.94rem;
+    margin-bottom: 1.5rem;
+  }
+  section.projects .project-card .content .client,
+  section.projects .project-card .content .tags {
+    margin-bottom: 1.5rem;
+  }
+  section.projects .project-card .content .client .client-label {
+    font-size: 0.75rem;
+  }
+  section.projects .project-card .content .client .client-name {
+    font-size: 0.875rem;
+  }
+  section.projects .project-card .content .action {
+    font-size: 0.75rem;
+  }
+  section.projects .project-card .content .action img {
+    width: 2.5rem;
+  }
 }
