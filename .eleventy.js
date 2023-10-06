@@ -1,4 +1,5 @@
 const lunr = require("lunr");
+const markdownit = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
@@ -36,6 +37,14 @@ module.exports = function (eleventyConfig) {
     );
     return data;
   });
+
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true,
+  };
+
+  eleventyConfig.setLibrary("md", markdownit(options));
 
   return {
     dir: {

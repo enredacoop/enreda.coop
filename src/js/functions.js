@@ -11,8 +11,12 @@ export function setEventListener() {
         const doc = parser.parseFromString(html, "text/html");
         const newContent = doc.querySelector("#content").innerHTML;
 
-        await resetServicesMenu();
-        await resetMobileMenu();
+        let serviceMenuButtonChecked = document.querySelector("#serviceMenuButton").checked;
+        let mobileMenuButtonChecked = document.querySelector("#mobileMenuButton").checked;
+        if (serviceMenuButtonChecked || mobileMenuButtonChecked) {
+          await resetServicesMenu();
+          await resetMobileMenu();
+        }
 
         document.startViewTransition(() => {
           document.querySelector("#content").innerHTML = newContent;
