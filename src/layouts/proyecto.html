@@ -2,11 +2,51 @@
 layout: base.html
 ---
 
-<h1>{{title}}</h1>
-<p>{{subtitle}}</p>
-<br />
-<h3>Summary</h3>
-<p>{{summary}}</p>
-<br />
-<div class="proyecto-content">{{content}}</div>
-<br />
+<div class="proyecto">
+  <div class="lead-desktop">
+    <div class="title-container">
+      <div class="head">
+        <p>Proyecto</p>
+        <h1>{{title}}</h1>
+        <h2>{{subtitle}}</h2>
+      </div>
+      <div class="tail">
+        <h3>Cliente</h3>
+        <h4>{{client}}</h4>
+      </div>
+    </div>
+    <img
+      style="object-fit: cover; object-position: center"
+      width="400"
+      height="400"
+      src="{{image}}"
+      alt=""
+    />
+  </div>
+  <div class="lead-mobile">
+    <div class="head">
+      <p>Proyecto</p>
+      <h1>{{title}}</h1>
+      <h2>{{subtitle}}</h2>
+    </div>
+    <img
+      style="object-fit: cover; object-position: center"
+      width="400"
+      height="400"
+      src="{{image}}"
+      alt=""
+    />
+    <div class="tail">
+      <h3>Cliente</h3>
+      <h4>{{client}}</h4>
+    </div>
+  </div>
+  <br />
+  <div class="body">
+    <h3>Brief</h3>
+    <p class="summary">{{summary}}</p>
+    <h3>Descripción</h3>
+    <div class="description">{{content}}</div>
+  </div>
+  <br />
+</div>

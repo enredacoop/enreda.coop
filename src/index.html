@@ -78,11 +78,21 @@ layout: base.html
 <section class="projects">
   <img width="125" height="161" src="/assets/img/projects-icon.png" alt="" />
   <h3>Proyectos destacados</h3>
-  {% for proyecto in collections.proyecto %}
-
-  <a href="{{ proyecto.url }}">
-    <h2>{{ proyecto.data.title }}</h2>
-    <p>{{ proyecto.data.subtitle }}</p>
-  </a>
-  {% endfor %}
+  <div class="project-list">
+    {% for proyecto in collections.proyecto %}
+    <a href="{{ proyecto.url }}">
+      <div class="project-card">
+        <div class="thumbnail">
+          <img src="{{proyecto.data.image}}" alt="" />
+        </div>
+        <div class="content">
+          <h4>{{ proyecto.data.title }}</h4>
+          <h5>{{ proyecto.data.subtitle }}</h5>
+          <p>Cliente</p>
+          <p>{{ proyecto.data.client }}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
 </section>
