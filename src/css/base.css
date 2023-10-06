@@ -11,15 +11,28 @@
   --secondary: #fff;
   --accent: #ff0000;
   --white: #fbfbfb;
+  --black: #212121;
   /* Font variables */
   --display-font: "Montserrat Alternates", sans-serif;
   --title-font: "Montserrat", sans-serif;
   --body-font: "Work Sans", sans-serif;
+  --default-font-size: 1.17130307vw; /* 16px on 1366px width */
 }
 
+html {
+  font-size: var(--default-font-size);
+  font-family: var(--body-font);
+  color: var(--black);
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   background-color: var(--white) !important;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 /* Montserrat Alternates */
@@ -128,14 +141,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
   border-bottom: 1px solid #d3d3d3;
-  height: 80px;
   z-index: 1;
+  padding: 0rem 5.1875rem;
+  height: 6.5625rem;
 }
-header > .logo,
-header > .logo > img {
-  height: 100%;
+header .logo img {
+  height: 5rem;
+  width: auto;
+  aspect-ratio: auto 126 / 64;
 }
 header > nav {
   display: flex;
@@ -148,12 +162,15 @@ header > nav.mobile {
 }
 header > nav.mobile > div,
 header > nav.desktop > div {
-  margin-left: 24px;
+  margin-left: 1.5rem;
 }
 
-header > nav .navlink {
+header > nav .navlink,
+header > nav.desktop > div > label,
+header > nav.mobile > div > label {
+  font-size: 0.9375rem;
   text-decoration: none;
-  color: #000;
+  color: var(--black);
 }
 
 header > nav .navlink[aria-current="page"] {
@@ -161,6 +178,13 @@ header > nav .navlink[aria-current="page"] {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    padding: 0 1.25rem;
+    height: 5rem;
+  }
+  header .logo img {
+    height: 3.4375rem;
+  }
   header > nav.desktop {
     display: none;
   }
@@ -197,7 +221,7 @@ menu.menu li {
 }
 menu.menu li a {
   text-decoration: none;
-  color: #000;
+  color: var(--black);
 }
 #mobileMenuServiceButton {
   all: unset;
@@ -218,7 +242,7 @@ menu.menu li a {
 .bar {
   width: 30px;
   height: 2px;
-  background-color: #000;
+  background-color: var(--black);
   transition: transform 0.3s;
 }
 
@@ -240,22 +264,21 @@ menu.menu li a {
 }
 #mobileServiceMenuButton:checked ~ label {
   color: white;
-  background-color: black;
+  background-color: var(--black);
 }
 
 footer {
   background-color: var(--primary);
   color: var(--white);
   font-family: var(--title-font);
-  font-size: 14px;
 }
 footer .main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 40px;
-  padding: 40px 0;
+  margin: 0 5rem;
+  padding: 1.85rem 0;
   border-bottom: 1px solid var(--white);
 }
 footer .main .contact {
@@ -263,12 +286,19 @@ footer .main .contact {
   flex-direction: column;
 }
 footer .main .contact h4 {
+  margin-bottom: 1rem;
+  font-family: var(--title-font);
   font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 18px;
+  font-size: 1.125rem;
+  letter-spacing: 0.045rem;
 }
 footer .main .contact p {
-  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.2625rem; /* 144.286% */
+  font-family: var(--title-font);
+  font-weight: 600;
+  letter-spacing: 0.035rem;
+  margin-bottom: 1rem;
 }
 footer .main .contact p a {
   color: var(--white) !important;
@@ -278,15 +308,21 @@ footer .main .contact .links {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 12px;
-  margin: 20px 0;
+  gap: 1.5rem;
+}
+footer .main .contact .links img {
+  width: 2rem;
+  height: 2rem;
 }
 footer .main .logos {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
-  margin: 40px auto;
+  gap: 2.3rem;
+}
+footer .main .logos img {
+  height: 2.66663rem;
+  width: auto;
 }
 footer .main .ods {
   display: flex;
@@ -294,21 +330,31 @@ footer .main .ods {
   align-items: flex-end;
 }
 footer .main .ods h4 {
+  margin-bottom: 1rem;
+  font-family: var(--title-font);
   font-weight: 700;
-  font-size: 18px;
-  margin-right: 10px;
+  font-size: 1.125rem;
+  letter-spacing: 0.045rem;
+  margin-right: 0.6rem;
   text-align: right;
-  margin-bottom: 18px;
+}
+footer .main .ods img {
+  width: 13.32113rem;
+  height: auto;
 }
 footer .subfooter {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 1.92rem 0 1rem 0;
+}
+footer .subfooter img {
+  width: 15.61006rem;
+  height: auto;
 }
 footer .subfooter p {
-  padding-top: 18px;
+  padding-top: 0.75rem;
 }
 footer .subfooter p a {
   color: var(--white) !important;

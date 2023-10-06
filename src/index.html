@@ -22,8 +22,8 @@ layout: base.html
       <li>Diseño y desarrollo de productos</li>
     </ul>
     <p>
-      Diseñamos, desarrollamos y gestionamos aplicaciones y servicios innovadores. Especialistas en
-      análisis, procesamiento y visualización de datos.<br /><br />
+      Diseñamos, desarrollamos y gestionamos aplicaciones y servicios innovadores.
+      <br />Especialistas en análisis, procesamiento y visualización de datos.<br /><br />
       ¡Lánzate al siguiente nivel con ENREDA!
     </p>
     <a href="/proyectos/">Ver proyectos</a>
@@ -43,8 +43,8 @@ layout: base.html
       Somos una <b>empresa certificada y colaboradora de Consul Democracy Foundation</b> para ayudar
       a instituciones públicas y privadas en todo el mundo a utilizar <b>CONSUL</b>, premio de
       Servicio Público de Naciones Unidas por su capacidad para afrontar el desafío de establecer
-      nuevos modelos de gobernanza que conduzcan a gobiernos más abiertos, transparentes,
-      participativos e inclusivos.
+      nuevos modelos de <br />gobernanza que conduzcan a gobiernos más <br />abiertos,
+      transparentes, participativos e inclusivos.
     </p>
     <a href="/proyectos/">Quiero saber más</a>
   </div>
@@ -52,8 +52,8 @@ layout: base.html
 <section class="citizen">
   <h3>Participación ciudadana</h3>
   <p>
-    ENREDA posee 10 años de experiencia desarrollado procesos participativos. Estos son algunos de
-    los servicios que podemos ofrecerte.
+    ENREDA posee 10 años de experiencia desarrollado procesos participativos. <br />Estos son
+    algunos de los servicios que podemos ofrecerte.
   </p>
   <div class="cards">
     <div class="card">
@@ -86,13 +86,25 @@ layout: base.html
           <img src="{{proyecto.data.image}}" alt="" />
         </div>
         <div class="content">
-          <h4>{{ proyecto.data.title }}</h4>
-          <h5>{{ proyecto.data.subtitle }}</h5>
-          <p>Cliente</p>
-          <p>{{ proyecto.data.client }}</p>
+          <div>
+            <h4>{{ proyecto.data.title }}</h4>
+            <h5>{{ proyecto.data.subtitle }}</h5>
+          </div>
+          <div>
+            <div class="client">
+              <p class="client-label">Cliente</p>
+              <p class="client-name">{{ proyecto.data.client }}</p>
+            </div>
+            <div class="tags"></div>
+            <div class="action">
+              <span>Ver projecto</span>
+              <img width="64" height="8" src="/assets/img/arrow-right.svg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </a>
     {% endfor %}
+    <a class="see-more" href="/proyectos/"> Ver todos los proyectos </a>
   </div>
 </section>
