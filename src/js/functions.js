@@ -48,18 +48,29 @@ export function serviceMenuHandler() {
     console.log("checked", serviceMenuButton.checked);
     if (serviceMenuButton.checked) {
       servicesMenu.style.display = "block";
+      lockScroll();
       setTimeout(() => {
         servicesMenu.style.transform = "translateX(0)";
       }, 10); // Adding a small delay to allow the display property to take effect before transitioning
     }
     if (!serviceMenuButton.checked) {
       servicesMenu.style.transform = "translateX(100%)";
+      unlockScroll();
       setTimeout(() => {
         servicesMenu.style.display = "none";
       }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
     }
   };
 }
+
+const lockScroll = () => {
+  document.body.style.overflow = "hidden";
+  document.documentElement.style.overflow = "hidden";
+};
+const unlockScroll = () => {
+  document.body.style.overflow = "auto";
+  document.documentElement.style.overflow = "auto";
+};
 export function mobileMenuHandler() {
   const serviceMenu = document.querySelector("#serviceMenu");
   const mobileMenu = document.querySelector("#mobileMenu");
@@ -67,7 +78,6 @@ export function mobileMenuHandler() {
   const mobileServiceMenuButton = document.querySelector("#mobileServiceMenuButton");
   // console log to check if serviceMenuButton is checked
   mobileMenuButton.onclick = function () {
-    console.log("checked", mobileMenuButton.checked);
     if (mobileMenuButton.checked) {
       if (mobileServiceMenuButton.checked) {
         mobileServiceMenuButton.checked = false;
@@ -78,11 +88,13 @@ export function mobileMenuHandler() {
         }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
       }
       mobileMenu.style.display = "block";
+      lockScroll();
       setTimeout(() => {
         mobileMenu.style.transform = "translateX(0)";
       }, 10); // Adding a small delay to allow the display property to take effect before transitioning
     }
     if (!mobileMenuButton.checked) {
+      unlockScroll();
       mobileMenu.style.transform = "translateX(100%)";
       setTimeout(() => {
         mobileMenu.style.display = "none";
@@ -101,12 +113,14 @@ export function mobileMenuHandler() {
         }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
       }
       serviceMenu.style.display = "block";
+      lockScroll();
       setTimeout(() => {
         serviceMenu.style.transform = "translateX(0)";
       }, 10); // Adding a small delay to allow the display property to take effect before transitioning
     }
     if (!mobileServiceMenuButton.checked) {
       serviceMenu.style.transform = "translateX(100%)";
+      unlockScroll();
       setTimeout(() => {
         serviceMenu.style.display = "none";
       }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
@@ -118,6 +132,7 @@ function resetMenu() {
   const servicesMenu = document.querySelector("#serviceMenu");
   const serviceMenuButton = document.querySelector("#serviceMenuButton");
   servicesMenu.style.transform = "translateX(100%)";
+  unlockScroll();
   setTimeout(() => {
     servicesMenu.style.display = "none";
   }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
