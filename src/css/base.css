@@ -21,7 +21,19 @@ header > .logo,
 header > .logo > img {
   height: 100%;
 }
-
+header > nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header > nav .navlink {
+  text-decoration: none;
+  color: #000;
+}
+header > nav .navlink:active,
+header > nav .navlink[aria-current="page"] {
+  text-decoration: underline;
+}
 main {
   position: relative;
 }
