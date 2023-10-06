@@ -17,6 +17,7 @@ module.exports = function (eleventyConfig) {
         subtitle: el.data.subtitle,
         image: el.data.image,
         client: el.data.client,
+        ods: el.data.ods,
         tags: el.data.tags,
         content: el.template._frontMatter.content,
       });
@@ -29,6 +30,7 @@ module.exports = function (eleventyConfig) {
       this.field("subtitle");
       this.field("image");
       this.field("client");
+      this.field("ods");
       this.field("tags");
       this.field("content");
 

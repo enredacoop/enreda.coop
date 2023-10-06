@@ -65,6 +65,13 @@ title: Proyectos
               <p class="client-label">Cliente</p>
               <p class="client-name">{{ proyecto.data.client }}</p>
             </div>
+            <div class="ods">
+              {% for ods in proyecto.data.ods %}
+              <span>
+                <img width="42" height="42" src="/assets/img/ods/{{ ods }}.png" alt="" />
+              </span>
+              {% endfor %}
+            </div>
             <div class="tags"></div>
             <div class="action">
               <span>Ver projecto</span>

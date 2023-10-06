@@ -4,6 +4,7 @@ title: UrbanData
 image: https://ik.imagekit.io/5sj5zvywt/formamos.jpg?updatedAt=1693227703424
 subtitle: Un sistema de gestión de ODS
 client: Naciones Unidas para el Desarrollo (PNUD)
+ods: [3, 4]
 tags: ["Participación ciudadana", Participación digital", "Diseño y desarrollo"]
 summary: Esto es un proyecto que se hizo para facilitar la gestión del cumplimiento de la agenda 2030 y los Objetivos de Desarrollo Sostenible
 ---

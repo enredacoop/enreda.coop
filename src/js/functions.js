@@ -296,6 +296,22 @@ async function _projectSearch(query, category) {
     clientDiv.appendChild(clientLabel);
     clientDiv.appendChild(clientName);
 
+    var odsDiv = document.createElement("div");
+    odsDiv.classList.add("ods");
+
+    for (let i = 0; i < element.ods.length; i++) {
+      console.log(element.ods[i]);
+      var odsTag = document.createElement("span");
+      var odsImg = document.createElement("img");
+      odsImg.setAttribute("src", `/assets/img/ods/${element.ods[i]}.png`);
+      odsImg.setAttribute("width", "42");
+      odsImg.setAttribute("height", "42");
+      odsImg.setAttribute("alt", "");
+      odsTag.appendChild(odsImg);
+      odsDiv.appendChild(odsTag);
+    }
+    console.log(odsDiv);
+
     var tagsDiv = document.createElement("div");
     tagsDiv.classList.add("tags");
 
@@ -315,6 +331,7 @@ async function _projectSearch(query, category) {
     actionDiv.appendChild(arrowImage);
 
     contentDiv2.appendChild(clientDiv);
+    contentDiv2.appendChild(odsDiv);
     contentDiv2.appendChild(tagsDiv);
     contentDiv2.appendChild(actionDiv);
 
