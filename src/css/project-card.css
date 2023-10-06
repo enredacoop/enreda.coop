@@ -79,9 +79,16 @@
   font-size: var(--card-subtitle-font-size);
   margin-bottom: var(--card-subtitle-margin-bottom);
 }
-.project-card .content .client,
-.project-card .content .tags {
+.project-card .content .client {
   margin-bottom: var(--card-client-margin-bottom);
+}
+.project-card .content .categories span {
+  border: 1px solid var(--black);
+  border-radius: 4rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.65625rem;
+  padding: 0.5rem 1rem;
 }
 .project-card .content .client .client-label {
   color: #747272;

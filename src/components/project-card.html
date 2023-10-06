@@ -1,0 +1,33 @@
+<a class="project-card" href="{{ url }}">
+  <div class="thumbnail">
+    <img src="{{image}}" alt="" />
+  </div>
+  <div class="content">
+    <div>
+      <h4>{{ title }}</h4>
+      <h5>{{ subtitle }}</h5>
+    </div>
+    <div>
+      <div class="client">
+        <p class="client-label">Cliente</p>
+        <p class="client-name">{{ client }}</p>
+      </div>
+      <div class="ods">
+        {% for o in ods %}
+        <span>
+          <img width="42" height="42" src="/assets/img/ods/{{ o }}.png" alt="" />
+        </span>
+        {% endfor %}
+      </div>
+      <div class="categories">
+        {% for category in categories %}
+        <span>{{ category }}</span>
+        {% endfor %}
+      </div>
+      <div class="action">
+        <span>Ver projecto</span>
+        <img width="64" height="8" src="/assets/img/arrow-right.svg" alt="" />
+      </div>
+    </div>
+  </div>
+</a>

@@ -18,7 +18,7 @@ module.exports = function (eleventyConfig) {
         image: el.data.image,
         client: el.data.client,
         ods: el.data.ods,
-        tags: el.data.tags,
+        categories: el.data.categories,
         content: el.template._frontMatter.content,
       });
     });
@@ -31,7 +31,7 @@ module.exports = function (eleventyConfig) {
       this.field("image");
       this.field("client");
       this.field("ods");
-      this.field("tags");
+      this.field("categories");
       this.field("content");
 
       data.forEach((el) => {

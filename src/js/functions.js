@@ -247,7 +247,7 @@ async function _projectSearch(query, category) {
     const elementID = result.ref;
     const element = indexData.elements[elementID];
     // filter by category
-    if (category && category !== "all" && !element.tags.includes(category)) {
+    if (category && category !== "all" && !element.categories.includes(category)) {
       return;
     }
     // project-card
@@ -312,8 +312,8 @@ async function _projectSearch(query, category) {
     }
     console.log(odsDiv);
 
-    var tagsDiv = document.createElement("div");
-    tagsDiv.classList.add("tags");
+    var categoriesDiv = document.createElement("div");
+    categoriesDiv.classList.add("categories");
 
     var actionDiv = document.createElement("div");
     actionDiv.classList.add("action");
@@ -332,7 +332,7 @@ async function _projectSearch(query, category) {
 
     contentDiv2.appendChild(clientDiv);
     contentDiv2.appendChild(odsDiv);
-    contentDiv2.appendChild(tagsDiv);
+    contentDiv2.appendChild(categoriesDiv);
     contentDiv2.appendChild(actionDiv);
 
     content.appendChild(contentDiv1);

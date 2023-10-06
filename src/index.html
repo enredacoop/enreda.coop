@@ -80,37 +80,10 @@ layout: base.html
   <img class="icon" width="125" height="161" src="/assets/img/projects-icon.svg" alt="" />
   <h3>Proyectos destacados</h3>
   <div class="project-list">
-    {% for proyecto in collections.proyecto %}
-    <a class="project-card" href="{{ proyecto.url }}">
-      <div class="thumbnail">
-        <img src="{{proyecto.data.image}}" alt="" />
-      </div>
-      <div class="content">
-        <div>
-          <h4>{{ proyecto.data.title }}</h4>
-          <h5>{{ proyecto.data.subtitle }}</h5>
-        </div>
-        <div>
-          <div class="client">
-            <p class="client-label">Cliente</p>
-            <p class="client-name">{{ proyecto.data.client }}</p>
-          </div>
-          <div class="ods">
-            {% for ods in proyecto.data.ods %}
-            <span>
-              <img width="42" height="42" src="/assets/img/ods/{{ ods }}.png" alt="" />
-            </span>
-            {% endfor %}
-          </div>
-          <div class="tags"></div>
-          <div class="action">
-            <span>Ver projecto</span>
-            <img width="64" height="8" src="/assets/img/arrow-right.svg" alt="" />
-          </div>
-        </div>
-      </div>
-    </a>
-    {% endfor %}
+    {% for proyecto in collections.proyecto %} {% render "components/project-card.html", url:
+    proyecto.url, image: proyecto.data.image, title: proyecto.data.title, subtitle:
+    proyecto.data.subtitle, client: proyecto.data.client, ods: proyecto.data.ods, categories:
+    proyecto.data.categories %} {% endfor %}
   </div>
   <a class="button-primary" href="/proyectos/"> Ver todos los proyectos </a>
 </section>
