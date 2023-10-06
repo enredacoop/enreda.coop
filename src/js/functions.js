@@ -63,6 +63,13 @@ export function serviceMenuHandler() {
   };
 }
 
+export const scrollUp = () => {
+  const scrollUpButton = document.querySelector("#scrollUpButton");
+  scrollUpButton.onclick = function () {
+    document.documentElement.scrollTop = 0;
+  };
+};
+
 const lockScroll = () => {
   document.body.style.overflow = "hidden";
   document.documentElement.style.overflow = "hidden";

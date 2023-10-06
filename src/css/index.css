@@ -19,7 +19,16 @@ section.hero h1 {
 section.hero h1 span {
   color: var(--primary);
 }
-section.hero img {
+section.hero .scroll-down {
+  position: absolute;
+  width: 10rem;
+  height: auto;
+  bottom: 2.5rem;
+  left: 90%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+section.hero .phone {
   max-width: 43.84394rem;
   width: 100%;
   z-index: 0;
@@ -33,6 +42,9 @@ section.hero img {
   section.hero img {
     max-width: 100%;
     width: 100%;
+  }
+  section.hero .scroll-down {
+    display: none;
   }
 }
 

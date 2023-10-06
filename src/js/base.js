@@ -3,6 +3,7 @@ import {
   serviceMenuHandler,
   initSearch,
   mobileMenuHandler,
+  scrollUp,
 } from "./functions.js";
 import { getPathName } from "./utils.js";
 
@@ -10,6 +11,7 @@ const commonScripts = () => {
   navlinkIndicators();
   serviceMenuHandler();
   mobileMenuHandler();
+  scrollUp();
   if (getPathName() === "/proyectos/") {
     initSearch();
   }

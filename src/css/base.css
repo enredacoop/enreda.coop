@@ -137,7 +137,24 @@ body {
   font-style: normal;
 }
 
+#scrollUpButton {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+  transition: transform 0.3s ease-in-out;
+}
 header {
+  /* position: fixed;
+  background-color: var(--white); */
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
