@@ -5,8 +5,105 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Color variables */
+  --primary: #db5125;
+  --secondary: #fff;
+  --accent: #ff0000;
+  --white: #fbfbfb;
+  /* Font variables */
+  --display-font: "Montserrat Alternates", sans-serif;
+  --title-font: "Montserrat", sans-serif;
+  --body-font: "Work Sans", sans-serif;
+}
+
 body {
   overflow-x: hidden;
+  background-color: var(--white) !important;
+}
+
+/* Montserrat Alternates */
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf");
+  font-weight: bold; /* 700 */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf");
+  font-weight: normal; /* 400 */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat/Montserrat-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Work Sans */
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/Work_Sans/WorkSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/Work_Sans/WorkSans-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
 }
 
 header {
@@ -16,6 +113,7 @@ header {
   padding: 0.5rem 2rem;
   border-bottom: 1px solid #d3d3d3;
   height: 80px;
+  z-index: 1;
 }
 header > .logo,
 header > .logo > img {
@@ -25,26 +123,41 @@ header > nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-family: var(--display-font);
 }
+header > nav.mobile {
+  display: none;
+}
+header > nav.mobile > div,
+header > nav.desktop > div {
+  margin-left: 24px;
+}
+
 header > nav .navlink {
   text-decoration: none;
   color: #000;
 }
 
 header > nav .navlink[aria-current="page"] {
-  text-decoration: underline;
+  color: var(--primary);
 }
 
 @media screen and (max-width: 768px) {
-  header > nav {
-    display: block;
+  header > nav.desktop {
+    display: none;
+  }
+  header > nav.mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 main {
   position: relative;
 }
-#serviceMenu {
+menu.menu {
   display: none;
   position: absolute;
   top: 0;
@@ -56,7 +169,58 @@ main {
   z-index: 1;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
+  font-family: var(--display-font);
+  font-weight: 900;
 }
-#serviceMenuButton:checked ~ label {
-  color: red;
+menu.menu li {
+  list-style: none;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+menu.menu li a {
+  text-decoration: none;
+  color: #000;
+}
+#mobileMenuServiceButton {
+  all: unset;
+  cursor: pointer;
+}
+#serviceMenu {
+  z-index: 2;
+}
+
+#mobileMenuButton ~ label {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.bar {
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  transition: transform 0.3s;
+}
+
+/* Active state */
+#mobileMenuButton:checked ~ label .bar:nth-child(1) {
+  transform: translate(5px, 9px) rotate(45deg);
+}
+#mobileMenuButton:checked ~ label .bar:nth-child(2) {
+  opacity: 0;
+}
+#mobileMenuButton:checked ~ label .bar:nth-child(3) {
+  transform: translate(5px, -9px) rotate(-45deg);
+}
+
+/* Service Menu */
+#mobileServiceMenuButton ~ label {
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+#mobileServiceMenuButton:checked ~ label {
+  color: white;
+  background-color: black;
 }

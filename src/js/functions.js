@@ -1,3 +1,5 @@
+import { getPathName } from "./utils.js";
+
 export function setEventListener() {
   navigation.addEventListener("navigate", function (event) {
     const toUrl = new URL(event.destination.url);
@@ -23,9 +25,11 @@ export function setEventListener() {
 
 export function navlinkIndicators() {
   // get url path and add aria-current to the corresponding menu item
-  const path = window.location.pathname.replace(/\/$/, "");
+  const path = getPathName();
   const menuItems = document.querySelectorAll(".navlink");
+  console.log("path", path);
   menuItems.forEach((item) => {
+    console.log(item.getAttribute("href"));
     if (item.getAttribute("href") === path) {
       item.setAttribute("aria-current", "page");
     }
@@ -38,17 +42,17 @@ export function navlinkIndicators() {
 
 export function serviceMenuHandler() {
   const servicesMenu = document.querySelector("#serviceMenu");
-  const servicesButton = document.querySelector("#serviceMenuButton");
-  // console log to check if servicesButton is checked
-  servicesButton.onclick = function () {
-    console.log("checked", servicesButton.checked);
-    if (servicesButton.checked) {
+  const serviceMenuButton = document.querySelector("#serviceMenuButton");
+  // console log to check if serviceMenuButton is checked
+  serviceMenuButton.onclick = function () {
+    console.log("checked", serviceMenuButton.checked);
+    if (serviceMenuButton.checked) {
       servicesMenu.style.display = "block";
       setTimeout(() => {
         servicesMenu.style.transform = "translateX(0)";
       }, 10); // Adding a small delay to allow the display property to take effect before transitioning
     }
-    if (!servicesButton.checked) {
+    if (!serviceMenuButton.checked) {
       servicesMenu.style.transform = "translateX(100%)";
       setTimeout(() => {
         servicesMenu.style.display = "none";
@@ -56,15 +60,68 @@ export function serviceMenuHandler() {
     }
   };
 }
+export function mobileMenuHandler() {
+  const serviceMenu = document.querySelector("#serviceMenu");
+  const mobileMenu = document.querySelector("#mobileMenu");
+  const mobileMenuButton = document.querySelector("#mobileMenuButton");
+  const mobileServiceMenuButton = document.querySelector("#mobileServiceMenuButton");
+  // console log to check if serviceMenuButton is checked
+  mobileMenuButton.onclick = function () {
+    console.log("checked", mobileMenuButton.checked);
+    if (mobileMenuButton.checked) {
+      if (mobileServiceMenuButton.checked) {
+        mobileServiceMenuButton.checked = false;
+        mobileServiceMenuButton.checked = false;
+        serviceMenu.style.transform = "translateX(100%)";
+        setTimeout(() => {
+          serviceMenu.style.display = "none";
+        }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
+      }
+      mobileMenu.style.display = "block";
+      setTimeout(() => {
+        mobileMenu.style.transform = "translateX(0)";
+      }, 10); // Adding a small delay to allow the display property to take effect before transitioning
+    }
+    if (!mobileMenuButton.checked) {
+      mobileMenu.style.transform = "translateX(100%)";
+      setTimeout(() => {
+        mobileMenu.style.display = "none";
+      }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
+    }
+  };
+
+  mobileServiceMenuButton.onclick = function () {
+    console.log("clicked!");
+    if (mobileServiceMenuButton.checked) {
+      if (mobileMenuButton.checked) {
+        mobileMenuButton.checked = false;
+        mobileMenu.style.transform = "translateX(100%)";
+        setTimeout(() => {
+          mobileMenu.style.display = "none";
+        }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
+      }
+      serviceMenu.style.display = "block";
+      setTimeout(() => {
+        serviceMenu.style.transform = "translateX(0)";
+      }, 10); // Adding a small delay to allow the display property to take effect before transitioning
+    }
+    if (!mobileServiceMenuButton.checked) {
+      serviceMenu.style.transform = "translateX(100%)";
+      setTimeout(() => {
+        serviceMenu.style.display = "none";
+      }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
+    }
+  };
+}
 
 function resetMenu() {
   const servicesMenu = document.querySelector("#serviceMenu");
-  const servicesButton = document.querySelector("#serviceMenuButton");
+  const serviceMenuButton = document.querySelector("#serviceMenuButton");
   servicesMenu.style.transform = "translateX(100%)";
   setTimeout(() => {
     servicesMenu.style.display = "none";
   }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
-  servicesButton.checked = false;
+  serviceMenuButton.checked = false;
 }
 
 export async function initSearch() {

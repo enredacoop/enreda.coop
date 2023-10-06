@@ -1,0 +1,266 @@
+section.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--white);
+  height: calc(100vh - 80px);
+  overflow-y: hidden;
+  z-index: 0;
+}
+section.hero h1 {
+  font-family: var(--display-font);
+  font-weight: 900;
+  text-align: center;
+  font-size: 80px;
+  margin: auto 18px;
+  z-index: 1;
+}
+section.hero h1 span {
+  color: var(--primary);
+}
+section.hero img {
+  max-width: 540px;
+  width: 100%;
+  z-index: 0;
+}
+
+@media screen and (max-width: 960px) {
+  section.hero h1 {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  section.hero h1 {
+    font-size: 40px;
+  }
+}
+
+section.intro {
+  font-family: var(--title-font);
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  background-color: var(--primary);
+  width: 100%;
+  text-align: center;
+  padding: 30px 40px 10px 40px;
+  font-size: 32px;
+  font-weight: 300;
+  padding: 12px;
+}
+section.intro p {
+  margin-bottom: 10px;
+  max-width: 850px;
+  margin: 40px auto 30px auto;
+}
+section.intro img {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  section.intro {
+    font-size: 20px;
+  }
+}
+
+section.bigdata,
+section.participation,
+section.citizen,
+section.projects {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 0 18px;
+}
+
+section.bigdata {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 3fr 4fr;
+  align-items: end;
+}
+@media (max-width: 768px) {
+  section.bigdata {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+  }
+}
+section.bigdata .right {
+  flex: 1 1 0px;
+}
+section.bigdata .right img {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+section.bigdata .left {
+  flex: 1 1 0px;
+}
+section.bigdata .left ul {
+  font-family: var(--display-font);
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 60px;
+  list-style: none; /* Remove default bullets */
+}
+section.bigdata .left ul li {
+  position: relative;
+  margin-left: 30px;
+}
+section.bigdata .left ul li::before {
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--primary); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  font-size: 60px;
+}
+section.bigdata .left p {
+  margin-top: 20px;
+  font-family: var(--body-font);
+  font-weight: 300;
+  font-size: 20px;
+}
+section.bigdata .left a {
+  display: inline-block;
+  margin-top: 40px;
+  font-family: var(--body-font);
+  font-weight: 300;
+  color: white;
+  background-color: var(--primary);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+section.participation {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 4fr 3fr;
+  align-items: end;
+}
+@media (max-width: 768px) {
+  section.participation {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+section.participation .left {
+  flex: 1 1 0px;
+}
+section.participation .left img {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-top: 24px;
+}
+section.participation .right {
+  flex: 1 1 0px;
+}
+section.participation .right h3 {
+  font-family: var(--display-font);
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 60px;
+}
+section.participation .right p {
+  font-family: var(--body-font);
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 20px;
+}
+section.participation .right a {
+  display: inline-block;
+  margin-top: 40px;
+  font-family: var(--body-font);
+  font-weight: 300;
+  color: white;
+  background-color: var(--primary);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+section.citizen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.citizen h3 {
+  font-family: var(--display-font);
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 60px;
+  text-align: center;
+}
+section.citizen p {
+  font-family: var(--body-font);
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+section.citizen .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin-top: 40px;
+  gap: 2vw;
+}
+@media (max-width: 1050px) {
+  section.citizen .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  section.citizen .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+section.citizen .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  text-align: center;
+  background-color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 147.1%; /* 23.536px */
+  font-family: var(--title-font);
+  text-transform: uppercase;
+  padding: 32px;
+  border-radius: 13px;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 280px;
+  margin: auto;
+  margin-bottom: 18px;
+}
+section.citizen .citizen-img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
+section.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.projects h3 {
+  font-family: var(--display-font);
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 60px;
+}

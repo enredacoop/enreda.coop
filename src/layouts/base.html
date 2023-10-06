@@ -11,6 +11,7 @@ title: Enreda
     <meta name="description" content="Web oficial de Enreda SCA" />
     <meta name="view-transition" content="same-origin" />
     <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/index.css" />
     <link rel="stylesheet" href="/css/proyecto.css" />
     <meta name="generator" content="{{ eleventy.generator }}" />
     <script src="/js/transitions.js" type="module"></script>
@@ -20,9 +21,9 @@ title: Enreda
   <body>
     <header>
       <a href="/" class="logo">
-        <img width="127" height="64" alt="logo-enreda" src="/assets/enredalogo.png" />
+        <img width="126" height="64" alt="logo-enreda" src="/assets/img/enredalogo.png" />
       </a>
-      <nav>
+      <nav class="desktop">
         <div>
           <a class="navlink" href="/cooperativa/">Cooperativa</a>
         </div>
@@ -34,14 +35,35 @@ title: Enreda
           <a class="navlink" href="/proyectos/">Proyectos</a>
         </div>
       </nav>
+      <nav class="mobile">
+        <div>
+          <input type="checkbox" id="mobileServiceMenuButton" hidden />
+          <label for="mobileServiceMenuButton"> Servicios </label>
+        </div>
+        <div>
+          <input type="checkbox" id="mobileMenuButton" hidden />
+          <label for="mobileMenuButton">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </label>
+        </div>
+      </nav>
     </header>
     <main>
-      <menu id="serviceMenu">
+      <menu class="menu" id="serviceMenu">
         <li><a href="/servicios/consultoria">Consultoría</a></li>
         <li><a href="/servicios/asesoria">Asesoría</a></li>
         <li><a href="/servicios/outsourcing">Outsourcing</a></li>
         <li><a href="/servicios/soporte">Soporte</a></li>
         <li><a href="/servicios/infraestructura">Infraestructura</a></li>
+      </menu>
+      <menu class="menu" id="mobileMenu">
+        <li><a href="/cooperativa/">Cooperativa</a></li>
+        <li>
+          <button id="mobileMenuServiceButton">Servicios</button>
+        </li>
+        <li><a href="/proyectos/">Proyectos</a></li>
       </menu>
       <div id="content">{{ content }}</div>
     </main>

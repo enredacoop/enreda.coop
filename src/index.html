@@ -2,12 +2,87 @@
 layout: base.html
 ---
 
-<h1>holaa</h1>
+<section class="hero">
+  <h1>soluciones para la <span>transformación social</span></h1>
+  <img src="/assets/img/imagen-cabecera-home-transp.png" alt="" />
+</section>
+<section class="intro">
+  <p>
+    Somos una cooperativa especializada en procesos de participación ciudadana, OpenData y diseño y
+    desarrollo de productos
+  </p>
+  <img height="40" src="/assets/img/arrow-down.svg" alt="" />
+</section>
+<section class="bigdata">
+  <div class="left">
+    <img src="/assets/img/bigdata-icon.png" alt="" />
+    <ul>
+      <li>Big Data</li>
+      <li>Transparencia</li>
+      <li>Diseño y desarrollo de productos</li>
+    </ul>
+    <p>
+      Diseñamos, desarrollamos y gestionamos aplicaciones y servicios innovadores. Especialistas en
+      análisis, procesamiento y visualización de datos.<br /><br />
+      ¡Lánzate al siguiente nivel con ENREDA!
+    </p>
+    <a href="/proyectos/">Ver proyectos</a>
+  </div>
+  <div class="right">
+    <img width="600" src="/assets/img/bigdata-image.png" alt="" />
+  </div>
+</section>
+<section class="participation">
+  <div class="left">
+    <img width="600" src="/assets/img/participation-image.png" alt="" />
+  </div>
+  <div class="right">
+    <img src="/assets/img/participation-icon.png" alt="" />
+    <h3>Participación digital</h3>
+    <p>
+      Somos una <b>empresa certificada y colaboradora de Consul Democracy Foundation</b> para ayudar
+      a instituciones públicas y privadas en todo el mundo a utilizar <b>CONSUL</b>, premio de
+      Servicio Público de Naciones Unidas por su capacidad para afrontar el desafío de establecer
+      nuevos modelos de gobernanza que conduzcan a gobiernos más abiertos, transparentes,
+      participativos e inclusivos.
+    </p>
+    <a href="/proyectos/">Quiero saber más</a>
+  </div>
+</section>
+<section class="citizen">
+  <h3>Participación ciudadana</h3>
+  <p>
+    ENREDA posee 10 años de experiencia desarrollado procesos participativos. Estos son algunos de
+    los servicios que podemos ofrecerte.
+  </p>
+  <div class="cards">
+    <div class="card">
+      <img width="82" height="82" src="/assets/img/citizen-icon-1.svg" alt="" />
+      <h4>Diseño y dinamización de Presupuestos Participativos</h4>
+    </div>
+    <div class="card">
+      <img width="82" height="82" src="/assets/img/citizen-icon-2.svg" alt="" />
+      <h4>Reglamentos de participación</h4>
+    </div>
+    <div class="card">
+      <img width="82" height="82" src="/assets/img/citizen-icon-3.svg" alt="" />
+      <h4>Escuela de ciudadanía</h4>
+    </div>
+    <div class="card">
+      <img width="82" height="82" src="/assets/img/citizen-icon-4.svg" alt="" />
+      <h4>Reglamentos de participación</h4>
+    </div>
+  </div>
+  <img class="citizen-img" width="1192" height="502" src="/assets/img/citizen-image.png" alt="" />
+</section>
+<section class="projects">
+  <img width="125" height="161" src="/assets/img/projects-icon.png" alt="" />
+  <h3>Proyectos destacados</h3>
+  {% for proyecto in collections.proyecto %}
 
-{% for post in collections.post %}
-
-<a href="{{ post.url }}">
-  <h2>{{ post.data.title }}</h2>
-  <p>{{ post.content }}</p>
-</a>
-{% endfor %}
+  <a href="{{ proyecto.url }}">
+    <h2>{{ proyecto.data.title }}</h2>
+    <p>{{ proyecto.data.subtitle }}</p>
+  </a>
+  {% endfor %}
+</section>

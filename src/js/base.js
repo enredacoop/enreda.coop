@@ -1,10 +1,16 @@
-import { navlinkIndicators, serviceMenuHandler, initSearch } from "./functions.js";
+import {
+  navlinkIndicators,
+  serviceMenuHandler,
+  initSearch,
+  mobileMenuHandler,
+} from "./functions.js";
 import { getPathName } from "./utils.js";
 
 const commonScripts = () => {
   navlinkIndicators();
   serviceMenuHandler();
-  if (getPathName() === "/proyectos") {
+  mobileMenuHandler();
+  if (getPathName() === "/proyectos/") {
     initSearch();
   }
 };

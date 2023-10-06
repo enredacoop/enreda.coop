@@ -1,3 +1,3 @@
 export function getPathName() {
-  return window.location.pathname.replace(/\/$/, "");
+  return window.location.pathname;
 }
