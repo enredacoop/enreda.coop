@@ -12,8 +12,10 @@ section.hero h1 {
   font-family: var(--display-font);
   font-weight: 900;
   text-align: center;
-  font-size: 5rem;
-  margin: 8.22rem auto 0 auto;
+  font-size: 4.5rem;
+  width: 100%;
+  max-width: 60rem;
+  margin: 5.97rem auto 0 auto;
   z-index: 1;
 }
 section.hero h1 span {
@@ -21,15 +23,15 @@ section.hero h1 span {
 }
 section.hero .scroll-down {
   position: absolute;
-  width: 10rem;
+  width: 7.8125rem;
   height: auto;
-  bottom: 2.5rem;
-  left: 90%;
+  bottom: 5.84rem;
+  right: 5rem;
   transform: translateX(-50%);
   z-index: 1;
 }
 section.hero .phone {
-  max-width: 43.84394rem;
+  max-width: 35.94931rem;
   width: 100%;
   z-index: 0;
 }
@@ -85,10 +87,12 @@ section.participation,
 section.citizen,
 section.projects {
   width: 100%;
+  max-width: 1500px;
   margin: auto;
   padding: 4.38rem;
 }
-
+@media screen and (min-width: 1920px) {
+}
 @media screen and (max-width: 768px) {
   section.bigdata,
   section.participation,

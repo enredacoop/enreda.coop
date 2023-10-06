@@ -11,6 +11,9 @@ export function setEventListener() {
         const doc = parser.parseFromString(html, "text/html");
         const newContent = doc.querySelector("#content").innerHTML;
 
+        await resetServicesMenu();
+        await resetMobileMenu();
+
         document.startViewTransition(() => {
           document.querySelector("#content").innerHTML = newContent;
           document.documentElement.scrollTop = 0;
@@ -37,7 +40,6 @@ export function navlinkIndicators() {
       item.removeAttribute("aria-current");
     }
   });
-  resetMenu();
 }
 
 export function serviceMenuHandler() {
@@ -45,7 +47,6 @@ export function serviceMenuHandler() {
   const serviceMenuButton = document.querySelector("#serviceMenuButton");
   // console log to check if serviceMenuButton is checked
   serviceMenuButton.onclick = function () {
-    console.log("checked", serviceMenuButton.checked);
     if (serviceMenuButton.checked) {
       servicesMenu.style.display = "block";
       lockScroll();
@@ -110,7 +111,6 @@ export function mobileMenuHandler() {
   };
 
   mobileServiceMenuButton.onclick = function () {
-    console.log("clicked!");
     if (mobileServiceMenuButton.checked) {
       if (mobileMenuButton.checked) {
         mobileMenuButton.checked = false;
@@ -134,16 +134,31 @@ export function mobileMenuHandler() {
     }
   };
 }
-
-function resetMenu() {
+async function resetMobileMenu() {
+  const mobileMenu = document.querySelector("#mobileMenu");
+  const mobileMenuButton = document.querySelector("#mobileMenuButton");
+  mobileMenu.style.transform = "translateX(100%)";
+  mobileMenuButton.checked = false;
+  unlockScroll();
+  await new Promise((resolve) =>
+    setTimeout(() => {
+      mobileMenu.style.display = "none";
+      resolve();
+    }, 300)
+  );
+}
+async function resetServicesMenu() {
   const servicesMenu = document.querySelector("#serviceMenu");
   const serviceMenuButton = document.querySelector("#serviceMenuButton");
   servicesMenu.style.transform = "translateX(100%)";
-  unlockScroll();
-  setTimeout(() => {
-    servicesMenu.style.display = "none";
-  }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
   serviceMenuButton.checked = false;
+  unlockScroll();
+  await new Promise((resolve) =>
+    setTimeout(() => {
+      servicesMenu.style.display = "none";
+      resolve();
+    }, 300)
+  );
 }
 
 export async function initSearch() {

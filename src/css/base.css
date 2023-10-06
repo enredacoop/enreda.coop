@@ -29,6 +29,11 @@ body {
   overflow-x: clip;
   background-color: var(--white) !important;
 }
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 768px) {
   html {
     font-size: 4.4vw;
@@ -139,21 +144,16 @@ body {
 
 #scrollUpButton {
   position: fixed;
-  bottom: 1.5rem;
+  bottom: 2.44rem;
   right: 1.5rem;
-  width: 3.125rem;
-  height: 3.125rem;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 2.625rem;
+  height: auto;
   cursor: pointer;
   z-index: 1;
-  transition: transform 0.3s ease-in-out;
 }
 header {
-  /* position: fixed;
-  background-color: var(--white); */
+  /* position: fixed; */
+  background-color: var(--white);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -230,7 +230,6 @@ menu.menu {
   transition: transform 0.3s ease-in-out;
   font-family: var(--display-font);
   font-weight: 900;
-  overflow: hidden;
 }
 menu.menu li {
   list-style: none;
