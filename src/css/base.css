@@ -17,6 +17,10 @@
   --title-font: "Montserrat", sans-serif;
   --body-font: "Work Sans", sans-serif;
   --default-font-size: 1.17130307vw; /* 16px on 1366px width */
+
+  --menu-height: 6.25rem;
+  --menu-height-pinned: 5rem;
+  --layout-padding-x: 5.19rem; /* 83px */
 }
 
 /* Breakpoints§ */
@@ -24,29 +28,25 @@
 /* Tablet < 1024px; */
 /* Mobile < 640px; */
 
-html {
-  font-size: var(--default-font-size);
-  font-family: var(--body-font);
-  color: var(--black);
-  scroll-behavior: smooth;
-}
-body {
-  overflow-x: clip;
-  background-color: var(--white) !important;
-}
+/* Super desktop */
 @media screen and (min-width: 1920px) {
   :root {
     --default-font-size: 16px;
   }
 }
+/* Tablet */
 @media screen and (max-width: 1023px) {
   :root {
     --default-font-size: 2.15vw; /* 16px on 1024px width */
+    --layout-padding-x: 2.625rem; /* 42px */
+    --menu-height: 5rem;
   }
 }
+/* Mobile */
 @media screen and (max-width: 640px) {
   :root {
     --default-font-size: 4.4vw; /* 16px on 640px width */
+    --layout-padding-x: 1.25rem; /* 20px */
   }
 }
 
@@ -164,6 +164,18 @@ body {
   font-style: normal;
 }
 
+html {
+  font-size: var(--default-font-size);
+  font-family: var(--body-font);
+  color: var(--black);
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: clip;
+  overscroll-behavior-y: none;
+  background-color: var(--white) !important;
+}
+
 #scrollUpButton {
   position: fixed;
   bottom: 2.44rem;
@@ -174,7 +186,8 @@ body {
   z-index: 1;
 }
 header {
-  /* position: fixed; */
+  position: fixed;
+  top: 0px;
   background-color: var(--white);
   width: 100%;
   display: flex;
@@ -183,8 +196,17 @@ header {
   border-bottom: 1px solid #d3d3d3;
   z-index: 1;
   padding: 0rem 5.1875rem;
-  height: 6.5625rem;
+  height: var(--menu-height);
+  transition: height 0.3s ease-in-out;
 }
+#content {
+  z-index: 0;
+  margin-top: var(--menu-height);
+}
+header.is-pinned {
+  height: var(--menu-height-pinned);
+}
+
 header .logo img {
   height: 5rem;
   width: auto;
@@ -218,6 +240,7 @@ header > nav .navlink[aria-current="page"] {
 
 @media screen and (max-width: 1023px) {
   header {
+    position: relative;
     padding: 0 1.25rem;
     height: 5rem;
   }
@@ -233,18 +256,24 @@ header > nav .navlink[aria-current="page"] {
     align-items: center;
     justify-content: center;
   }
+  #content {
+    margin-top: 0;
+  }
 }
-
-main {
-  position: relative;
-}
-menu.menu {
-  display: none;
-  position: absolute;
+header ~ .menu {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  min-height: calc(100vh - 5rem);
+  z-index: 1;
+}
+header ~ .menu menu {
+  display: none;
+  position: fixed;
+  top: var(--menu-height);
+  left: 0;
+  width: 100%;
+  min-height: calc(100vh - var(--menu-height));
   background-color: #fff;
   border-bottom: 1px solid #d3d3d3;
   z-index: 1;
@@ -253,12 +282,16 @@ menu.menu {
   font-family: var(--display-font);
   font-weight: 900;
 }
-menu.menu li {
+header.is-pinned ~ .menu menu {
+  top: var(--menu-height-pinned);
+  min-height: calc(100vh - var(--menu-height-pinned));
+}
+header ~ .menu li {
   list-style: none;
   padding: 1rem 2rem;
   border-bottom: 1px solid #d3d3d3;
 }
-menu.menu li a {
+header ~ .menu li a {
   text-decoration: none;
   color: var(--black);
 }

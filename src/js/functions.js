@@ -75,13 +75,25 @@ export const scrollUp = () => {
   };
 };
 
+export const scrollDown = () => {
+  // swrink header on scroll down
+  onscroll = function () {
+    if (document.documentElement.scrollTop > 0) {
+      document.querySelector("header").classList.add("is-pinned");
+    }
+    if (document.documentElement.scrollTop <= 0) {
+      document.querySelector("header").classList.remove("is-pinned");
+    }
+  };
+};
+
 const lockScroll = () => {
   document.body.style.overflow = "hidden";
   document.documentElement.style.overflow = "hidden";
 };
 const unlockScroll = () => {
-  document.body.style.overflow = "auto";
-  document.documentElement.style.overflow = "auto";
+  document.body.removeAttribute("style");
+  document.documentElement.removeAttribute("style");
 };
 export function mobileMenuHandler() {
   const serviceMenu = document.querySelector("#serviceMenu");

@@ -36,10 +36,21 @@ section.hero .phone {
   z-index: 0;
 }
 
+@media screen and (max-width: 1023px) {
+  section.hero h1 {
+    padding: 0 3.8rem;
+    font-size: 4.5rem;
+  }
+  section.hero .scroll-down {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 640px) {
   section.hero h1 {
     width: 19.375rem;
     font-size: 2.375rem;
+    padding: 0;
   }
   section.hero img {
     max-width: 100%;
@@ -73,11 +84,16 @@ section.intro img {
   height: 3.27938rem;
 }
 
+@media screen and (max-width: 1023px) {
+  section.intro {
+    padding: 3.6rem 1.8rem 2.17rem 1.8rem;
+    font-size: 1.75rem;
+  }
+}
+
 @media screen and (max-width: 640px) {
   section.intro {
     padding: 2.5rem 1.5rem 1.3rem 1.5rem;
-  }
-  section.intro p {
     font-size: 1.25rem;
   }
 }
@@ -88,7 +104,7 @@ section.citizen,
 section.projects {
   width: 100%;
   margin: auto;
-  padding: 4.38rem;
+  padding: var(--layout-padding-x);
 }
 @media screen and (min-width: 1920px) {
   section.bigdata,
@@ -96,14 +112,6 @@ section.projects {
   section.citizen,
   section.projects {
     max-width: 1500px;
-  }
-}
-@media screen and (max-width: 640px) {
-  section.bigdata,
-  section.participation,
-  section.citizen,
-  section.projects {
-    padding: 1.3rem;
   }
 }
 
@@ -161,7 +169,19 @@ section.bigdata .left a {
   border-radius: 1.88rem;
   font-size: 0.9375rem;
 }
-
+@media screen and (max-width: 1023px) {
+  section.bigdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.bigdata .left ul {
+    font-size: 2rem;
+  }
+  section.bigdata .left p {
+    font-size: 1.125rem;
+  }
+}
 @media screen and (max-width: 640px) {
   section.bigdata {
     display: flex;
@@ -221,6 +241,22 @@ section.participation .right a {
   text-decoration: none;
   border-radius: 1.88rem;
 }
+@media screen and (max-width: 1023px) {
+  section.participation {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  section.participation .right h3 {
+    font-size: 2rem;
+  }
+  section.participation .right p {
+    width: 100%;
+    font-size: 1.125rem;
+  }
+  section.participation .right a {
+    margin-bottom: 1.5rem;
+  }
+}
 @media screen and (max-width: 640px) {
   section.participation {
     display: flex;
@@ -231,12 +267,6 @@ section.participation .right a {
   }
   section.participation .right h3 {
     font-size: 1.5rem;
-  }
-  section.participation .right p {
-    width: 100%;
-  }
-  section.participation .right a {
-    margin-bottom: 1.5rem;
   }
 }
 
@@ -303,7 +333,14 @@ section.citizen .citizen-img {
   object-fit: cover;
   object-position: top;
 }
-
+@media screen and (max-width: 1023px) {
+  section.citizen .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section.citizen .citizen-img {
+    height: 17.26519rem;
+  }
+}
 @media screen and (max-width: 640px) {
   section.citizen h3 {
     font-size: 1.5rem;

@@ -4,6 +4,7 @@ import {
   initProjectSearch,
   mobileMenuHandler,
   scrollUp,
+  scrollDown,
 } from "./functions.js";
 import { getPathName } from "./utils.js";
 
@@ -12,6 +13,7 @@ const commonScripts = () => {
   serviceMenuHandler();
   mobileMenuHandler();
   scrollUp();
+  scrollDown();
   if (getPathName() === "/proyectos/") {
     initProjectSearch();
   }
