@@ -150,8 +150,10 @@ async function resetMobileMenu() {
 async function resetServicesMenu() {
   const servicesMenu = document.querySelector("#serviceMenu");
   const serviceMenuButton = document.querySelector("#serviceMenuButton");
+  const mobileServiceMenuButton = document.querySelector("#mobileServiceMenuButton");
   servicesMenu.style.transform = "translateX(100%)";
   serviceMenuButton.checked = false;
+  mobileServiceMenuButton.checked = false;
   unlockScroll();
   await new Promise((resolve) =>
     setTimeout(() => {
