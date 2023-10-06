@@ -1,3 +1,59 @@
+:root {
+  --intro-font-size: 2rem;
+  --intro-padding-y: 3.5rem var(--layout-padding-x) 1.5rem var(--layout-padding-x);
+
+  --section-padding: 3.75rem var(--layout-padding-x);
+  --section-gap: 5rem;
+  --section-icon-height: 8.5rem;
+  --section-icon-margin-bottom: 1.5rem;
+  --section-title-font-size: 2.25rem;
+  --section-title-margin-bottom: 1.25rem;
+  --section-body-font-size: 1.125rem;
+  --section-body-line-height: 1.73rem;
+  --section-body-margin-bottom: 3rem;
+
+  --citizen-body-font-size: 1.5rem;
+  --citizen-gap: 3rem;
+  --citizen-botton-image-height: 30rem;
+
+  --projects-title-margin-bottom: 3.75rem;
+  --projects-project-list-gap: 3.75rem;
+}
+@media screen and (max-width: 1023px) {
+  :root {
+    --intro-font-size: 1.75rem;
+    --intro-padding-y: 3.5rem var(--layout-padding-x) 1.5rem var(--layout-padding-x);
+
+    --section-padding: 2.5rem var(--layout-padding-x);
+    --section-gap: 2.5rem;
+    --section-icon-margin-bottom: 2.5rem;
+    --section-title-font-size: 2rem;
+
+    --citizen-body-font-size: 1.25rem;
+    --citizen-gap: 2.5rem;
+    --citizen-botton-image-height: 16.6725rem;
+
+    --projects-title-margin-bottom: 2.5rem;
+    --projects-project-list-gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  :root {
+    --intro-font-size: 1.25rem;
+    --intro-padding-y: 3rem var(--layout-padding-x) 1.5rem var(--layout-padding-x);
+
+    --section-padding: 2.5rem var(--layout-padding-x);
+    --section-icon-height: 6.25rem;
+    --section-title-font-size: 1.5rem;
+    --section-body-font-size: 1rem;
+    --section-body-line-height: 1.5rem;
+    --section-body-margin-bottom: 2.25rem;
+
+    --citizen-body-font-size: 1.125rem;
+    --citizen-botton-image-height: 25.67031rem;
+  }
+}
+
 section.hero {
   position: relative;
   display: flex;
@@ -64,7 +120,7 @@ section.hero .phone {
 section.intro {
   font-family: var(--title-font);
   font-weight: 300;
-  font-size: 2rem;
+  font-size: var(--intro-font-size);
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -74,28 +130,15 @@ section.intro {
   background-color: var(--primary);
   width: 100%;
   text-align: center;
-  padding: 3.34rem 16.1rem 1.27rem 16.1rem;
+  padding: var(--intro-padding-y);
+  margin-bottom: 1.25rem;
 }
 section.intro p {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
   max-width: 53.27588rem;
 }
 section.intro img {
-  height: 3.27938rem;
-}
-
-@media screen and (max-width: 1023px) {
-  section.intro {
-    padding: 3.6rem 1.8rem 2.17rem 1.8rem;
-    font-size: 1.75rem;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  section.intro {
-    padding: 2.5rem 1.5rem 1.3rem 1.5rem;
-    font-size: 1.25rem;
-  }
+  height: 3.25rem;
 }
 
 section.bigdata,
@@ -104,7 +147,7 @@ section.citizen,
 section.projects {
   width: 100%;
   margin: auto;
-  padding: var(--layout-padding-x);
+  padding: var(--section-padding);
 }
 @media screen and (min-width: 1920px) {
   section.bigdata,
@@ -118,7 +161,8 @@ section.projects {
 section.bigdata {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 4fr 7fr;
+  gap: var(--section-gap);
   align-items: center;
 }
 section.bigdata .right img {
@@ -126,14 +170,17 @@ section.bigdata .right img {
   margin: auto;
 }
 section.bigdata .left img {
-  width: 9.11825rem;
+  height: var(--section-icon-height);
+  width: auto;
+  margin-bottom: var(--section-icon-margin-bottom);
 }
 section.bigdata .left ul {
   font-family: var(--display-font);
   font-weight: 700;
-  font-size: 2.25rem;
-  margin-top: 2.57rem;
+  font-size: var(--section-title-font-size);
+  line-height: 2.875rem;
   list-style: none; /* Remove default bullets */
+  margin-bottom: var(--section-title-margin-bottom);
 }
 section.bigdata .left ul li {
   position: relative;
@@ -141,7 +188,7 @@ section.bigdata .left ul li {
 }
 section.bigdata .left ul li::before {
   position: absolute;
-  top: -1.15rem;
+  top: -0.25rem;
   left: -2rem;
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: var(--primary); /* Change the color */
@@ -153,30 +200,18 @@ section.bigdata .left p {
   margin-left: 2rem;
   font-family: var(--body-font);
   font-weight: 300;
-  font-size: 1rem;
-  line-height: 161%; /* 1.81125rem */
+  font-size: var(--section-body-font-size);
+  line-height: var(--section-body-line-height);
+  margin-bottom: var(--section-body-margin-bottom);
 }
 section.bigdata .left a {
-  display: inline-block;
-  margin-top: 3rem;
   margin-left: 2rem;
-  font-family: var(--title-font);
-  font-weight: 300;
-  color: white;
-  background-color: var(--primary);
-  padding: 0.56rem 1.5rem;
-  text-decoration: none;
-  border-radius: 1.88rem;
-  font-size: 0.9375rem;
 }
 @media screen and (max-width: 1023px) {
   section.bigdata {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section.bigdata .left ul {
-    font-size: 2rem;
   }
   section.bigdata .left p {
     font-size: 1.125rem;
@@ -192,7 +227,7 @@ section.bigdata .left a {
     width: 6.57031rem;
   }
   section.bigdata .left ul {
-    font-size: 1.5rem;
+    line-height: 2.25rem;
   }
   section.bigdata .left p {
     margin-left: 0;
@@ -205,68 +240,45 @@ section.bigdata .left a {
 section.participation {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 6fr 5fr;
+  gap: var(--section-gap);
   align-items: center;
 }
 section.participation .left img {
   width: 100%;
   margin: auto;
 }
+section.participation .right {
+  margin-right: 5rem;
+}
 section.participation .right img {
-  width: 5.56019rem;
-  height: auto;
+  height: var(--section-icon-height);
+  width: auto;
+  margin-bottom: var(--section-icon-margin-bottom);
 }
 section.participation .right h3 {
   font-family: var(--display-font);
   font-weight: 700;
-  font-size: 2.25rem;
-  margin-top: 1.32rem;
+  font-size: var(--section-title-font-size);
+  line-height: 2.875rem;
+  list-style: none; /* Remove default bullets */
+  margin-bottom: var(--section-title-margin-bottom);
 }
 section.participation .right p {
+  margin-top: 1.25rem;
   font-family: var(--body-font);
-  width: 28.52119rem;
   font-weight: 300;
-  font-size: 1rem;
-  line-height: 161%; /* 1.81125rem */
-  margin-top: 1rem;
-}
-section.participation .right a {
-  display: inline-block;
-  margin-top: 2.5rem;
-  font-family: var(--title-font);
-  font-weight: 300;
-  color: white;
-  background-color: var(--primary);
-  padding: 0.56rem 1.5rem;
-  text-decoration: none;
-  border-radius: 1.88rem;
+  font-size: var(--section-body-font-size);
+  line-height: var(--section-body-line-height);
+  margin-bottom: var(--section-body-margin-bottom);
 }
 @media screen and (max-width: 1023px) {
   section.participation {
     display: flex;
     flex-direction: column-reverse;
   }
-  section.participation .right h3 {
-    font-size: 2rem;
-  }
-  section.participation .right p {
-    width: 100%;
-    font-size: 1.125rem;
-  }
-  section.participation .right a {
-    margin-bottom: 1.5rem;
-  }
-}
-@media screen and (max-width: 640px) {
-  section.participation {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  section.participation .right img {
-    width: 4.375rem;
-  }
-  section.participation .right h3 {
-    font-size: 1.5rem;
+  section.participation .right {
+    margin-right: 0;
   }
 }
 
@@ -278,24 +290,25 @@ section.citizen {
 section.citizen h3 {
   font-family: var(--display-font);
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: var(--section-title-font-size);
   text-align: center;
+  margin-bottom: 1.25rem;
 }
 section.citizen p {
-  margin-top: 1.51rem;
   text-align: center;
   font-family: var(--body-font);
   font-weight: 300;
   font-size: 1.5rem;
   line-height: 140%; /* 2.1rem */
+  margin-bottom: var(--citizen-gap);
 }
 
 section.citizen .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
-  margin-top: 3.27rem;
   gap: 1.56rem;
+  margin-bottom: var(--citizen-gap);
 }
 
 section.citizen .card {
@@ -327,8 +340,7 @@ section.citizen .card h4 {
 
 section.citizen .citizen-img {
   width: 100%;
-  height: 31.315rem;
-  margin-top: 3.38rem;
+  height: 30rem;
   border-radius: 1rem;
   object-fit: cover;
   object-position: top;
@@ -337,24 +349,10 @@ section.citizen .citizen-img {
   section.citizen .cards {
     grid-template-columns: repeat(2, 1fr);
   }
-  section.citizen .citizen-img {
-    height: 17.26519rem;
-  }
 }
 @media screen and (max-width: 640px) {
-  section.citizen h3 {
-    font-size: 1.5rem;
-  }
   section.citizen .cards {
     grid-template-columns: repeat(1, 1fr);
-  }
-  section.citizen p {
-    font-size: 1.125rem;
-  }
-  section.citizen .citizen-img {
-    margin-top: 1.56rem;
-    height: 15.67031rem;
-    margin-bottom: 3rem;
   }
 }
 
@@ -363,42 +361,36 @@ section.projects {
   flex-direction: column;
   align-items: center;
 }
-section.projects img {
-  width: 7.77756rem;
-  height: auto;
+section.projects .icon {
+  height: var(--section-icon-height);
+  width: auto;
+  margin-bottom: var(--section-icon-margin-bottom);
 }
-section.projects h3 {
+section.projects > h3 {
   font-family: var(--display-font);
   font-weight: 700;
-  font-size: 2.25rem;
-  margin-top: 2.49rem;
+  font-size: var(--section-title-font-size);
+  margin-bottom: var(--projects-title-margin-bottom);
 }
 section.projects .project-list {
-  margin-top: 5.64rem;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 3.75rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: start;
+  gap: var(--projects-project-list-gap);
+  margin-bottom: var(--projects-project-list-gap);
 }
-
-section.projects .project-list .see-more {
+section.projects .button-primary {
   width: fit-content;
   margin: auto;
-  background-color: var(--primary);
-  color: var(--white);
-  padding: 0.56rem 1.5rem;
-  border-radius: 1.88rem;
-  font-size: 0.9375rem;
 }
-
-@media screen and (max-width: 640px) {
-  section.projects img {
-    width: 5.125rem;
-  }
-  section.projects h3 {
-    font-size: 1.5rem;
-  }
+@media screen and (max-width: 1023px) {
   section.projects .project-list {
-    margin-top: 3.75rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 640px) {
+  section.projects .project-list {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

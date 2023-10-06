@@ -18,9 +18,11 @@
   --body-font: "Work Sans", sans-serif;
   --default-font-size: 1.11111vw; /* 16px on 1440px width */
 
+  --layout-padding-x: 5.19rem; /* 83px */
   --menu-height: 6.25rem;
   --menu-height-pinned: 5rem;
-  --layout-padding-x: 5.19rem; /* 83px */
+  --menu-padding-x: 2.5rem;
+  --menu-logo-height: 5rem;
 }
 
 /* Breakpoints */
@@ -39,7 +41,11 @@
   :root {
     --default-font-size: 2.15vw; /* 16px on 1024px width */
     --layout-padding-x: 2.625rem; /* 42px */
+
     --menu-height: 5rem;
+    --menu-height-pinned: 5rem;
+    --menu-logo-height: 3.5rem;
+    --menu-padding-x: 1.25rem;
   }
 }
 /* Mobile */
@@ -195,7 +201,7 @@ header {
   align-items: center;
   border-bottom: 1px solid #d3d3d3;
   z-index: 1;
-  padding: 0rem 5.1875rem;
+  padding: 0rem var(--menu-padding-x);
   height: var(--menu-height);
   transition: height 0.3s ease-in-out;
 }
@@ -208,7 +214,7 @@ header.is-pinned {
 }
 
 header .logo img {
-  height: 5rem;
+  height: var(--menu-logo-height);
   width: auto;
   aspect-ratio: auto 126 / 64;
 }
@@ -223,7 +229,7 @@ header > nav.mobile {
 }
 header > nav.mobile > div,
 header > nav.desktop > div {
-  margin-left: 1.5rem;
+  margin-left: 2.5rem;
 }
 
 header > nav .navlink,
@@ -241,11 +247,6 @@ header > nav .navlink[aria-current="page"] {
 @media screen and (max-width: 1023px) {
   header {
     position: relative;
-    padding: 0 1.25rem;
-    height: 5rem;
-  }
-  header .logo img {
-    height: 3.4375rem;
   }
   header > nav.desktop {
     display: none;
@@ -473,4 +474,19 @@ footer .subfooter p a {
   footer .subfooter img {
     width: 12.61263rem;
   }
+}
+
+.button-primary {
+  display: inline-block;
+  font-family: var(--title-font);
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3875rem; /* 148% */
+  letter-spacing: 0.0375rem;
+  padding: 0.5625rem 1.5rem;
+  border-radius: 1.875rem;
+  background-color: var(--primary);
+  color: var(--white);
+  text-decoration: none;
 }

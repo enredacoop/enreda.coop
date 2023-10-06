@@ -1,21 +1,59 @@
+:root {
+  --card-height: 27.5625rem;
+  --card-width: 100%;
+  --card-padding: 2.62rem;
+  --card-image-height: 100%;
+  --card-image-width: 28.875rem;
+
+  --card-image-body-gap: 2.62rem;
+  --card-title-font-size: 1.75rem;
+  --card-title-margin-bottom: 0.75rem;
+  --card-subtitle-font-size: 1.125rem;
+  --card-subtitle-height: 2.75rem;
+  --card-subtitle-margin-bottom: 2rem;
+  --card-client-font-size: 0.9375rem;
+  --card-client-height: 2.87rem;
+  --card-client-margin-bottom: 2.62rem;
+}
+@media screen and (max-width: 1023px) {
+  :root {
+    --card-padding: 1.5rem;
+    --card-width: 20rem;
+    --card-height: auto;
+    --card-image-height: 12.5rem;
+    --card-image-width: 100%;
+
+    --card-image-body-gap: 1.47rem;
+    --card-title-font-size: 1.25rem;
+    --card-subtitle-font-size: 0.9375rem;
+    --card-subtitle-height: 3rem;
+    --card-subtitle-margin-bottom: 0.75rem;
+    --card-client-font-size: 0.875rem;
+    --card-client-height: 2.87rem;
+    --card-client-margin-bottom: 2rem;
+  }
+}
+
 .project-card {
   text-decoration: none;
   color: var(--black);
   display: flex;
   flex-direction: row;
-  gap: 2.65rem;
+  gap: var(--card-image-body-gap);
   background-color: var(--white);
-  padding: 2.63rem;
+  padding: var(--card-padding);
   border-radius: 1rem;
   box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.15);
-  width: 100%;
-  height: 27.5625rem;
-  margin: auto;
+  width: var(--card-width);
+  height: var(--card-height);
+  /* antialised */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .project-card .thumbnail img {
-  width: 27.32944rem;
-  height: 100%;
+  width: var(--card-image-width);
+  height: var(--card-image-height);
   object-fit: cover;
   object-position: center;
   border-radius: 1rem;
@@ -28,34 +66,38 @@
 .project-card .content h4 {
   font-family: var(--title-font);
   text-transform: none;
-  font-size: 1.75rem;
+  font-size: var(--card-title-font-size);
   font-weight: 700;
-  margin-bottom: 0.75rem;
+  margin-bottom: var(--card-title-margin-bottom);
 }
 .project-card .content h5 {
   font-family: var(--title-font);
   text-transform: none;
   font-weight: 400;
-  font-size: 1.125rem;
+  height: var(--card-subtitle-height);
+  font-size: var(--card-subtitle-font-size);
+  margin-bottom: var(--card-subtitle-margin-bottom);
 }
 .project-card .content .client,
 .project-card .content .tags {
-  margin-bottom: 2.62rem;
+  margin-bottom: var(--card-client-margin-bottom);
 }
 .project-card .content .client .client-label {
   color: #747272;
   font-family: var(--title-font);
-  font-size: 0.875rem;
+  font-size: var(--card-client-font-size);
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
 .project-card .content .client .client-name {
   font-family: var(--title-font);
-  font-size: 0.9375rem;
+  font-size: var(--card-client-font-size);
+  height: var(--card-client-height);
   font-weight: 500;
 }
 .project-card .content .action {
   display: flex;
+  align-items: center;
   font-size: 0.9375rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -67,65 +109,7 @@
 @media screen and (max-width: 1023px) {
   .project-card {
     flex-direction: column;
-    gap: 1.5rem;
     height: auto;
-    padding: 1.5rem;
-  }
-  .project-card .thumbnail img {
-    width: 100%;
-    height: 12.5rem;
-  }
-  .project-card .content h4 {
-    font-size: 1.25rem;
-  }
-  .project-card .content h5 {
-    font-size: 0.94rem;
-    margin-bottom: 1.5rem;
-  }
-  .project-card .content .client,
-  .project-card .content .tags {
-    margin-bottom: 1.5rem;
-  }
-  .project-card .content .client .client-label {
-    font-size: 0.75rem;
-  }
-  .project-card .content .client .client-name {
-    font-size: 0.875rem;
-  }
-  .project-card .content .action {
-    font-size: 0.75rem;
-  }
-  .project-card .content .action img {
-    width: 2.5rem;
-  }
-}
-@media screen and (max-width: 640px) {
-  .project-card {
-    flex-direction: column;
-    gap: 1.5rem;
-    height: auto;
-    padding: 1.5rem;
-  }
-  .project-card .thumbnail img {
-    width: 100%;
-    height: 12.5rem;
-  }
-  .project-card .content h4 {
-    font-size: 1.25rem;
-  }
-  .project-card .content h5 {
-    font-size: 0.94rem;
-    margin-bottom: 1.5rem;
-  }
-  .project-card .content .client,
-  .project-card .content .tags {
-    margin-bottom: 1.5rem;
-  }
-  .project-card .content .client .client-label {
-    font-size: 0.75rem;
-  }
-  .project-card .content .client .client-name {
-    font-size: 0.875rem;
   }
   .project-card .content .action {
     font-size: 0.75rem;
