@@ -16,20 +16,20 @@
   --display-font: "Montserrat Alternates", sans-serif;
   --title-font: "Montserrat", sans-serif;
   --body-font: "Work Sans", sans-serif;
-  --default-font-size: 1.17130307vw; /* 16px on 1366px width */
+  --default-font-size: 1.11111vw; /* 16px on 1440px width */
 
   --menu-height: 6.25rem;
   --menu-height-pinned: 5rem;
   --layout-padding-x: 5.19rem; /* 83px */
 }
 
-/* Breakpoints§ */
+/* Breakpoints */
 /* Desktop < 1920px; */
 /* Tablet < 1024px; */
 /* Mobile < 640px; */
 
 /* Super desktop */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1921px) {
   :root {
     --default-font-size: 16px;
   }
