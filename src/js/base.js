@@ -1,11 +1,17 @@
-import { setEventListener, navlinkIndicators, serviceMenuHandler } from "./functions.js";
+import { navlinkIndicators, serviceMenuHandler, initSearch } from "./functions.js";
+import { getPathName } from "./utils.js";
+
+const commonScripts = () => {
+  navlinkIndicators();
+  serviceMenuHandler();
+  if (getPathName() === "/proyectos") {
+    initSearch();
+  }
+};
 
 document.addEventListener("DOMContentLoaded", () => {
-  navlinkIndicators();
-  serviceMenuHandler();
+  commonScripts();
 });
 document.addEventListener("changed-view", () => {
-  console.log("changed-view!!");
-  navlinkIndicators();
-  serviceMenuHandler();
+  commonScripts();
 });

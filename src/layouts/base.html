@@ -12,7 +12,8 @@ title: Enreda
     <link rel="stylesheet" href="/css/base.css" />
     <meta name="generator" content="{{ eleventy.generator }}" />
     <script src="/js/transitions.js" type="module"></script>
-    <script src="/js/base.js" type="module" defer></script>
+    <script src="/js/base.js" type="module"></script>
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.js"></script>
   </head>
   <body>
     <header>
@@ -21,14 +22,14 @@ title: Enreda
       </a>
       <nav>
         <div>
-          <a class="navlink" href="/cooperativa">Cooperativa</a>
+          <a class="navlink" href="/cooperativa/">Cooperativa</a>
         </div>
         <div>
           <input type="checkbox" id="serviceMenuButton" hidden />
           <label for="serviceMenuButton"> Servicios </label>
         </div>
         <div>
-          <a class="navlink" href="/proyectos">Proyectos</a>
+          <a class="navlink" href="/proyectos/">Proyectos</a>
         </div>
       </nav>
     </header>

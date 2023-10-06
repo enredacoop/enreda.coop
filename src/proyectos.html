@@ -4,3 +4,36 @@ title: Proyectos
 ---
 
 <p>Estos son los proyectos en los que hemos trabajado</p>
+
+<div>
+  <form action="?" method="get">
+    <div class="search-form" role="search">
+      <input
+        id="search-input"
+        type="text"
+        aria-label="Search this site"
+        placeholder="Search this site"
+        autocorrect="off"
+        autocapitalize="off"
+        autocomplete="off"
+        spellcheck="false"
+        name="q"
+      />
+      <button type="submit" aria-label="search">Buscar</button>
+    </div>
+  </form>
+
+  <section id="search-results">
+    <p class="message"></p>
+    <div class="results"></div>
+  </section>
+</div>
+<!-- <div id="default-results">
+  {% for proyecto in collections.proyecto %}
+  <article>
+    <h2>{{ proyecto.data.title }}</h2>
+    <p>{{ proyecto.data.subtitle }}</p>
+    <a href="{{ proyecto.url }}">Ver proyecto</a>
+  </article>
+  {% endfor %}
+</div> -->
