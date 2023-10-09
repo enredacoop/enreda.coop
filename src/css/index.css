@@ -1,6 +1,7 @@
 :root {
   --intro-font-size: 2rem;
-  --intro-padding-y: 3.5rem var(--layout-padding-x) 1.5rem var(--layout-padding-x);
+  --intro-padding-y: 3.5rem var(--layout-padding-x) 1.5rem
+    var(--layout-padding-x);
 
   --section-padding: 3.75rem var(--layout-padding-x);
   --section-gap: 5rem;
@@ -22,7 +23,8 @@
 @media screen and (max-width: 1023px) {
   :root {
     --intro-font-size: 1.75rem;
-    --intro-padding-y: 3.5rem var(--layout-padding-x) 1.5rem var(--layout-padding-x);
+    --intro-padding-y: 3.5rem var(--layout-padding-x) 1.5rem
+      var(--layout-padding-x);
 
     --section-padding: 2.5rem var(--layout-padding-x);
     --section-gap: 2.5rem;
@@ -40,7 +42,8 @@
 @media screen and (max-width: 640px) {
   :root {
     --intro-font-size: 1.25rem;
-    --intro-padding-y: 3rem var(--layout-padding-x) 1.5rem var(--layout-padding-x);
+    --intro-padding-y: 3rem var(--layout-padding-x) 1.5rem
+      var(--layout-padding-x);
 
     --section-padding: 2.5rem var(--layout-padding-x);
     --section-icon-height: 6.25rem;
@@ -68,10 +71,10 @@
   font-family: var(--display-font);
   font-weight: 900;
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 5rem;
   width: 100%;
-  max-width: 60rem;
-  margin: 5.97rem auto 0 auto;
+  max-width: 61rem;
+  margin: 6.35rem auto 0 auto;
   z-index: 1;
 }
 .index section.hero h1 span {
@@ -87,7 +90,7 @@
   z-index: 1;
 }
 .index section.hero .phone {
-  max-width: 35.94931rem;
+  max-width: 39.579rem;
   width: 100%;
   z-index: 0;
 }
