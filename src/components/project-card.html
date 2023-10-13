@@ -3,20 +3,18 @@
     <img src="{{image}}" alt="" />
   </div>
   <div class="content">
-    <div>
+    <div class="head">
       <h4>{{ title }}</h4>
       <h5>{{ subtitle }}</h5>
-    </div>
-    <div>
       <div class="client">
         <p class="client-label">Cliente</p>
         <p class="client-name">{{ client }}</p>
       </div>
+    </div>
+    <div class="tail">
       <div class="ods">
         {% for o in ods %}
-        <span>
-          <img width="42" height="42" src="/assets/img/ods/{{ o }}.png" alt="" />
-        </span>
+        <img width="42" height="42" src="/assets/img/ods/{{ o }}.png" alt="" />
         {% endfor %}
       </div>
       <div class="categories">
