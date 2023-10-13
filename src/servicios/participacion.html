@@ -1,0 +1,71 @@
+---
+layout: base.html
+title: Participación
+---
+
+<div class="participacion">
+  <section class="hero">
+    <div class="col">
+      <h1>Participación ciudadana</h1>
+      <p>
+        Enreda posee 10 años experiencia desarrollando procesos participativos.
+        Descubre algunos de los servicios que podemos ofrecerte.
+      </p>
+    </div>
+    <div class="col">
+      <img
+        width="269"
+        height="420"
+        src="/assets/img/participation-icon.svg"
+        alt=""
+      />
+    </div>
+  </section>
+  <section class="cards">
+    <div class="card">
+      <img width="82" height="82" src="/assets/img/citizen-icon-1.svg" alt="" />
+      <h4>Diseño y dinamización de Presupuestos Participativos</h4>
+    </div>
+    <div class="card">
+      <img width="82" height="82" src="/assets/img/citizen-icon-2.svg" alt="" />
+      <h4>Reglamentos de participación</h4>
+    </div>
+    <div class="card">
+      <img width="82" height="82" src="/assets/img/citizen-icon-3.svg" alt="" />
+      <h4>Escuela de ciudadanía</h4>
+    </div>
+    <div class="card">
+      <img width="82" height="82" src="/assets/img/citizen-icon-4.svg" alt="" />
+      <h4>Reglamentos de participación</h4>
+    </div>
+  </section>
+  <section class="digital">
+    <img
+      class="citizen-img"
+      width="100"
+      height="100"
+      src="/assets/img/tap-icon.svg"
+      alt=""
+    />
+    <h2>Formación y asesoramiento en herramientas de participación online</h2>
+    <p>
+      ENREDA es partner de la herramienta CONSUL usada por muchos ayuntamientos
+      como plataforma de participación ciudadana. Podemos asesorar en su
+      implatanción, formación a técnicos y asistencia en procesos participativo
+    </p>
+    <a class="button-primary" href="/servicios/software-participacion"
+      >Quiero saber más</a
+    >
+  </section>
+  <section class="projects">
+    <h3>Proyectos destacados</h3>
+    <div class="project-list">
+      {% for proyecto in collections.proyecto %} {% render
+      "components/project-card.html", url: proyecto.url, image:
+      proyecto.data.image, title: proyecto.data.title, subtitle:
+      proyecto.data.subtitle, client: proyecto.data.client, ods:
+      proyecto.data.ods, categories: proyecto.data.categories %} {% endfor %}
+    </div>
+    <a class="button-primary" href="/proyectos/"> Ver todos los proyectos </a>
+  </section>
+</div>
