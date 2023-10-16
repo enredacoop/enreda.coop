@@ -1,34 +1,24 @@
-.participacion section.hero {
-  display: flex;
+.participacion section.servicios-participacion {
   width: 100%;
-  flex-direction: row;
-  align-items: center;
-  margin: 10rem auto;
-  padding: 0 var(--layout-padding-x) 0 var(--layout-padding-x);
-}
-.participacion section.hero img {
-  height: 24rem;
-  width: auto;
-  margin: auto 7rem;
-}
-@media screen and (max-width: 1023px) {
-  .participacion section.hero img {
-    height: 10rem;
-    width: auto;
-    margin: auto 2rem;
-  }
-}
-.participacion section.cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-  gap: 1.56rem;
   margin-bottom: var(--citizen-gap);
-  padding: 3rem var(--layout-padding-x);
   background-color: var(--primary);
 }
 
-.participacion section.cards .card {
+.participacion section.servicios-participacion .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.56rem;
+  margin: auto;
+  padding: 3rem var(--layout-padding-x);
+}
+
+@media screen and (min-width: 1920px) {
+  .participacion section.servicios-participacion .cards {
+    max-width: 1500px;
+  }
+}
+
+.participacion section.servicios-participacion .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,11 +33,11 @@
   border-radius: 0.81rem;
   box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.15);
 }
-.participacion section.cards .card img {
+.participacion section.servicios-participacion .cards .card img {
   width: 5.125rem;
   height: auto;
 }
-.participacion section.cards .card h4 {
+.participacion section.servicios-participacion .cards .card h4 {
   font-family: var(--title-font);
   font-size: 1rem;
   font-weight: 600;
@@ -55,12 +45,12 @@
   text-transform: uppercase;
 }
 @media screen and (max-width: 1023px) {
-  .participacion section.cards {
+  .participacion section.servicios-participacion .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 640px) {
-  .participacion section.cards {
+  .participacion section.servicios-participacion .cards {
     grid-template-columns: repeat(1, 1fr);
   }
 }
