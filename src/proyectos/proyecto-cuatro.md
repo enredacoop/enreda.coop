@@ -5,7 +5,7 @@ image: https://ik.imagekit.io/5sj5zvywt/formamos.jpg?updatedAt=1693227703424
 subtitle: Otro proyecto
 client: Masproyectos
 ods: [1, 4, 8]
-categories: ["Participación ciudadana"]
+categories: ["Sostenibilidad"]
 summary: etcetera
 ---
 

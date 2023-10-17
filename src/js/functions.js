@@ -11,8 +11,10 @@ export function setEventListener() {
         const doc = parser.parseFromString(html, "text/html");
         const newContent = doc.querySelector("#content").innerHTML;
 
-        let serviceMenuButtonChecked = document.querySelector("#serviceMenuButton").checked;
-        let mobileMenuButtonChecked = document.querySelector("#mobileMenuButton").checked;
+        let serviceMenuButtonChecked =
+          document.querySelector("#serviceMenuButton").checked;
+        let mobileMenuButtonChecked =
+          document.querySelector("#mobileMenuButton").checked;
         if (serviceMenuButtonChecked || mobileMenuButtonChecked) {
           await resetServicesMenu();
           await resetMobileMenu();
@@ -99,7 +101,9 @@ export function mobileMenuHandler() {
   const serviceMenu = document.querySelector("#serviceMenu");
   const mobileMenu = document.querySelector("#mobileMenu");
   const mobileMenuButton = document.querySelector("#mobileMenuButton");
-  const mobileServiceMenuButton = document.querySelector("#mobileServiceMenuButton");
+  const mobileServiceMenuButton = document.querySelector(
+    "#mobileServiceMenuButton"
+  );
   // console log to check if serviceMenuButton is checked
   mobileMenuButton.onclick = function () {
     if (mobileMenuButton.checked) {
@@ -166,7 +170,9 @@ async function resetMobileMenu() {
 async function resetServicesMenu() {
   const servicesMenu = document.querySelector("#serviceMenu");
   const serviceMenuButton = document.querySelector("#serviceMenuButton");
-  const mobileServiceMenuButton = document.querySelector("#mobileServiceMenuButton");
+  const mobileServiceMenuButton = document.querySelector(
+    "#mobileServiceMenuButton"
+  );
   servicesMenu.style.transform = "translateX(100%)";
   serviceMenuButton.checked = false;
   mobileServiceMenuButton.checked = false;
@@ -184,7 +190,9 @@ export async function initProjectSearch() {
   const searchInput = document.getElementById("text-input");
   searchInput.addEventListener("input", () => {
     // get selected category
-    const category = document.querySelector('input[name="category"]:checked').value;
+    const category = document.querySelector(
+      'input[name="category"]:checked'
+    ).value;
     _projectSearch(searchInput.value, category);
   });
   // search when the user selects a category
@@ -199,7 +207,9 @@ export async function initProjectSearch() {
   // const queryText = urlParams.get("q") || "";
   const category = urlParams.get("category") || "";
   if (category) {
-    document.querySelector(`input[name="category"][value="${category}"]`).checked = true;
+    document.querySelector(
+      `input[name="category"][value="${category}"]`
+    ).checked = true;
     await _projectSearch("", category);
   }
 }
@@ -215,25 +225,33 @@ async function _projectSearch(query, category) {
         fields: ["title"],
         boost: 10,
         wildcard:
-          lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING | lunr.Query.wildcard.NONE,
+          lunr.Query.wildcard.LEADING |
+          lunr.Query.wildcard.TRAILING |
+          lunr.Query.wildcard.NONE,
       });
       q.term(token.toString(), {
         fields: ["subtitle"],
         boost: 5,
         wildcard:
-          lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING | lunr.Query.wildcard.NONE,
+          lunr.Query.wildcard.LEADING |
+          lunr.Query.wildcard.TRAILING |
+          lunr.Query.wildcard.NONE,
       });
       q.term(token.toString(), {
         fields: ["client"],
         boost: 6,
         wildcard:
-          lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING | lunr.Query.wildcard.NONE,
+          lunr.Query.wildcard.LEADING |
+          lunr.Query.wildcard.TRAILING |
+          lunr.Query.wildcard.NONE,
       });
       q.term(token.toString(), {
         fields: ["content"],
         boost: 5,
         wildcard:
-          lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING | lunr.Query.wildcard.NONE,
+          lunr.Query.wildcard.LEADING |
+          lunr.Query.wildcard.TRAILING |
+          lunr.Query.wildcard.NONE,
       });
     });
   });
@@ -247,7 +265,11 @@ async function _projectSearch(query, category) {
     const elementID = result.ref;
     const element = indexData.elements[elementID];
     // filter by category
-    if (category && category !== "all" && !element.categories.includes(category)) {
+    if (
+      category &&
+      category !== "all" &&
+      !element.categories.includes(category)
+    ) {
       return;
     }
     // project-card
@@ -270,7 +292,8 @@ async function _projectSearch(query, category) {
     var content = document.createElement("div");
     content.classList.add("content");
 
-    var contentDiv1 = document.createElement("div");
+    var head = document.createElement("div");
+    head.classList.add("head");
 
     var title = document.createElement("h4");
     title.textContent = element.title;
@@ -278,12 +301,11 @@ async function _projectSearch(query, category) {
     var subtitle = document.createElement("h5");
     subtitle.textContent = element.subtitle;
 
-    contentDiv1.appendChild(title);
-    contentDiv1.appendChild(subtitle);
+    head.appendChild(title);
+    head.appendChild(subtitle);
 
-    var contentDiv2 = document.createElement("div");
-    var clientDiv = document.createElement("div");
-    clientDiv.classList.add("client");
+    var client = document.createElement("div");
+    client.classList.add("client");
 
     var clientLabel = document.createElement("p");
     clientLabel.classList.add("client-label");
@@ -293,27 +315,38 @@ async function _projectSearch(query, category) {
     clientName.classList.add("client-name");
     clientName.textContent = element.client;
 
-    clientDiv.appendChild(clientLabel);
-    clientDiv.appendChild(clientName);
+    client.appendChild(clientLabel);
+    client.appendChild(clientName);
+
+    head.appendChild(client);
+
+    var tail = document.createElement("tail");
+    tail.classList.add("tail");
 
     var odsDiv = document.createElement("div");
     odsDiv.classList.add("ods");
 
     for (let i = 0; i < element.ods.length; i++) {
-      console.log(element.ods[i]);
-      var odsTag = document.createElement("span");
       var odsImg = document.createElement("img");
       odsImg.setAttribute("src", `/assets/img/ods/${element.ods[i]}.png`);
       odsImg.setAttribute("width", "42");
       odsImg.setAttribute("height", "42");
       odsImg.setAttribute("alt", "");
-      odsTag.appendChild(odsImg);
-      odsDiv.appendChild(odsTag);
+      odsDiv.appendChild(odsImg);
     }
-    console.log(odsDiv);
+
+    tail.appendChild(odsDiv);
 
     var categoriesDiv = document.createElement("div");
     categoriesDiv.classList.add("categories");
+
+    for (let i = 0; i < element.categories.length; i++) {
+      var categoryTag = document.createElement("span");
+      categoryTag.textContent = element.categories[i];
+      categoriesDiv.appendChild(categoryTag);
+    }
+
+    tail.appendChild(categoriesDiv);
 
     var actionDiv = document.createElement("div");
     actionDiv.classList.add("action");
@@ -330,13 +363,10 @@ async function _projectSearch(query, category) {
     actionDiv.appendChild(actionSpan);
     actionDiv.appendChild(arrowImage);
 
-    contentDiv2.appendChild(clientDiv);
-    contentDiv2.appendChild(odsDiv);
-    contentDiv2.appendChild(categoriesDiv);
-    contentDiv2.appendChild(actionDiv);
+    tail.appendChild(actionDiv);
 
-    content.appendChild(contentDiv1);
-    content.appendChild(contentDiv2);
+    content.appendChild(head);
+    content.appendChild(tail);
 
     // Append the thumbnail and content divs to the projectCard anchor element
     projectCard.appendChild(thumbnail);

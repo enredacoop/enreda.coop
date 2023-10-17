@@ -19,4 +19,16 @@ title: Participación
       <img width="269" height="420" src="/assets/img/bigdata-icon.svg" alt="" />
     </div>
   </section>
+  <section class="projects">
+    <h3>Proyectos destacados</h3>
+    <div class="project-list">
+      {% assign filteredProyectos = collections.proyecto | categoryFilter:
+      "Transparencia" %} {% for proyecto in filteredProyectos %} {% render
+      "components/project-card.html", url: proyecto.url, image:
+      proyecto.data.image, title: proyecto.data.title, subtitle:
+      proyecto.data.subtitle, client: proyecto.data.client, ods:
+      proyecto.data.ods, categories: proyecto.data.categories %} {% endfor %}
+    </div>
+    <a class="button-primary" href="/proyectos/"> Ver todos los proyectos </a>
+  </section>
 </div>

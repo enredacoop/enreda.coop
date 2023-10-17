@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
         content: el.template._frontMatter.content,
       });
     });
-    console.log(data);
+
     const idx = lunr(function () {
       this.ref("id");
       this.field("url");
@@ -50,12 +50,21 @@ module.exports = function (eleventyConfig) {
     return data;
   });
 
+  eleventyConfig.addFilter("categoryFilter", function (collection, category) {
+    console.log("CATEGORY FILTER");
+    if (!category) return collection;
+    console.log(collection);
+    const filtered = collection.filter((item) =>
+      item.data.categories.includes(category)
+    );
+    return filtered;
+  });
+
   let options = {
     html: true,
     breaks: true,
     linkify: true,
   };
-
   eleventyConfig.setLibrary("md", markdownit(options));
 
   return {

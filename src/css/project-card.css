@@ -112,6 +112,9 @@
 .project-card .content .ods {
   margin-bottom: 0.7rem;
 }
+.project-card .categories {
+  display: flex;
+}
 .project-card .categories span {
   display: inline-block;
   border: 1px solid var(--black);
@@ -124,6 +127,7 @@
   line-height: 1.65625rem;
   padding: 0rem 0.4rem;
   margin-bottom: 0.3rem;
+  margin-right: 0.5rem;
 }
 .project-card .content .action {
   display: flex;

@@ -6,7 +6,10 @@ title: Proyectos
 <div class="proyectos">
   <section class="head">
     <p>Proyectos</p>
-    <h2>Contribuimos, desde la economía social y solidaria, a transformar la realidad social</h2>
+    <h2>
+      Contribuimos, desde la economía social y solidaria, a transformar la
+      realidad social
+    </h2>
   </section>
   <section class="search">
     <!-- <form action="?" method="get"> -->
@@ -28,20 +31,49 @@ title: Proyectos
           <label for="radio1">Todos</label>
         </div>
         <div class="radio">
-          <input type="radio" id="radio2" name="category" value="Participación ciudadana" />
+          <input
+            type="radio"
+            id="radio2"
+            name="category"
+            value="Participación ciudadana"
+          />
           <label for="radio2">Participación ciudadana</label>
         </div>
         <div class="radio">
-          <input type="radio" id="radio3" name="category" value="Sostenibilidad" />
-          <label for="radio3">Sostenibilidad</label>
+          <input
+            type="radio"
+            id="radio3"
+            name="category"
+            value="Software de participación"
+          />
+          <label for="radio3">Software de participación</label>
         </div>
         <div class="radio">
-          <input type="radio" id="radio4" name="category" value="Diseño y desarrollo" />
+          <input
+            type="radio"
+            id="radio4"
+            name="category"
+            value="Diseño y desarrollo"
+          />
           <label for="radio4">Diseño y desarrollo</label>
         </div>
         <div class="radio">
-          <input type="radio" id="radio5" name="category" value="tecnologia" />
-          <label for="radio5">Tecnología</label>
+          <input
+            type="radio"
+            id="radio5"
+            name="category"
+            value="Transparencia"
+          />
+          <label for="radio5">Transparencia</label>
+        </div>
+        <div class="radio">
+          <input
+            type="radio"
+            id="radio6"
+            name="category"
+            value="Sostenibilidad"
+          />
+          <label for="radio6">Sostenibilidad</label>
         </div>
       </div>
       <!-- <button type="submit" aria-label="search">Buscar</button> -->
@@ -50,10 +82,11 @@ title: Proyectos
   </section>
   <section id="search-results">
     <div class="results">
-      {% for proyecto in collections.proyecto %} {% render "components/project-card.html", url:
-      proyecto.url, image: proyecto.data.image, title: proyecto.data.title, subtitle:
-      proyecto.data.subtitle, client: proyecto.data.client, ods: proyecto.data.ods, categories:
-      proyecto.data.categories %} {% endfor %}
+      {% for proyecto in collections.proyecto %} {% render
+      "components/project-card.html", url: proyecto.url, image:
+      proyecto.data.image, title: proyecto.data.title, subtitle:
+      proyecto.data.subtitle, client: proyecto.data.client, ods:
+      proyecto.data.ods, categories: proyecto.data.categories %} {% endfor %}
       <!-- These project-cards are being generted via Javascript in initSearch() inside /js/functions.js  -->
     </div>
   </section>

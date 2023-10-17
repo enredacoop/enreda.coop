@@ -47,8 +47,8 @@
   border-radius: 16px;
   width: 100%;
   height: auto;
-  aspect-ratio: 1 / 1;
-  max-width: 400px;
+  aspect-ratio: 5/4;
+  max-width: 450px;
 }
 .proyecto .lead-desktop .title-container {
   flex: 1 1 0;
@@ -95,7 +95,7 @@
     width: 100%;
     width: 100%;
     height: auto;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 5 / 4;
     border-radius: 16px;
     margin-bottom: 16px;
   }

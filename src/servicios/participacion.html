@@ -82,8 +82,9 @@ title: Participación
   <section class="projects">
     <h3>Proyectos destacados</h3>
     <div class="project-list">
-      {% for proyecto in collections.proyecto %} {% render
-      "components/project-card.html", url: proyecto.url, image:
+      {% assign filteredProyectos = collections.proyecto | categoryFilter:
+      "Participación ciudadana" %} {% for proyecto in filteredProyectos %} {%
+      render "components/project-card.html", url: proyecto.url, image:
       proyecto.data.image, title: proyecto.data.title, subtitle:
       proyecto.data.subtitle, client: proyecto.data.client, ods:
       proyecto.data.ods, categories: proyecto.data.categories %} {% endfor %}
