@@ -4,9 +4,9 @@ layout: base.html
 
 <div class="noticia">
   <img class="head-image" src="{{image}}" alt="" />
-  <h1>{{title}}</h1>
-
-  <p>{{ fecha }}</p>
-
-  {{content}}
+  <div class="content">
+    <h1>{{title}}</h1>
+    <p class="publish-date">{{ publishDate }}</p>
+    <div class="body">{{content}}</div>
+  </div>
 </div>
