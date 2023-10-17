@@ -1,0 +1,9 @@
+.noticias {
+  width: auto;
+}
+.noticias .list {
+  padding: 3rem var(--layout-padding-x);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}

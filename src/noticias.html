@@ -1,0 +1,13 @@
+---
+layout: base.html
+title: Noticias
+---
+
+<div class="noticias">
+  <section class="list">
+    {% for noticia in collections.noticia %} {% render
+    "components/noticia-card.html", url: noticia.url, image: noticia.data.image,
+    title: noticia.data.title, publishDate: noticia.data.publishDate
+    firstParagraph: noticia.data.firstParagraph %} {% endfor %}
+  </div>
+</div>

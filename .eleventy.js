@@ -51,9 +51,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("categoryFilter", function (collection, category) {
-    console.log("CATEGORY FILTER");
     if (!category) return collection;
-    console.log(collection);
     const filtered = collection.filter((item) =>
       item.data.categories.includes(category)
     );
