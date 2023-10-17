@@ -2,9 +2,11 @@
 layout: base.html
 ---
 
-<img src="{{image}}" alt="" />
-<h1>{{title}}</h1>
+<div class="noticia">
+  <img class="head-image" src="{{image}}" alt="" />
+  <h1>{{title}}</h1>
 
-<p>{{ fecha }}</p>
+  <p>{{ fecha }}</p>
 
-{{content}}
+  {{content}}
+</div>
