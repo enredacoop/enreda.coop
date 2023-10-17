@@ -114,6 +114,7 @@
 }
 .project-card .categories {
   display: flex;
+  flex-wrap: wrap;
 }
 .project-card .categories span {
   display: inline-block;
