@@ -1,4 +1,4 @@
-import { getPathName, delay } from "./utils.js";
+import { getPathName } from "./utils.js";
 
 export function setEventListener() {
   navigation.addEventListener("navigate", function (event) {
@@ -320,9 +320,6 @@ async function _projectSearch(query, category) {
 
     head.appendChild(client);
 
-    var tail = document.createElement("tail");
-    tail.classList.add("tail");
-
     var odsDiv = document.createElement("div");
     odsDiv.classList.add("ods");
 
@@ -335,7 +332,7 @@ async function _projectSearch(query, category) {
       odsDiv.appendChild(odsImg);
     }
 
-    tail.appendChild(odsDiv);
+    head.appendChild(odsDiv);
 
     var categoriesDiv = document.createElement("div");
     categoriesDiv.classList.add("categories");
@@ -346,7 +343,10 @@ async function _projectSearch(query, category) {
       categoriesDiv.appendChild(categoryTag);
     }
 
-    tail.appendChild(categoriesDiv);
+    head.appendChild(categoriesDiv);
+
+    var tail = document.createElement("tail");
+    tail.classList.add("tail");
 
     var actionDiv = document.createElement("div");
     actionDiv.classList.add("action");
