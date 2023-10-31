@@ -10,22 +10,30 @@ export function setEventListener() {
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, "text/html");
         const newContent = doc.querySelector("#content").innerHTML;
-
-        let serviceMenuButtonChecked =
-          document.querySelector("#serviceMenuButton").checked;
-        let mobileMenuButtonChecked =
-          document.querySelector("#mobileMenuButton").checked;
-        if (serviceMenuButtonChecked || mobileMenuButtonChecked) {
-          await resetServicesMenu();
-          await resetMobileMenu();
-        }
+        const newHead = doc.querySelector("head").innerHTML;
 
         document.startViewTransition(() => {
           document.querySelector("#content").innerHTML = newContent;
+          document.querySelector("head").innerHTML = newHead;
           document.documentElement.scrollTop = 0;
           console.log("Navigated to " + toUrl.pathname);
           document.dispatchEvent(new Event("changed-view"));
         });
+        let serviceMenuButtonChecked =
+          document.querySelector("#serviceMenuButton").checked;
+        let mobileServiceMenuButtonChecked = document.querySelector(
+          "#mobileServiceMenuButton"
+        ).checked;
+        let mobileMenuButtonChecked =
+          document.querySelector("#mobileMenuButton").checked;
+        if (
+          serviceMenuButtonChecked ||
+          mobileMenuButtonChecked ||
+          mobileServiceMenuButtonChecked
+        ) {
+          await resetServicesMenu();
+          await resetMobileMenu();
+        }
         return true;
       },
     });
