@@ -1,0 +1,180 @@
+:root {
+  --contacto-padding-head-section: 6.25rem 6rem;
+  --contacto-padding-locations-section: 3.75rem 6rem;
+  --contacto-h1-font-size: 2.5rem;
+  --contacto-margin-top-info: 0;
+  --contacto-h2-font-size: 2.25rem;
+  --contacto-p-font-size: 1.25rem;
+  --contacto-width-info: 31.31rem;
+}
+@media screen and (max-width: 1023px) {
+  :root {
+    --contacto-padding-head-section: 6.25rem 2.625rem;
+    --contacto-padding-locations-section: 3.75rem 2.625rem;
+    --contacto-h1-font-size: 2.25rem;
+    --contacto-p-font-size: 1.25rem;
+    --contacto-margin-top-info: 2.63rem;
+    --contacto-h2-font-size: 2rem;
+    --contacto-width-info: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  :root {
+    --contacto-padding-head-section: 3.75rem 1.25rem;
+    --contacto-padding-locations-section: 3.75rem 1.25rem;
+    --contacto-h1-font-size: 1.5rem;
+    --contacto-p-font-size: 1rem;
+    --contacto-margin-top-info: 1.5rem;
+    --contacto-h2-font-size: 1.5rem;
+  }
+}
+
+.contacto section {
+  width: 100%;
+  margin: auto;
+}
+.contacto section.head {
+  padding: var(--contacto-padding-head-section);
+}
+.contacto section.locations {
+  padding: var(--contacto-padding-locations-section);
+}
+.contacto section.locations h2 {
+  font-family: var(--display-font);
+  font-weight: 900;
+  font-size: var(--contacto-h2-font-size);
+  text-align: center;
+  padding-bottom: 3.5rem;
+}
+@media screen and (max-width: 640px) {
+  .contacto section.locations h2 {
+    padding-bottom: 1.5rem;
+  }
+}
+
+.contacto section.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1023px) {
+  .contacto section.head {
+    flex-direction: column-reverse;
+  }
+  .contacto section.head .info {
+    align-items: center;
+  }
+}
+.contacto section.head .info {
+  width: var(--contacto-width-info);
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--contacto-margin-top-info);
+}
+.contacto section.head h1 {
+  font-family: var(--display-font);
+  font-weight: 900;
+  font-size: var(--contacto-h1-font-size);
+  margin-bottom: 0.5rem;
+}
+.contacto section.head .info .list {
+  width: 100%;
+}
+.contacto section.head .info .list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  align-items: center;
+  font-family: var(--body-font);
+  font-size: var(--contacto-p-font-size);
+}
+.contacto section.head .info .list .icon {
+  margin-right: 0.47rem;
+  width: 2.375rem;
+  height: 2.375rem;
+}
+.contacto section.head .info .list .dots {
+  border-bottom: solid 0.5px black;
+  width: 100%;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.contacto section.head .contacto-img {
+  width: 38.25rem;
+  height: auto;
+}
+@media screen and (max-width: 640px) {
+  .contacto section.head .contacto-img {
+    width: 100%;
+    height: auto;
+  }
+}
+.contacto section.head .info .social {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 1rem;
+}
+.contacto section.head .info .social img {
+  width: 4.8rem;
+  height: auto;
+}
+
+.contacto section.locations {
+  text-align: center;
+}
+.contacto section.locations h2 {
+  border-bottom: 1px solid var(--primary);
+  margin: auto 8rem;
+  margin-bottom: 3.5rem;
+}
+.contacto section.locations .list .sevilla,
+.contacto section.locations .list .malaga {
+  padding: 0 2rem;
+}
+.contacto section.locations .list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contacto section.locations h3 {
+  color: var(--primary);
+  font-size: 2rem;
+  font-family: var(--display-font);
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+.contacto section.locations p {
+  font-family: var(--body-font);
+  font-size: 1.25rem;
+  line-height: 150%;
+  margin: auto;
+  margin-bottom: 1.8rem;
+}
+.contacto section.locations p strong {
+  font-weight: 600;
+}
+@media screen and (max-width: 1023px) {
+  .contacto section.locations .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .contacto section.locations h2 {
+    margin: auto 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .contacto section.locations h3 {
+    font-size: 1.5rem;
+  }
+  .contacto section.locations p {
+    font-size: 1rem;
+  }
+}
