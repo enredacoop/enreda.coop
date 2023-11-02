@@ -109,19 +109,24 @@
   font: var(--card-client-name-font);
 }
 .project-card .content .ods {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   margin-bottom: 1rem;
 }
 .project-card .ods img {
+  display: inline-block;
   width: 2.626rem;
   height: 2.626rem;
+  margin-right: 0.5rem;
 }
 .project-card .categories {
-  display: flex;
-  flex-wrap: wrap;
   margin-bottom: 2.62rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .project-card .categories span {
   display: inline-block;
