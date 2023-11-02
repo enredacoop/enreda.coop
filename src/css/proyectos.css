@@ -5,7 +5,7 @@
 }
 @media screen and (min-width: 1920px) {
   .proyectos section {
-    max-width: 1500px;
+    max-width: 1920px;
   }
 }
 @media screen and (max-width: 1023px) {

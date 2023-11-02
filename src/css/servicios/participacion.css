@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 1920px) {
   .participacion section.servicios-participacion .cards {
-    max-width: 1500px;
+    max-width: 1920px;
   }
 }
 
@@ -62,7 +62,7 @@
 }
 @media screen and (min-width: 1920px) {
   .participacion section.digital {
-    max-width: 1500px;
+    max-width: 1920px;
   }
 }
 

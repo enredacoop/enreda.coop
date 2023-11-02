@@ -4,18 +4,7 @@ css: ["/css/proyecto.css"]
 ---
 
 <div class="proyecto">
-  <div class="lead-desktop">
-    <div class="title-container">
-      <div class="head">
-        <p>Proyecto</p>
-        <h1>{{title}}</h1>
-        <h2>{{subtitle}}</h2>
-      </div>
-      <div class="tail">
-        <h3>Cliente</h3>
-        <h4>{{client}}</h4>
-      </div>
-    </div>
+  <div class="head">
     <img
       style="object-fit: cover; object-position: center"
       width="400"
@@ -23,31 +12,32 @@ css: ["/css/proyecto.css"]
       src="{{image}}"
       alt=""
     />
-  </div>
-  <div class="lead-mobile">
-    <div class="head">
-      <p>Proyecto</p>
+    <div>
       <h1>{{title}}</h1>
-      <h2>{{subtitle}}</h2>
-    </div>
-    <img
-      style="object-fit: cover; object-position: center"
-      width="400"
-      height="400"
-      src="{{image}}"
-      alt=""
-    />
-    <div class="tail">
-      <h3>Cliente</h3>
-      <h4>{{client}}</h4>
+      <p class="subtitle">{{subtitle}}</p>
+      <p class="client-label">Cliente</p>
+      <p class="client-name">{{client}}</p>
+      <div class="ods">
+        {% for o in ods %}
+        <img width="42" height="42" src="/assets/img/ods/{{ o }}.png" alt="" />
+        {% endfor %}
+      </div>
     </div>
   </div>
-  <br />
+  <hr />
   <div class="body">
-    <h3>Brief</h3>
-    <p class="summary">{{summary}}</p>
-    <h3>Descripción</h3>
-    <div class="description">{{content}}</div>
+    <div class="brief">
+      <h2>Brief</h2>
+      <p class="content">{{summary}}</p>
+    </div>
+    <div class="description">
+      <h2>Descripción</h2>
+      <div class="content">{{content}}</div>
+    </div>
   </div>
-  <br />
+  <div class="categories">
+    {% for category in categories %}
+    <span>{{ category }}</span>
+    {% endfor %}
+  </div>
 </div>
