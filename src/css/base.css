@@ -210,6 +210,15 @@ body {
   cursor: pointer;
   z-index: 1;
 }
+  #scrollUpButton:hover circle  {
+    fill: var(--primary);
+    stroke: white;
+   
+  }
+  #scrollUpButton:hover path {
+    stroke: white;
+   
+  }
 header {
   position: fixed;
   top: 0px;
@@ -218,7 +227,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #d3d3d3;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.09);
   z-index: 1;
   padding: 0rem var(--menu-padding-x);
   height: var(--menu-height);
