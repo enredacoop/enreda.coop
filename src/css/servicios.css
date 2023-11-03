@@ -5,6 +5,7 @@
   align-items: center;
   margin: auto;
   padding: 9.7rem var(--layout-padding-x);
+  max-width: 1920px;
 }
 .servicios section.hero .right,
 .servicios section.hero .left {
@@ -24,11 +25,6 @@
   height: 24rem;
   width: auto;
   margin: auto 7rem;
-}
-@media screen and (min-width: 1920px) {
-  .servicios section.hero {
-    max-width: 1920px;
-  }
 }
 @media screen and (max-width: 1023px) {
   .servicios section.hero img {
@@ -72,11 +68,7 @@
   width: 100%;
   margin: auto;
   padding: var(--section-padding);
-}
-@media screen and (min-width: 1920px) {
-  .servicios section.projects {
-    max-width: 1920px;
-  }
+  max-width: 1920px;
 }
 
 .servicios section.projects {
