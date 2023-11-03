@@ -2,6 +2,7 @@
   width: 100%;
   margin: auto;
   padding: 4.38rem;
+  max-width: 1920px;
 }
 .cooperativa section.head {
   padding-bottom: 0;
@@ -71,12 +72,6 @@
     width: 100%;
     height: 14.40238rem;
     object-fit: cover;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .cooperativa section {
-    max-width: 1920px;
   }
 }
 

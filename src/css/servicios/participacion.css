@@ -10,12 +10,7 @@
   gap: 1.56rem;
   margin: auto;
   padding: 3rem var(--layout-padding-x);
-}
-
-@media screen and (min-width: 1920px) {
-  .participacion section.servicios-participacion .cards {
-    max-width: 1920px;
-  }
+  max-width: 1920px;
 }
 
 .participacion section.servicios-participacion .card {
@@ -59,11 +54,7 @@
   width: 100%;
   margin: auto;
   padding: var(--section-padding);
-}
-@media screen and (min-width: 1920px) {
-  .participacion section.digital {
-    max-width: 1920px;
-  }
+  max-width: 1920px;
 }
 
 .participacion section.digital {

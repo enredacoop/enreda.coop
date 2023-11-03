@@ -2,11 +2,7 @@
   width: 100%;
   margin: auto;
   padding: 4.38rem;
-}
-@media screen and (min-width: 1920px) {
-  .proyectos section {
-    max-width: 1920px;
-  }
+  max-width: 1920px;
 }
 @media screen and (max-width: 1023px) {
   .proyectos section {
