@@ -517,4 +517,9 @@ footer .subfooter p a {
   background-color: var(--primary);
   color: var(--white);
   text-decoration: none;
+  transition: .5s;
 }
+  .button-primary:hover {
+    box-shadow: 8px 8px #e48f75;
+    transition: .5s;
+  }
