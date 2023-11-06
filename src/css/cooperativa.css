@@ -196,21 +196,25 @@
 }
 
 .cooperativa section.equipo {
-  background-color: var(--white);
+  background-color: #F8ECE8;
 }
 .cooperativa section.equipo .personas {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   gap: 1.5rem;
+
+  
 }
 .cooperativa section.equipo .personas .avatar {
   position: relative;
   border-radius: 100%;
   border: 4px solid var(--primary);
-  width: 100%;
+  width: 14.5rem;
   aspect-ratio: 1/1;
   overflow: hidden;
 }
+
 .cooperativa section.equipo .personas .avatar img {
   width: 100%;
   height: 100%;
@@ -243,6 +247,25 @@
   transform: translate(-50%, -50%);
   text-align: center;
   line-height: 190%;
+}
+.cooperativa section.equipo .personas .avatar .text-equipo {
+  color: white;
+  width: 100%;
+  font-family: var(--title-font);
+  font-size: 0.9rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 150%;
+}
+
+.cooperativa section.equipo .personas .avatar .text-equipo a{
+  color: #fff;
 }
 .cooperativa section.equipo .personas .avatar .text strong {
   font-weight: 600;
@@ -310,6 +333,7 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-top: 3rem;
+  
 }
 .cooperativa section.motivaciones .partners .partner {
   text-decoration: none;
