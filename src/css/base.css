@@ -31,6 +31,7 @@
   --font-text-md: 400 1rem/1.75rem var(--body-font);
   --font-heading-xs: 700 1rem / normal var(--title-font);
   --font-heading-md-regular: 400 1.75rem / normal var(--title-font);
+  --text-service: 3.75rem;
 }
 
 /* Breakpoints */
@@ -59,6 +60,7 @@
     --font-text-xxl-2: 500 1.25rem / 1.75rem var(--body-font);
     --font-text-xxl: 400 1.25rem / 1.875rem var(--title-font);
     --font-heading-md-regular: 400 1.5rem / normal var(--title-font);
+    --text-service: 2rem;
   }
 }
 /* Mobile */
@@ -72,6 +74,7 @@
     --font-text-xxl: 400 1rem / 1.75rem var(--title-font);
     --font-text-xl-2: 400 1rem / normal var(--title-font);
     --font-heading-xs: 700 1rem / 1.5rem var(--title-font);
+    --text-service: 1rem;
   }
 }
 
@@ -303,33 +306,71 @@ header ~ .menu menu {
   left: 0;
   width: 100%;
   min-height: calc(100vh - var(--menu-height));
-  background-color: #fff;
-  border-bottom: 1px solid #d3d3d3;
+  background-color: var(--white);
   z-index: 1;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
+  font-size: var(--text-service);
   font-family: var(--display-font);
   font-weight: 900;
 }
+
 header.is-pinned ~ .menu menu {
   top: var(--menu-height-pinned);
   min-height: calc(100vh - var(--menu-height-pinned));
 }
 header ~ .menu li {
   list-style: none;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid #d3d3d3;
+  padding: 0.8rem 2rem;
+  
 }
 header ~ .menu li a {
   text-decoration: none;
   color: var(--black);
 }
+  header ~ .menu li a:hover {
+    color: var(--primary);
+  }
 #mobileMenuServiceButton {
   all: unset;
   cursor: pointer;
 }
 #serviceMenu {
   z-index: 2;
+  padding-top: 3%;
+  
+}
+@media screen and (max-width: 1023px) {
+  header ~ .menu li {
+    padding: 0.9rem 0.6rem;
+   
+  }
+  #serviceMenu {
+    padding-top: 20%;
+  }
+  header ~ .menu li a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 640px) {
+  header ~ .menu li {
+    padding: 0.9rem 0.6rem;
+   
+  }
+  #serviceMenu {
+    padding-top: 50%;
+  }
+  header ~ .menu li a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+  }
 }
 
 #mobileMenuButton ~ label {
