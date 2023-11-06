@@ -125,6 +125,7 @@
 
 .contacto section.locations {
   text-align: center;
+  background-color: white;
 }
 .contacto section.locations h2 {
   border-bottom: 1px solid var(--primary);
