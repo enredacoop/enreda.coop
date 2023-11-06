@@ -1,3 +1,18 @@
+:root {
+  --servicios-projects-title-margin-b: 3.5rem;
+  --servicios-projects-project-list-gap: 3.75rem;
+}
+@media screen and (max-width: 1023px) {
+  :root {
+    --servicios-projects-project-list-gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  :root {
+    --servicios-projects-title-margin-b: 2.5rem;
+  }
+}
+
 .servicios section.hero {
   display: flex;
   width: 100%;
@@ -15,10 +30,11 @@
   text-align: right;
 }
 .servicios section.hero h1 {
-  font: 900 2.5rem/3rem var(--display-font);
+  font: var(--font-display-title2);
+  margin-top: 1.5rem;
 }
 .servicios section.hero p {
-  font: 300 1.25rem/2.16rem var(--body-font);
+  font: var(--font-text-xl);
   margin-top: 1.5rem;
 }
 .servicios section.hero img {
@@ -42,14 +58,6 @@
     min-height: calc(100vh - var(--menu-height) - 1rem);
     justify-content: center;
   }
-  .servicios section.hero h1 {
-    font: 900 2.25rem/3rem var(--display-font);
-    margin-top: 1.5rem;
-  }
-  .servicios section.hero p {
-    font: 300 1.125rem/2.16rem var(--body-font);
-    margin-top: 1.5rem;
-  }
   .servicios section.hero .right,
   .servicios section.hero .left {
     flex: none;
@@ -67,7 +75,7 @@
 .servicios section.projects {
   width: 100%;
   margin: auto;
-  padding: var(--section-padding);
+  padding: var(--layout-padding-x);
   max-width: 1920px;
 }
 
@@ -77,22 +85,17 @@
   align-items: center;
   margin-bottom: 4rem;
 }
-.servicios section.projects .icon {
-  height: var(--section-icon-height);
-  width: auto;
-  margin-bottom: var(--section-icon-margin-bottom);
-}
 .servicios section.projects > h3 {
-  font: var(--section-title-font);
-  margin-bottom: var(--projects-title-margin-bottom);
+  font: var(--font-heading-lg);
+  margin-bottom: var(--servicios-projects-title-margin-b);
 }
 .servicios section.projects .project-list {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   align-items: start;
-  gap: var(--projects-project-list-gap);
-  margin-bottom: var(--projects-project-list-gap);
+  gap: var(--servicios-projects-project-list-gap);
+  margin-bottom: var(--servicios-projects-project-list-gap);
 }
 .servicios section.projects .button-primary {
   width: fit-content;
