@@ -4,7 +4,7 @@ title: Desarrollamos el proyecto "Universidades por el Desarrollo Sostenible" ju
 image: https://ik.imagekit.io/5sj5zvywt/Noticias/universidades-por-el-desarrollo/Captura%20de%20pantalla%202023-10-17%20a%20las%2016.13.13.png?updatedAt=1697552008352
 publishDate: "12/12/2012"
 firstParagraph: >
-  La pasada semana Arantza Lozano, CEO de Enreda, se trasladó hasta lo localidad de Savonia, en Finlandia, donde para realizar una capacitación para el proyecto EU ERASMUS+ "Universities for sustainable development " (USD) que estamos desarrollando con la Universidad Pablo de Olavide (España) Savonia-ammattikorkeakoulu (Finlandia) y Vilniaus kolegija (Lithuania) a través de Openods."
+  La pasada semana Arantza Lozano, CEO de Enreda, se trasladó hasta lo localidad de Savonia, en Finlandia, donde para realizar una capacitación para el proyecto EU ERASMUS+ "Universities for sustainable development " (USD) que estamos desarrollando con la Universidad Pablo de Olavide (España) Savonia-ammattikorkeakoulu (Finlandia) y Vilniaus kolegija (Lithuania) a través de Openods.
 ---
 
 La pasada semana Arantza Lozano, CEO de Enreda, se trasladó hasta lo localidad de Savonia, en Finlandia, donde para realizar una capacitación para el proyecto EU ERASMUS+ "Universities for sustainable development " (USD) que estamos desarrollando con la Universidad Pablo de Olavide (España) Savonia-ammattikorkeakoulu (Finlandia) y Vilniaus kolegija (Lithuania) a través de Openods.

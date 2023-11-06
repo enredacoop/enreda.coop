@@ -28,7 +28,9 @@
   --font-text-xxl-2: 500 1.5rem / 2rem var(--body-font);
   --font-text-xxl: 400 1.5rem / 2rem var(--title-font);
   --font-text-xl-2: 400 1.25rem / 1.875 var(--title-font);
-  --font-text-md: 400 1rem/1.75rem var(--body-font);
+  --font-text-md: 400 1rem / 1.75rem var(--body-font);
+  --font-heading-notice: 700 1.5rem / 2rem var(--title-font);
+  --font-text-button-ghost: 600 0.9375rem / normal var(--title-font);
   --font-heading-xs: 700 1rem / normal var(--title-font);
   --font-heading-md-regular: 400 1.75rem / normal var(--title-font);
 }
@@ -210,15 +212,13 @@ body {
   cursor: pointer;
   z-index: 1;
 }
-  #scrollUpButton:hover circle  {
-    fill: var(--primary);
-    stroke: white;
-   
-  }
-  #scrollUpButton:hover path {
-    stroke: white;
-   
-  }
+#scrollUpButton:hover circle {
+  fill: var(--primary);
+  stroke: white;
+}
+#scrollUpButton:hover path {
+  stroke: white;
+}
 header {
   position: fixed;
   top: 0px;

@@ -1,27 +1,27 @@
 :root {
-  --noticias-card-padding: 2rem;
+  --noticias-card-height: 43.22rem;
+  --noticias-card-padding: 2.5rem;
   --noticias-card-border-radius: 1rem;
   --noticias-card-lines-padding-top: 1.5rem;
   /* fontsizes */
-  --noticias-card-title-fontsize: 1.25rem;
-  --noticias-card-body-fontsize: 0.9375rem;
   --noticias-card-action-fontsize: 1rem;
+  --noticias-card-image-height: 20.75rem;
 }
 @media screen and (max-width: 1023px) {
   :root {
-    --noticias-card-padding: 1.25rem;
+    --noticias-card-height: 31.9rem;
+    --noticias-card-padding: 1.5rem;
     --noticias-card-border-radius: 0.8rem;
     --noticias-card-lines-padding-top: 1rem;
     /* fontsizes */
-    --noticias-card-title-fontsize: 1rem;
-    --noticias-card-body-fontsize: 0.8rem;
     --noticias-card-action-fontsize: 0.7rem;
+    --noticias-card-image-height: 12.5rem;
   }
 }
 .noticia-card {
   width: 100%;
+  height: var(--noticias-card-height);
   margin: auto;
-  max-width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -38,7 +38,7 @@
 .noticia-card .thumbnail img {
   object-fit: cover;
   border-radius: var(--noticias-card-border-radius);
-  aspect-ratio: 16/9;
+  height: var(--noticias-card-image-height);
   width: 100%;
 }
 .noticia-card .content {
@@ -53,21 +53,15 @@
 .noticia-card .action {
   padding-top: var(--noticias-card-lines-padding-top);
 }
-.noticia-card .publish-date,
-.noticia-card h4,
-.noticia-card .action {
-  font-family: var(--title-font);
-}
+
 .noticia-card .first-paragraph {
-  font-family: var(--body-font);
-  font-weight: 300;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 .noticia-card h4 {
-  font-size: var(--noticias-card-title-fontsize);
+  font: var(--font-heading-notice);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -75,9 +69,10 @@
 }
 .noticia-card .publish-date,
 .noticia-card .first-paragraph {
-  font-size: var(--noticias-card-body-fontsize);
+  font: var(--font-text-md);
 }
 .noticia-card .action {
-  font-size: var(--noticias-card-action-fontsize);
+  font: var(--font-text-button-ghost);
   font-weight: 600;
+  text-transform: uppercase;
 }
