@@ -214,7 +214,14 @@
   aspect-ratio: 1/1;
   overflow: hidden;
 }
-
+@media screen and (max-width: 640px) {
+  .cooperativa section.equipo .personas .avatar {
+    width: 9.0625rem;
+  }
+  .cooperativa section.equipo .personas{
+    gap: 0.5rem;
+  }
+}
 .cooperativa section.equipo .personas .avatar img {
   width: 100%;
   height: 100%;
@@ -313,6 +320,10 @@
   }
   .cooperativa section.equipo .personas .avatar .text {
     font-size: 0.75rem;
+  }
+  .cooperativa section.equipo .personas .avatar .text-equipo{
+    font-size: 0.6rem;
+    padding: 15px;
   }
 }
 
