@@ -2,6 +2,7 @@
 layout: base.html
 title: Cooperativa
 css: ["/css/cooperativa.css"]
+js:  ["/js/scroll-drag.js"]
 ---
 
 <div class="cooperativa">
@@ -107,43 +108,49 @@ css: ["/css/cooperativa.css"]
       <br /><br />
       <strong>Descubre todas las organizaciones de las que formamos parte.</strong>
     </p>
-    <div class="partners">
-      <div class="column">
-        <a class="partner" href="https://www.fiarebancaetica.coop/" target="_blank">
-          <h4>FIARE</h4>
+    <div class="scroll-container">
+      <div class="card-container">
+        <div class="card">
+          <h4>Fiare</h4>
           <p>
             Banca ética y cooperativa constituida como herramienta al servicio de la transformación
             social a través de la financiación de proyectos de la economía social y solidaria y la
             promoción de una cultura de la intermediación financiera, bajo los principios de la
-            transparencia, la participación, la democracia y el crédito como derecho.
+            transparencia, la participación, la democracia y el crédito como derecho. 
           </p>
           <span>
-            <strong>Ver web</strong>
-            <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            <a  href="https://www.fiarebancaetica.coop/" target="_blank">
+              Ver web
+              <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            </a>
           </span>
-        </a>
-        <a class="partner" href="https://openkratio.org/" target="_blank">
+        </div>
+        <div class="card">
           <h4>Openkratio</h4>
           <p>
             Asociación en pro de la transparencia de las administraciones públicas y la
             participación de la ciudadanía en el trabajo de las mismas.
           </p>
           <span>
-            <strong>Ver web</strong>
-            <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            <a  href="https://openkratio.org/" target="_blank">
+              Ver web
+              <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            </a>
           </span>
-        </a>
-        <a class="partner" href="https://www.andalucialab.org/" target="_blank">
+        </div>
+        <div class="card">
           <h4>Som Connexió</h4>
-          <p>Cooperativa de consumo de productos de telecomunicaciones.</p>
+          <p>
+            Cooperativa de consumo de productos de telecomunicaciones.
+          </p>
           <span>
-            <strong>Ver web</strong>
-            <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            <a href="https://www.andalucialab.org/" target="_blank">
+              Ver web
+              <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            </a>
           </span>
-        </a>
-      </div>
-      <div class="column">
-        <a class="partner" href="https://www.andalucialab.org/" target="_blank">
+        </div>
+        <div class="card">
           <h4>COOP57</h4>
           <p>
             Cooperativa de servicios financieros éticos y solidarios que tiene como objetivo
@@ -151,32 +158,38 @@ css: ["/css/cooperativa.css"]
             nuestra sociedad.
           </p>
           <span>
-            <strong>Ver web</strong>
-            <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            <a href="https://www.andalucialab.org/" target="_blank">
+              Ver web
+              <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            </a>
           </span>
-        </a>
-        <a class="partner" href="https://www.andalucialab.org/" target="_blank">
+        </div>
+        <div class="card">
           <h4>REAS</h4>
           <p>
             Red de Redes de Economía Alternativa y Solidaria, compuesta por más de trescientas
             entidades que nos agrupamos en redes territoriales y sectoriales.
           </p>
           <span>
-            <strong>Ver web</strong>
-            <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            <a href="https://www.andalucialab.org/" target="_blank">
+              Ver web
+              <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            </a>
           </span>
-        </a>
-        <a class="partner" href="https://www.andalucialab.org/" target="_blank">
+        </div>
+        <div class="card">
           <h4>Faecta</h4>
-          <p>Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.</p>
+          <p>
+            Federación Andaluza de Empresas Cooperativas de Trabajo Asociado.
+          </p>
           <span>
-            <strong>Ver web</strong>
-            <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            <a href="https://www.andalucialab.org/" target="_blank">
+              Ver web
+              <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            </a>
           </span>
-        </a>
-      </div>
-      <div class="column">
-        <a class="partner" href="https://www.andalucialab.org/" target="_blank">
+        </div>
+        <div class="card">
           <h4>MS Sevilla</h4>
           <p>
             Red de producción, distribución y consumo de bienes y servicios con criterios éticos,
@@ -185,11 +198,13 @@ css: ["/css/cooperativa.css"]
             posible, la economía solidaria de la economía capitalista.
           </p>
           <span>
-            <strong>Ver web</strong>
-            <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            <a href="https://www.andalucialab.org/" target="_blank">
+              Ver web
+              <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            </a>
           </span>
-        </a>
-        <a class="partner" href="https://www.andalucialab.org/" target="_blank">
+        </div>
+        <div class="card">
           <h4>Andalibre</h4>
           <p>
             Empresas de Software Libre de Andalucía. Agrupación de proveedores de soluciones
@@ -197,12 +212,14 @@ css: ["/css/cooperativa.css"]
             abiertos.
           </p>
           <span>
-            <strong>Ver web</strong>
-            <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            <a href="https://www.andalucialab.org/" target="_blank">
+              Ver web
+              <img height="20" width="20" src="/assets/img/link-arrow.svg" alt="" />
+            </a>
           </span>
-        </a>
+        </div>
+          <!-- Agrega más tarjetas según necesites -->
       </div>
-    </div>
   </section>
   <section class="ods">
     <h2>Conoce nuestro aporte a los ODS</h2>
@@ -233,3 +250,5 @@ css: ["/css/cooperativa.css"]
     </div>
   </section>
 </div>
+
+

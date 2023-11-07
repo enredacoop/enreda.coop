@@ -4,7 +4,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #DB5125 #ebebeb;
+  }
 
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f0f0f0;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #DB5125;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+  }
 :root {
   /* Color variables */
   --primary: #db5125;
