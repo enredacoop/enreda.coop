@@ -1,31 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const cardContainer = document.querySelector('.card-container');
-    let isDown = false;
+    const cardContainer = document.querySelector('.scroll-container');
+
+    let isDragging = false;
     let startX;
     let scrollLeft;
 
     cardContainer.addEventListener('mousedown', (e) => {
-        isDown = true;
+        isDragging = true;
         startX = e.pageX - cardContainer.offsetLeft;
         scrollLeft = cardContainer.scrollLeft;
-        cardContainer.classList.add('active'); // Agregamos la clase 'active' al contenedor
-    });
-
-    cardContainer.addEventListener('mouseleave', () => {
-        isDown = false;
-        cardContainer.classList.remove('active'); // Quitamos la clase 'active'
     });
 
     cardContainer.addEventListener('mouseup', () => {
-        isDown = false;
-        cardContainer.classList.remove('active'); // Quitamos la clase 'active'
+        isDragging = false;
     });
 
     cardContainer.addEventListener('mousemove', (e) => {
-        if(!isDown) return;
+        if (!isDragging) return;
         e.preventDefault();
         const x = e.pageX - cardContainer.offsetLeft;
-        const walk = (x - startX) * 3; //scroll-fast
+        const walk = (x - startX) * 3;
         cardContainer.scrollLeft = scrollLeft - walk;
     });
 });

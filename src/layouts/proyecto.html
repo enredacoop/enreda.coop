@@ -5,23 +5,25 @@ css: ["/css/proyecto.css"]
 
 <div class="proyecto">
   <div class="head">
-    <img
-      style="object-fit: cover; object-position: center"
-      width="400"
+    <img width="400"
       height="400"
       src="{{image}}"
       alt=""
     />
-    <div>
-      <h1>{{title}}</h1>
-      <p class="subtitle">{{subtitle}}</p>
-      <p class="client-label">Cliente</p>
-      <p class="client-name">{{client}}</p>
-      <div class="ods">
+    <div id="info-proyect">
+      <div>
+        <h1>{{title}}</h1>
+        <p class="subtitle">{{subtitle}}</p>
+        <p class="client-label">Cliente</p>
+        <p class="client-name">{{client}}</p>
+        <div class="ods">
         {% for o in ods %}
         <img width="42" height="42" src="/assets/img/ods/{{ o }}.png" alt="" />
         {% endfor %}
+        </div>
       </div>
+      
+      <a class="button-primary" href="{{web}}" target="_blank">Ver web</a>
     </div>
   </div>
   <hr />

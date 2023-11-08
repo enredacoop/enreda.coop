@@ -1,6 +1,6 @@
 :root {
-  --proyecto-layout-padding: 3.75rem 6rem;
-  --proyecto-head-img-ratio: 21/9;
+  --proyecto-layout-padding: 3.2rem 4.38rem;
+  --proyecto-head-img-ratio: 21/6.7;
   --proyecto-head-gap: 2rem;
   --proyecto-section-margin-y: 3.75rem;
   --proyecto-client-margin-t: 1.5rem;
@@ -29,6 +29,12 @@
   margin: auto;
   padding: var(--proyecto-layout-padding);
 }
+#info-proyect{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start ;
+}
 
 .proyecto h1 {
   font: var(--font-display-title2);
@@ -43,6 +49,8 @@
   width: 100%;
   height: auto;
   aspect-ratio: var(--proyecto-head-img-ratio);
+  object-fit: cover;
+  object-position: top;
   border-radius: 1rem;
 }
 .proyecto .head .subtitle {
@@ -59,6 +67,24 @@
 }
 .proyecto .head .ods {
   margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1023px){
+  #info-proyect{
+    flex-direction: column;
+  }
+  .proyecto .head .ods {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 640px){
+  #info-proyect{
+    flex-direction: column;
+  }
+  .proyecto .head .ods {
+    margin-bottom: 2rem;
+  }
+  
 }
 .proyecto .head .ods img {
   display: inline-block;

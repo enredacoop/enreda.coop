@@ -344,20 +344,30 @@
 .cooperativa section.motivaciones .scroll-container {
   width: 95vw;
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   scroll-snap-type: x mandatory;
   transform: rotateX(180deg);
   scrollbar-width: thin; 
+  overflow-y: hidden;
+  transition: all 0.2s;
+  
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
   
   
 }
-
+.cooperativa section.motivaciones .scroll-container .active{
+  cursor: grabbing;
+    cursor: -webkit-grabbing;
+}
 .cooperativa section.motivaciones .card-container {
   display: flex;
   scroll-snap-align: start;
   padding-top: 20px;
   transform: rotateX(180deg);
   padding-right: 5rem; 
+  
   
 }
 .cooperativa section.motivaciones .card-container.active {
