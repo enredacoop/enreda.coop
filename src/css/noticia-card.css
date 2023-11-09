@@ -34,7 +34,10 @@
   background: #fff;
   box-shadow: -3px 12px 23px 0px rgba(0, 0, 0, 0.1);
 }
-
+.noticia-card .thumbnail {
+  width: 100%;
+  height: auto;
+}
 .noticia-card .thumbnail img {
   object-fit: cover;
   border-radius: var(--noticias-card-border-radius);

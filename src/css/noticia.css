@@ -83,3 +83,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.noticia .content .body p {
+  margin-bottom: 20px;
+}
+.noticia .content .body img {
+  width: 100%;
+  height: auto;
+}

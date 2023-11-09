@@ -6,9 +6,9 @@ css: ["/css/noticias.css"]
 
 <div class="noticias">
   <section class="list">
-    {% for noticia in collections.noticia %} {% render
+    {% for noticia in collections.noticia reversed %} {% render
     "components/noticia-card.html", url: noticia.url, image: noticia.data.image,
-    title: noticia.data.title, publishDate: noticia.data.publishDate
+    title: noticia.data.title, date: noticia.data.date,
     firstParagraph: noticia.data.firstParagraph %} {% endfor %}
   </div>
 </div>

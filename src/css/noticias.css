@@ -39,6 +39,7 @@
   }
   .noticias .list .noticia-card:first-child .thumbnail img {
     height: 100%;
+    width: 34.6rem;
     object-fit: cover;
     aspect-ratio: auto;
   }
