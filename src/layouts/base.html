@@ -4,20 +4,37 @@
     <meta charset="utf-8" />
     <!-- Viewport meta tag for allowing scale up and down -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% if title %}
-    <title>{{ title | append:" — Enreda" }}</title>
-    {% else %}
-    <title>Enreda</title>
-    {%endif%}
-    <meta
-      name="description"
-      content="{{ metadescription | default: 'Web de la Cooperativa Enreda' }}"
-    />
+
+    <!-- HTML Meta Tags -->
+    {% if title %} {% assign title = title | append:" — Enreda" %} {% else %} {%
+    assign title = "Enreda" %} {% endif %} {% if metadescription %} {% assign
+    description = metadescription %} {% else %} {% assign description = "Web de
+    la Cooperativa Enreda" %} {% endif %} {% assign url = 'https://enreda.coop'
+    | append: page.url %}
+    <title>{{title}}</title>
+    <meta name="description" content="{{ description }}" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:url" content="{{ url }}" />
     <meta property="og:type" content="{{ ogtype | default: 'website'}}" />
     <meta
       property="og:image"
       content="{{ ogimage | default: '/assets/img/enreda-black.png'}}"
     />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="enreda.coop" />
+    <meta property="twitter:url" content="{{ url }}" />
+    <meta name="twitter:title" content="{{title}}" />
+    <meta name="twitter:description" content="{{description}}" />
+    <meta
+      name="twitter:image"
+      content="https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087"
+    />
+
     <meta name="view-transition" content="same-origin" />
     <link
       rel="apple-touch-icon"

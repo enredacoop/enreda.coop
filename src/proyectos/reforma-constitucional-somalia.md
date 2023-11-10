@@ -2,13 +2,17 @@
 layout: proyecto.html
 title: Reforma constitucional de Somalia
 image: https://ik.imagekit.io/5sj5zvywt/Proyectos/reforma-somalia.jpeg?updatedAt=1699551928974
-ogtype: website
-ogimage: https://ik.imagekit.io/5sj5zvywt/Proyectos/reforma-somalia.jpeg?updatedAt=1699551928974
 subtitle: Desarrollo de una plataforma de participación digital para la reforma constitucional.
 client: Naciones Unidas para el Desarrollo (PNUD)
 ods: [5, 6]
 categories: ["Participación ciudadana", "Software de participación"]
 summary: Enreda va a trabajar junto con la oficina somalí del Programa de las Naciones Unidas para el Desarrollo (PNUD -UNDP) para desarrollar una plataforma de participación digital, que será usada por Ministerio de Asuntos Constitucionales del Gobierno de Somalia para recibir propuestas ciudadanas en el proceso de reforma constitucional.
+
+# Meta tags
+metadescription: Desarrollo de una plataforma de participación digital para la reforma constitucional.
+ogtype: website
+ogimage: https://ik.imagekit.io/5sj5zvywt/Proyectos/reforma-somalia.jpeg?updatedAt=1699551928974
+ogdescription: Desarrollo de una plataforma de participación digital para la reforma constitucional.
 ---
 
 El proyecto se basa en el desarrollo de la plataforma, el diseño e implementación de un plan de formación, coaching y mentorización a desarrolladores somalíes, con objeto de garantizar la soberanía y autogestión de la plataforma durante el proceso.
