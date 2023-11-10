@@ -2,6 +2,7 @@
 layout: proyecto.html
 title: Reforma constitucional de Somalia
 image: https://ik.imagekit.io/5sj5zvywt/Proyectos/reforma-somalia.jpeg?updatedAt=1699551928974
+ogtype: article
 ogimage: https://ik.imagekit.io/5sj5zvywt/Proyectos/reforma-somalia.jpeg?updatedAt=1699551928974
 subtitle: Desarrollo de una plataforma de participación digital para la reforma constitucional.
 client: Naciones Unidas para el Desarrollo (PNUD)
