@@ -32,3 +32,4 @@ La imágen principal hay que subirla a este CDN https://imagekit.io/ y obtener s
 3. Clica en New y sube la imágen
 4. Una vez subida, aparecera en el listado. Haz click derecho y clica en `Copy URL`
 5. Pega esa URL en el campo `image`
+
