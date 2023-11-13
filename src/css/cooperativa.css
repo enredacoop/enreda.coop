@@ -1,7 +1,8 @@
 .cooperativa section {
   width: 100%;
   margin: auto;
-  padding: 4.38rem;
+  padding: var(--layout-padding-x);
+  padding-top: var(--layout-padding-top);
   max-width: 1920px;
 }
 .cooperativa section.head {
@@ -35,9 +36,6 @@
   height: auto;
 }
 @media screen and (max-width: 1023px) {
-  .cooperativa section.head {
-    padding: 4.38rem;
-  }
   .cooperativa section.head h2 {
     font-size: 2.25rem;
   }
@@ -51,9 +49,6 @@
   }
 }
 @media screen and (max-width: 640px) {
-  .cooperativa section {
-    padding: 3rem 1.4rem;
-  }
   .cooperativa section.head {
     padding: 3rem 1.4rem;
   }

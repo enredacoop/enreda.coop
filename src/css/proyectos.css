@@ -1,18 +1,9 @@
 .proyectos section {
   width: 100%;
   margin: auto;
-  padding: 4.38rem;
+  padding: var(--layout-padding-x);
+  padding-top: var(--layout-padding-top);
   max-width: 1920px;
-}
-@media screen and (max-width: 1023px) {
-  .proyectos section {
-    padding: 2.62rem;
-  }
-}
-@media screen and (max-width: 640px) {
-  .proyectos section {
-    padding: 1.25rem;
-  }
 }
 .proyectos section.head {
   padding-bottom: 0;

@@ -19,6 +19,7 @@
   --default-font-size: 1.11111vw; /* 16px on 1440px width */
 
   --layout-padding-x: 5.19rem; /* 83px */
+  --layout-padding-top: 6.25rem;
   --menu-height: 6.25rem;
   --menu-height-pinned: 5rem;
   --menu-padding-x: 2.5rem;
@@ -54,6 +55,7 @@
   :root {
     --default-font-size: 2.15vw; /* 16px on 1024px width */
     --layout-padding-x: 2.625rem; /* 42px */
+    --layout-padding-top: 2.625rem;
 
     --menu-height: 5rem;
     --menu-height-pinned: 5rem;
@@ -74,6 +76,7 @@
   :root {
     --default-font-size: 4.4vw; /* 16px on 640px width */
     --layout-padding-x: 1.25rem; /* 20px */
+    --layout-padding-top: 2rem;
 
     --font-display-title2: 900 1.5rem / normal var(--display-font);
     --font-text-xxl-2: 500 1rem / 1.5rem var(--body-font);
@@ -308,6 +311,7 @@ header ~ .menu menu {
   display: none;
   position: fixed;
   align-items: start;
+  justify-content: center;
   flex-direction: column;
   gap: 2.25rem;
   top: var(--menu-height);
@@ -319,7 +323,7 @@ header ~ .menu menu {
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
   font: var(--font-text-service);
-  padding-top: 10vh;
+  padding-bottom: 12vh;
 }
 header.is-pinned ~ .menu menu {
   top: var(--menu-height-pinned);
@@ -522,7 +526,7 @@ footer .subfooter p a {
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 640px) {
   header ~ .menu menu {
     gap: 1.75rem;
   }
