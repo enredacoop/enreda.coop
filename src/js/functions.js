@@ -62,7 +62,7 @@ export function serviceMenuHandler() {
   // console log to check if serviceMenuButton is checked
   serviceMenuButton.onclick = function () {
     if (serviceMenuButton.checked) {
-      servicesMenu.style.display = "block";
+      servicesMenu.style.display = "flex";
       lockScroll();
       setTimeout(() => {
         servicesMenu.style.transform = "translateX(0)";
@@ -123,7 +123,7 @@ export function mobileMenuHandler() {
           serviceMenu.style.display = "none";
         }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
       }
-      mobileMenu.style.display = "block";
+      mobileMenu.style.display = "flex";
       lockScroll();
       setTimeout(() => {
         mobileMenu.style.transform = "translateX(0)";
@@ -147,7 +147,7 @@ export function mobileMenuHandler() {
           mobileMenu.style.display = "none";
         }, 300); // Adding a small delay to allow the transform property to take effect before hiding the menu
       }
-      serviceMenu.style.display = "block";
+      serviceMenu.style.display = "flex";
       lockScroll();
       setTimeout(() => {
         serviceMenu.style.transform = "translateX(0)";
