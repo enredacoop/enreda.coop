@@ -360,7 +360,7 @@ async function _projectSearch(query, category) {
     actionDiv.classList.add("action");
 
     var actionSpan = document.createElement("span");
-    actionSpan.textContent = "Ver projecto";
+    actionSpan.textContent = "Ver proyecto";
 
     var arrowImage = document.createElement("img");
     arrowImage.setAttribute("src", "/assets/img/arrow-right.svg");
