@@ -61,12 +61,12 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="icon" href="favicon.ico" type="image/png" />
+    <link rel="icon" href="/assets/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/project-card.css" />
     <link rel="stylesheet" href="/css/noticia-card.css" />
     {% if css %} {% for link in css %}
-    <link rel="stylesheet" href="{{link}}" />
+    <link rel="stylesheet" href="{{link}}" type="text/css" />
     {% endfor %} {% endif %}
     <meta name="generator" content="{{ eleventy.generator }}" />
     <script src="/js/transitions.js" type="module"></script>
