@@ -121,13 +121,6 @@
   height: 2.626rem;
   margin-right: 0.5rem;
 }
-.project-card .categories {
-  margin-bottom: 2.62rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
 .project-card .categories span {
   display: inline-block;
   box-sizing: border-box;
@@ -137,7 +130,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: var(--card-category-tag-padding);
-  margin-right: var(--card-category-tag-margin-right);
+}
+.project-card .categories {
+  margin-bottom: 2.62rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .project-card .content .action {
   display: flex;

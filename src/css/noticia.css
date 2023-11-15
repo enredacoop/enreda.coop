@@ -83,8 +83,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.noticia .content .body p {
+.noticia .content .body p,
+.noticia .content .body ul,
+.noticia .content .body hr {
   margin-bottom: 20px;
+}
+.noticia .content .body ul {
+  margin-left: 1rem;
 }
 .noticia .content .body img {
   width: 100%;

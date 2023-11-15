@@ -349,6 +349,8 @@ async function _projectSearch(query, category) {
       var categoryTag = document.createElement("span");
       categoryTag.textContent = element.categories[i];
       categoriesDiv.appendChild(categoryTag);
+      var whiteSpace = document.createTextNode("\u00A0 ");
+      categoriesDiv.appendChild(whiteSpace);
     }
 
     head.appendChild(categoriesDiv);
