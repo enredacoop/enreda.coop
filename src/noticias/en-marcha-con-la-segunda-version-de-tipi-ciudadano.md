@@ -4,7 +4,7 @@ title: "En marcha con la segunda versión de Tipi Ciudadano"
 image: https://ik.imagekit.io/enreda/tipi.png?updatedAt=1699969863291
 date: "2016-08-09"
 firstParagraph: >
-  Ya hace un año y medio que nos contactaron por primera vez desde <a href="http://www.unmundosalvadorsoler.org/ciecode/" target="_blank">Ciecode</a> para llevar a cabo un proyecto que al principio nos sonó a *indio* pero que una vez supimos de que iba la cosa nos fascinó: <a href="http://tipiciudadano.es/" target="_blank">Tipi Ciudadano</a>. Las siglas TIPI significan Transparencia, Información, Participación e Incidencia, y enlazan perfectamente con **una de las líneas estratégicas de nuestra cooperativa**.
+  Ya hace un año y medio que nos contactaron por primera vez desde Ciecode para llevar a cabo un proyecto que al principio nos sonó a indio pero que una vez supimos de que iba la cosa nos fascinó: Tipi Ciudadano. Las siglas TIPI significan Transparencia, Información, Participación e Incidencia, y enlazan perfectamente con una de las líneas estratégicas de nuestra cooperativa.
 ---
 
 Ya hace un año y medio que nos contactaron por primera vez desde [Ciecode](http://www.unmundosalvadorsoler.org/ciecode/) para llevar a cabo un proyecto que al principio nos sonó a *indio* pero que una vez supimos de que iba la cosa nos fascinó: [Tipi Ciudadano](http://tipiciudadano.es/). Las siglas TIPI significan Transparencia, Información, Participación e Incidencia, y enlazan perfectamente con [una de las líneas estratégicas de nuestra cooperativa](http://enreda.coop/lineas/transparencia-y-participacion/). En este sentido estaba claro que sentiríamos cada línea de código como algo más allá de la programación, como algo cercano a esa transformación social que siempre intentamos implementar.
