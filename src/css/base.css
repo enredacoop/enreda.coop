@@ -46,7 +46,10 @@ a:focus {
   --font-text-md: 400 1rem / 1.75rem var(--body-font);
   --font-text-button-ghost: 600 0.9375rem / normal var(--title-font);
   --font-text-service: 900 3.75rem / normal var(--display-font);
-  --font-heading-lg: 700 2rem / normal var(--title-font);
+  --font-text-label-s: 500 0.75rem / normal var(--title-font);
+  --font-heading-xl: 900 2.25rem / normal var(--display-font);
+  --font-heading-lg: 700 2rem / normal var(--display-font);
+  --font-heading-md: 700 1.75rem / normal var(--title-font);
   --font-heading-notice: 700 1.5rem / 2rem var(--title-font);
   --font-heading-xs: 700 1rem / normal var(--title-font);
   --font-heading-md-regular: 400 1.75rem / normal var(--title-font);
@@ -80,8 +83,10 @@ a:focus {
     --font-text-xl: 400 1rem / 1.75rem var(--body-font);
     --font-text-xxl: 400 1.25rem / 1.875rem var(--title-font);
     --font-text-service: 900 2rem / normal var(--display-font);
+    --font-heading-xl: 900 2rem / normal var(--display-font);
+    --font-heading-lg: 700 1.5rem / normal var(--display-font);
+    --font-heading-md: 700 1.25rem / normal var(--title-font);
     --font-heading-md-regular: 400 1.5rem / normal var(--title-font);
-    --font-heading-lg: 700 1.5rem / normal var(--title-font);
   }
 }
 /* Mobile */
@@ -96,8 +101,10 @@ a:focus {
     --font-text-xxl: 400 1rem / 1.75rem var(--title-font);
     --font-text-xl-2: 400 1rem / normal var(--title-font);
     --font-text-service: 900 1rem / normal var(--display-font);
+    --font-heading-xl: 900 1.5rem / normal var(--display-font);
+    --font-heading-lg: 700 1.25rem / normal var(--display-font);
+    --font-heading-md: 700 1.25rem / normal var(--title-font);
     --font-heading-xs: 700 1rem / 1.5rem var(--title-font);
-    --font-heading-lg: 700 1.25rem / normal var(--title-font);
   }
 }
 
