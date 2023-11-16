@@ -85,7 +85,8 @@
 }
 .noticia .content .body p,
 .noticia .content .body ul,
-.noticia .content .body hr {
+.noticia .content .body hr,
+.noticia .content .body h2{
   margin-bottom: 20px;
 }
 .noticia .content .body ul {
