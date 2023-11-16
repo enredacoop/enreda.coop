@@ -130,22 +130,26 @@
   flex-shrink: 0;
   border-radius: var(--spacing-4, 1rem);
   box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
-}
-.kit-digital .soluciones .card-list .card .card-title {
   text-align: center;
+}
+.kit-digital .soluciones .card-list .card .card-category-title {
   font: var(--font-heading-xl);
+  margin-bottom: 1rem;
+}
+.kit-digital .soluciones .card-list .card .card-product-title {
+  font: var(--font-heading-md);
 }
 .kit-digital .soluciones .card-list .card .card-desc {
+  margin-top: 1rem;
   font: var(--font-text-md);
-  text-align: center;
 }
 .kit-digital .soluciones .card-list .card .card-features {
   margin-left: 1rem;
+  text-align: left;
   font: var(--font-text-md);
 }
 .kit-digital .soluciones .card-list .card .card-price {
   font: var(--font-heading-md);
-  text-align: center;
 }
 .kit-digital .soluciones .card-list .card .card-price-detail {
   font: var(--font-text-label-s);
