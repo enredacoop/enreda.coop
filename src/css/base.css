@@ -333,7 +333,7 @@ header ~ .menu menu {
   align-items: start;
   justify-content: center;
   flex-direction: column;
-  gap: 2.25rem;
+  gap: 1rem;
   top: var(--menu-height);
   left: 0;
   width: 100%;
