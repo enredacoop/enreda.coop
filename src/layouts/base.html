@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- HTML Meta Tags -->
-    {% if title %} {% assign title = title | append:" — Enreda" %} {% else %} {%
-    assign title = "Enreda" %} {% endif %} {% if metadescription %} {% assign
-    description = metadescription %} {% else %} {% assign description = "Web de
-    la Cooperativa Enreda" %} {% endif %} {% assign url = 'https://enreda.coop'
-    | append: page.url %}
+    {% if title %} 
+      {% assign title = title | append:" — Enreda" %} 
+    {% else %} 
+      {% assign title = "Enreda" %} 
+    {% endif %} 
+    {% if description %} 
+      {% assign description = description %} 
+    {% else %} 
+      {% assign description = "Soluciones para la Transformación Social" %} 
+    {% endif %}
+    {% if image %} 
+      {% assign image = image %} 
+    {% else %} 
+      {% assign image = '/assets/img/enreda-black.png' %} 
+    {% endif %} 
+    {% assign url = 'https://enreda.coop' | append: page.url %} 
+    {% if layout == 'noticia.html' %} 
+      {% assign description = firstParagraph %} 
+      {% assign ogtype = 'article' %}
+    {% endif %}
+
     <title>{{title}}</title>
     <meta name="description" content="{{ description }}" />
 
     <!-- Facebook Meta Tags -->
+    <meta property="og:site_name" content="Enreda" />
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:url" content="{{ url }}" />
     <meta property="og:type" content="{{ ogtype | default: 'website'}}" />
     <meta
       property="og:image"
-      content="{{ ogimage | default: '/assets/img/enreda-black.png'}}"
+      content="{{ image }}"
     />
 
     <!-- Twitter Meta Tags -->
@@ -32,7 +49,7 @@
     <meta name="twitter:description" content="{{description}}" />
     <meta
       name="twitter:image"
-      content="https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087"
+      content="{{ image }}"
     />
 
     <meta name="view-transition" content="same-origin" />
