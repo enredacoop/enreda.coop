@@ -87,6 +87,7 @@
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  word-break: break-word;
 }
 .project-card .content h5 {
   text-transform: none;
@@ -96,9 +97,11 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  word-break: break-word;
 }
 .project-card .content .client {
   margin-bottom: var(--card-client-margin-bottom);
+  word-break: break-word;
 }
 .project-card .content .client .client-label {
   color: #747272;

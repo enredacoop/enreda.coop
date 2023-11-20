@@ -20,5 +20,6 @@ jobs:
             cd /home/enreda/new
             git pull
             nvm use 16
+            npm ci
             npm run build
-            service nginx restart
+            service nginx reload
