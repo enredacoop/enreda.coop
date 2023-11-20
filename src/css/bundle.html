@@ -1,0 +1,20 @@
+---
+permalink: bundle.css
+---
+{% capture css %}
+    {% include "css/base.css" %}
+    {% include "css/index.css" %}
+    {% include "css/contacto.css" %}
+    {% include "css/cooperativa.css" %}
+    {% include "css/noticia-card.css" %}
+    {% include "css/noticia.css" %}
+    {% include "css/noticias.css" %}
+    {% include "css/project-card.css" %}
+    {% include "css/proyecto.css" %}
+    {% include "css/proyectos.css" %}
+    {% include "css/servicios.css" %}
+    {% include "css/servicios/participacion.css" %}
+    {% include "css/kit-digital.css" %}
+{% endcapture %}
+
+{{ css | cssmin }}

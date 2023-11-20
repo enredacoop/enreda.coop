@@ -1,5 +1,6 @@
 const lunr = require("lunr");
 const markdownit = require("markdown-it");
+const CleanCSS = require("clean-css");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
@@ -64,6 +65,10 @@ module.exports = function (eleventyConfig) {
     linkify: true,
   };
   eleventyConfig.setLibrary("md", markdownit(options));
+
+  eleventyConfig.addFilter("cssmin", function(code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
 
   return {
     dir: {
