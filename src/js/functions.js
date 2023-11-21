@@ -338,6 +338,8 @@ async function _projectSearch(query, category) {
       odsImg.setAttribute("height", "42");
       odsImg.setAttribute("alt", "");
       odsDiv.appendChild(odsImg);
+      var whiteSpace = document.createTextNode("\u00A0 ");
+      odsDiv.appendChild(whiteSpace);
     }
 
     head.appendChild(odsDiv);
