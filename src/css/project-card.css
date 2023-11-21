@@ -21,6 +21,9 @@
   --card-category-tag-padding: 0.5rem 1rem;
   --card-category-tag-radius: 4rem;
   --card-category-tag-margin-right: 1rem;
+  --card-category-tag-line-height: 1rem;
+  --card-category-tag-padding-y: 0.5rem;
+  --card-category-tag-padding-x: 1rem;
 }
 @media screen and (max-width: 1023px) {
   :root {
@@ -46,6 +49,9 @@
     --card-category-tag-padding: 0.3rem 0.5rem;
     --card-category-tag-radius: 1rem;
     --card-category-tag-margin-right: 0.5rem;
+    --card-category-tag-line-height: 1rem;
+    --card-category-tag-padding-y: 0.3rem;
+    --card-category-tag-padding-x: 0.5rem;
   }
 }
 
@@ -132,8 +138,13 @@
   border-radius: var(--card-category-tag-radius);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: var(--card-category-tag-padding);
+  line-height: var(--card-category-tag-line-height);
+  padding-top: var(--card-category-tag-padding-y);
+  padding-bottom: var(--card-category-tag-padding-y);
+  padding-right: var(--card-category-tag-padding-x);
+  padding-left: var(--card-category-tag-padding-x);
   margin-bottom: 0.04rem;
+  height: calc(var(--card-category-tag-line-height) + var(--card-category-tag-padding-y) * 2);
 }
 .project-card .categories {
   margin-bottom: 2.62rem;
@@ -142,6 +153,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   word-break: break-word;
+  height: calc(.01rem + var(--card-category-tag-line-height) + var(--card-category-tag-padding-y) * 2);
 }
 .project-card .content .action {
   display: flex;
