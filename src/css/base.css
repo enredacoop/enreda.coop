@@ -17,6 +17,9 @@ a {
 a:focus {
   outline: none !important;
 }
+label {
+  -webkit-tap-highlight-color: transparent  
+}
 
 :root {
   /* Color variables */
