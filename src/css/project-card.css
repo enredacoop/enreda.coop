@@ -43,7 +43,7 @@
     --card-category-tag-font: 500 0.5625rem / normal var(--title-font);
     --card-action-font: 600 0.9375rem / normal var(--title-font);
 
-    --card-category-tag-padding: 0.28rem 0.5rem;
+    --card-category-tag-padding: 0.3rem 0.5rem;
     --card-category-tag-radius: 1rem;
     --card-category-tag-margin-right: 0.5rem;
   }
@@ -122,17 +122,18 @@
   display: inline-block;
   width: 2.626rem;
   height: 2.626rem;
-  margin-right: 0.5rem;
+  margin-right: 0.2rem;
 }
 .project-card .categories span {
   display: inline-block;
   box-sizing: border-box;
   font: var(--card-category-tag-font);
-  border: 0.5px solid var(--black);
+  border: 0.05rem solid var(--black);
   border-radius: var(--card-category-tag-radius);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: var(--card-category-tag-padding);
+  margin-bottom: 0.04rem;
 }
 .project-card .categories {
   margin-bottom: 2.62rem;
@@ -140,6 +141,7 @@
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  word-break: break-word;
 }
 .project-card .content .action {
   display: flex;

@@ -6,7 +6,7 @@ ogtype: website
 ogimage: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
 subtitle: Plataforma de participación ciudadana de Perú
 client: Naciones Unidas para el Desarrollo (PNUD)
-ods: [1, 2]
+ods: [1, 2, 3, 4, 5, 6, 7]
 categories: ["Software de participación", "Sostenibilidad"]
 summary: ENREDA ha desarrollado para el Programa de las Naciones Unidas para el Desarollo (PNUD), la plataforma Redpública, Con el fin de impulsar la participación ciudadana y reunir las propuestas de los peruanos y pernuanas para crear una "agenda país".
 ---
