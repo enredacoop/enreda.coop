@@ -87,7 +87,7 @@
 .noticia .content .body ul,
 .noticia .content .body hr,
 .noticia .content .body h2{
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .noticia .content .body ul {
   margin-left: 1rem;
@@ -97,5 +97,8 @@
   height: auto;
 }
 .noticia .content .body iframe {
+  max-width: 100%;
   display: block;
+  margin:auto;
+  margin-bottom: 2rem
 }
