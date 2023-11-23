@@ -1,9 +1,9 @@
 ---
 layout: proyecto.html
 title: En la Órbita
-image: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
+image: https://ik.imagekit.io/enreda/proyectos/enlaorbita.png?updatedAt=1700671432530
 ogtype: website
-ogimage: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
+ogimage: https://ik.imagekit.io/enreda/proyectos/enlaorbita.png?updatedAt=1700671432530
 subtitle: Crea tu sitio web de forma fácil
 client: Producto propio
 ods: [17]

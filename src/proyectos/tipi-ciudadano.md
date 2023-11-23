@@ -1,9 +1,9 @@
 ---
 layout: proyecto.html
 title: TIPI Ciudadano
-image: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
+image: https://ik.imagekit.io/enreda/proyectos/tipi.png?updatedAt=1700671437209
 ogtype: website
-ogimage: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
+ogimage: https://ik.imagekit.io/enreda/proyectos/tipi.png?updatedAt=1700671437209
 subtitle: Transparencia, Información, Participación e Incidencia.
 client: Centro de Investigación y Estudios sobre Coherencia y Desarrollo
 ods: [11, 16]

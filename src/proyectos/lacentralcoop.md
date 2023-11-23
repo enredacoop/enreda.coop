@@ -1,9 +1,9 @@
 ---
 layout: proyecto.html
 title: LaCentral.coop
-image: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
+image: https://ik.imagekit.io/enreda/proyectos/lacentralcoop.png?updatedAt=1700757031050
 ogtype: website
-ogimage: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
+ogimage: https://ik.imagekit.io/enreda/proyectos/lacentralcoop.png?updatedAt=1700757031050
 subtitle: Productos y servicios cooperativos.
 client: Federación Andaluza de Empresas Cooperativas de Trabajo Asociado
 ods: [9, 17]
