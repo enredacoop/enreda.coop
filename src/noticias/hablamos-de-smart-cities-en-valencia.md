@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Hablamos de Smart Cities en Valencia"
-image: https://ik.imagekit.io/enreda/valencia-smart-cities.jpg?updatedAt=1700056645523
+image: https://ik.imagekit.io/enreda/noticias/valencia-smart-cities.jpg?updatedAt=1700056645523
 date: "2017-01-20"
 firstParagraph: >
   El pasado jueves 19 de enero de 2017 participamos (@pr3ssh) concretamente) en la Semana de la Innovación de Valencia en el marco de la redefinición que está realizando el Ayuntamiento de la ciudad de su estrategia de Smart City. El encuentro se realizó en Las Naves y vino a llamarse "Democratizando la tecnología para democratizar la ciudad".

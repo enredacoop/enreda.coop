@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Tejiendo redes para la ParticiPASIÓN"
-image: https://ik.imagekit.io/enreda/participasion.jpg?updatedAt=1700045859834
+image: https://ik.imagekit.io/enreda/noticias/participasion.jpg?updatedAt=1700045859834
 date: "2016-10-31"
 firstParagraph: >
   Este fin de semana hemos estado en Córdoba intercambiando saberes y tejiendo redes, en IX Encuentro de Educación para la Participación: el asalto a la particiPASIÓN. 

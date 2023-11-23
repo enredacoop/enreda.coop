@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Enreda vuelve a Madrid (aunque nunca se fue)"
-image: https://ik.imagekit.io/enreda/enreda.png?updatedAt=1700066390886
+image: https://ik.imagekit.io/enreda/noticias/enreda.png?updatedAt=1700066390886
 date: "2017-08-29"
 firstParagraph: >
   Aprovechamos la vuelta del verano para anunciar que nuestra cooperativa vuelve a tener presencia permanente en Madrid, como ya la tiene en Sevilla, Huelva y Málaga.  De esta forma, seguimos consolidando nuestra red territorial mediante la que podemos ofrecer una mejor atención a las entidades con las que trabajamos.

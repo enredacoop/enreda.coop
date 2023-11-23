@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Enreda, organización pionera de la Economía del Bien Común"
-image: https://ik.imagekit.io/enreda/enreda-bien-comun.png?updatedAt=1700222551793
+image: https://ik.imagekit.io/enreda/noticias/enreda-bien-comun.png?updatedAt=1700222551793
 date: "2020-02-04"
 firstParagraph: >
   Nos complace informaros de que la Cooperativa Enreda ha finalizado el largo proceso para obtener el certificado de “Organización pionera de la Economía del Bien Común” otorgado por la Asociación Federal Española para el Fomento de la Economía del Bien Común.

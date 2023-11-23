@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Nos unimos a la Red por una Contratación Pública con Derechos"
-image: https://ik.imagekit.io/enreda/contratahorizontal-1.jpg?updatedAt=1700051858864
+image: https://ik.imagekit.io/enreda/noticias/contratahorizontal-1.jpg?updatedAt=1700051858864
 date: "2016-12-19"
 firstParagraph: >
   Este fin de semana nos hemos visto en Málaga en las Jornadas por una Contratación Pública con Derechos un centenar de personas pertenecientes a una treintena de organizaciones de la economía social REAS, FAECTA, Economía del Bien Común...), ecologistas (como la Plataforma por un nuevo modelo energético) y políticas (incluido responsables de contratación de los Ayuntamientos de Madrid y Barcelona con el objetivo de buscar formulas para mejorar el importantísimo impacto económico, democrático, social y medioambiental que supone la contratación pública.

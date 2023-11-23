@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Conilhospeda.com ya está en la red"
-image: https://ik.imagekit.io/enreda/conil-hospeda.jpg?updatedAt=1699968771782
+image: https://ik.imagekit.io/enreda/noticias/conil-hospeda.jpg?updatedAt=1699968771782
 date: "2016-05-22"
 firstParagraph: >
   En primer lugar, desde ENREDA queremos felicitar a todos los compañeros de la Cooperativa Turística de Conil, por su apuesta para que el proyecto de Conil Hospeda se haga realidad. 

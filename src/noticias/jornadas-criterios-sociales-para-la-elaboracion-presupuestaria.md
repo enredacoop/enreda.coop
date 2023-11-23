@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "[Jornadas] Criterios sociales para la elaboración presupuestaria"
-image: https://ik.imagekit.io/enreda/jornada-democracia-presupuestaria.png?updatedAt=1700044791043
+image: https://ik.imagekit.io/enreda/noticias/jornada-democracia-presupuestaria.png?updatedAt=1700044791043
 date: "2016-09-21"
 firstParagraph: >
   El próximo sábado 24 de septiembre tendrá lugar la tercera jornada del proyecto de formación en democracia presupuestaria que el Ayuntamiento de Córdoba está desarrollando con la colaboración de Enreda.

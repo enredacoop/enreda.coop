@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "El Ayuntamiento de Mijas se alía con Enreda para mejorar la Participación Ciudadana"
-image: https://ik.imagekit.io/enreda/mijas.jpeg?updatedAt=1700050075954
+image: https://ik.imagekit.io/enreda/noticias/mijas.jpeg?updatedAt=1700050075954
 date: "2016-11-27"
 firstParagraph: >
   El Ayuntamiento de Mijas ha iniciado una alianza con la Cooperativa Enreda con el objeto de mejorar la participación ciudadana en esta localidad de la Costa del Sol.

@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Enreda participa con la Fundación Baltasar Garzón en el programa Corrupción Zero"
-image: https://ik.imagekit.io/enreda/Programa-corrupcionzero-1.jpg?updatedAt=1700067147609
+image: https://ik.imagekit.io/enreda/noticias/Programa-corrupcionzero-1.jpg?updatedAt=1700067147609
 date: "2017-11-22"
 firstParagraph: >
   Hoy 22 de noviembre se celebra en Valencia la primera de tres sesiones relacionadas con la lucha contra la corrupción, lideradas por la Fundación Baltasar Garzón y con la colaboración de la Fundación por la Justicia.

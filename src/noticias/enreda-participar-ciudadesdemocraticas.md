@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Enreda participará en #CiudadesDemocráticas, el festival internacional de tecnológias de participación"
-image: https://ik.imagekit.io/enreda/ciudadesdemocraticas.jpg?updatedAt=1700066879103
+image: https://ik.imagekit.io/enreda/noticias/ciudadesdemocraticas.jpg?updatedAt=1700066879103
 date: "2017-11-16"
 firstParagraph: >
   Ciudades Democráticas es un evento en torno a las tecnologías de participación que tendrá lugar en la ciudad de Madrid en noviembre 2017. En el mismo patticiparan personalidades politicas (como Ada Colau o Manuela Carmena) activistas (como Julia Kloiber,de la Open Knowledge Foundation Germany o Benny Ng de Hong-Kong) investigadores (Bernardo Gutiérrez,Giovanni Allegretti,Domenico Di Siena...) y empresas de innovación tecnológica para la participación ¡como Enreda!

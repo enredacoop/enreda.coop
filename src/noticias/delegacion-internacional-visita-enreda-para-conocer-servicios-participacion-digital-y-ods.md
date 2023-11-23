@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Delegación internacional Visita ENREDA para conocer nuestros servicios en participación digital y ODS"
-image: https://ik.imagekit.io/enreda/delegacion.jpg?updatedAt=1700470396524
+image: https://ik.imagekit.io/enreda/noticias/delegacion.jpg?updatedAt=1700470396524
 date: "2021-10-22"
 firstParagraph: >
   Hace unos días recibimos, en nuestra sede en el espacio colaborativo del Centro de Innovación Social La Noria de Málaga, a  una delegación de responsables y expertos en planificación y Agenda 2030 de Cuba, Bolivia y Guinea Bissau.

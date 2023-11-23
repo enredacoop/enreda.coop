@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Arantza Lozano, nueva socia de la Cooperativa Enreda"
-image: https://ik.imagekit.io/enreda/aran.jpg?updatedAt=1700222268069
+image: https://ik.imagekit.io/enreda/noticias/aran.jpg?updatedAt=1700222268069
 date: "2019-10-25"
 firstParagraph: >
   Hoy queremos contaros que la Cooperativa Enreda tiene una nueva socia: Arantza Lozano, que tras cerca de dos años trabajando como administradora de la cooperativa, da el paso y entra como nueva socia de Enreda.

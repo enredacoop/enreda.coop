@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "El Ayuntamiento de El Pedroso se alía con Enreda para promover la participación"
-image: https://ik.imagekit.io/enreda/Pedroso-vert.png?updatedAt=1700057966440
+image: https://ik.imagekit.io/enreda/noticias/Pedroso-vert.png?updatedAt=1700057966440
 date: "2017-04-26"
 firstParagraph: >
   El Ayuntamiento de El Pedroso ha contado con la cooperativa Enreda para el desarrollo de unas Jornadas de Participación, Asociacionismo y Voluntariado, entre los meses de marzo y abril. 

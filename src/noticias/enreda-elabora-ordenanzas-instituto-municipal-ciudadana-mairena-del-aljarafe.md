@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Enreda elabora las ordenanzas del Instituto Municipal de Dinamización ciudadana de Mairena de Aljarafe"
-image: https://ik.imagekit.io/enreda/mairena2.jpeg?updatedAt=1700224083011
+image: https://ik.imagekit.io/enreda/noticias/mairena2.jpeg?updatedAt=1700224083011
 date: "2020-10-15"
 firstParagraph: >
   El Instituto Municipal de Dinamización ciudadana (IMDC)- el organismo autónomo del Ayuntamiento de Mairena del Aljarafe encargado de la gestión directa de los servicios públicos de competencia municipal en materia de Deporte, Cultura, Juventud y Festejos- ha encargado a la Cooperativa Enreda un servicio de consultoría para la elaboración sus reglamentos y ordenanzas.

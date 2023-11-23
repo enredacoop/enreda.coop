@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "La Cooperativa Enreda desarrollará el portal de participación ciudadana del Ayuntamiento de Cádiz"
-image: https://ik.imagekit.io/enreda/portada-decide-cadiz.jpg?updatedAt=1700058154605
+image: https://ik.imagekit.io/enreda/noticias/portada-decide-cadiz.jpg?updatedAt=1700058154605
 date: "2017-05-25"
 firstParagraph: >
   El Ayuntamiento de Cádiz ha decidido abrir una nueva vía de gestión participativa de la política municipal: la plataforma digital de participación ciudadana Decide.Cádiz.

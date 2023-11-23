@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "El Ayuntamiento de Córdoba presenta su plataforma de transparencia presupuestaria desarrollada por Enreda"
-image: https://ik.imagekit.io/enreda/cordoba-presentacion.jpg?updatedAt=1700058433644
+image: https://ik.imagekit.io/enreda/noticias/cordoba-presentacion.jpg?updatedAt=1700058433644
 date: "2017-06-05"
 firstParagraph: >
   El Ayuntamiento de Córdoba ha decidido dar un salto hacia la transparencia en la publicación de sus presupuestos de 2017. Para ello ha  presentado su nuevo portal democraciapresupuestaria.cordoba.es en el que se puede conocer de forma sencilla y visual todos los detalles  de las cuentas municipales.

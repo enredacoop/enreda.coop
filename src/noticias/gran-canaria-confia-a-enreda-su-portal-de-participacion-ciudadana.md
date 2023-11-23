@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Gran Canaria confía a Enreda su portal de participación ciudadana"
-image: https://ik.imagekit.io/enreda/gran-canaria-part.png?updatedAt=1700468799547
+image: https://ik.imagekit.io/enreda/noticias/gran-canaria-part.png?updatedAt=1700468799547
 date: "2020-10-29"
 firstParagraph: >
   El Cabildo de Gran Canaria ha contratado a la Cooperativa Enreda el servicio de mantenimiento, evolución y soporte de la plataforma de participación ciudadana participa.grancanaria.com, basada en CONSUL.

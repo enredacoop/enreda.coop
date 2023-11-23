@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Lanzamos la segunda versión de Tipi"
-image: https://ik.imagekit.io/enreda/tipi-v2.jpg?updatedAt=1700045428877
+image: https://ik.imagekit.io/enreda/noticias/tipi-v2.jpg?updatedAt=1700045428877
 date: "2016-10-27"
 firstParagraph: >
   Durante este mes de octubre se ha ido desarrollando el lanzamiento oficial de la segunda versión de Tipi Ciudadano; presentándolo públicamente (en los pre eventos de la #IODC16, haciendo talleres de uso grupales y con una campaña en redes sociales de incidencia en torno a la futura formación de gobierno en España.

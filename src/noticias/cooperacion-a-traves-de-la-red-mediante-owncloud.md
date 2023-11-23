@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: Cooperación a través de la red mediante OwnCloud
-image: https://ik.imagekit.io/enreda/enredablogOwncloud.png?updatedAt=1699966148908
+image: https://ik.imagekit.io/enreda/noticias/enredablogOwncloud.png?updatedAt=1699966148908
 date: "2016-02-24"
 firstParagraph: >
   Aunque el incremento a la hora de usar el cloud para compartir ficheros y trabajar de una forma más organizada aumenta día a día, son todavía muchas las empresas que no conocen esta forma de colaborar.
@@ -72,7 +72,7 @@ El piloto de Owncloud lo usarán todos los proyectos alojados en [EspacioRes](ht
 * Cada cuenta por componente tendrá 1Gb
 * Las aplicaciones se podrán instalar bajo             demanda si las hubiere
 
-![Captura piloto Owncloud](https://ik.imagekit.io/enreda/owncloud.png?updatedAt=1699966337633)
+![Captura piloto Owncloud](https://ik.imagekit.io/enreda/noticias/owncloud.png?updatedAt=1699966337633)
 
 Como hemos avisado, es un piloto y como tal tiene su limitación. De momento el almacenamiento es poco pero se puede aumentar facilmente añadiendo almacenamiento al servidor. Y también el cuello de botella en subida de ficheros fuera de la red local. Ojala la simetría en velocidad fuera un hecho y no un mito.
 

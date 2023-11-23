@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Ayudando a los Ayuntamientos a adaptar sus reglamentos a la Ley Andaluza de Participación"
-image: https://ik.imagekit.io/enreda/5-retos.jpg?updatedAt=1700214654634
+image: https://ik.imagekit.io/enreda/noticias/5-retos.jpg?updatedAt=1700214654634
 date: "2018-06-01"
 firstParagraph: >
   El pasado 29 de mayo fuimos invitados por la Diputación de Cádiz a realizar un taller sobre reglamentos de participación ciudadana en el marco de  las jornadas "nuevo marco jurídico de la Ley Andaluza de Participación Ciudadana".

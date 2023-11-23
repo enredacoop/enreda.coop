@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Hablamos de emprendimiento tecnológico bajo modelos de economía social"
-image: https://ik.imagekit.io/enreda/jornadas-2.png?updatedAt=1700484845833
+image: https://ik.imagekit.io/enreda/noticias/jornadas-2.png?updatedAt=1700484845833
 date: "2021-11-23"
 firstParagraph: >
   El próximo 30 de noviembre estaremos colaborando con Acción Contra el Hambre en "la Desconocida", unas  jornadas sobre las ventajas para el emprendimiento tecnológico bajo modelos de economía social.

@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "OpenODS: Llevamos el OpenData a la gestión de los Objetivos de Desarrollo Sostenible"
-image: https://ik.imagekit.io/enreda/openods.png?updatedAt=1700221331571
+image: https://ik.imagekit.io/enreda/noticias/openods.png?updatedAt=1700221331571
 date: "2019-06-01"
 firstParagraph: >
   Enreda se ha aliado con Creando Conciencia para un ambicioso proyecto: OpenODS, un proyecto que busca estandarizar la información asociada a los Objetivos de Desarrollo Sostenible mediante una misma metodología y una herramienta digital compartida.

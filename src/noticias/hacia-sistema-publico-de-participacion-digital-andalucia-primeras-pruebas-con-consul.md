@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Hacia el Sistema Público de Participación Digital de Andalucía: empezamos las primeras pruebas con CONSUL"
-image: https://ik.imagekit.io/enreda/SPPDA.JPG?updatedAt=1700215298527
+image: https://ik.imagekit.io/enreda/noticias/SPPDA.JPG?updatedAt=1700215298527
 date: "2019-04-03"
 firstParagraph: >
   La Ley 7/2017 de Participación Ciudadana de Andalucía incorpora una interesante novedad: el mandato de desarrollar un Sistema Público de Participación Digital para Andalucía. La norma especifica además que el sistema debe basarse en Software Libre y que tiene que estar provisto de herramientas y funcionalidades suficientes para dar soporte a todos los procesos de participación ciudadana previstos en la Ley: presupuestos participativos, consultas populares, elaboración de políticas públicas, etc.

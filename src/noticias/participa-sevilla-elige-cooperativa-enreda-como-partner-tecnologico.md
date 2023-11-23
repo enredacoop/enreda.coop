@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Participa Sevilla elige a la Cooperativa Enreda como partner tecnológico"
-image: https://ik.imagekit.io/enreda/BACKOFFISE-PARTICIPA-SEVILLA3.png?updatedAt=1699969613354
+image: https://ik.imagekit.io/enreda/noticias/BACKOFFISE-PARTICIPA-SEVILLA3.png?updatedAt=1699969613354
 date: "2016-08-05"
 firstParagraph: >
   Participa Sevilla ha resuelto la convocatoria pública, lanzada en el mes de junio, para buscar la empresa que desarrollara los recurso técnicos de su presencia online, encargando finalmente este cometido a la Cooperativa Enreda.

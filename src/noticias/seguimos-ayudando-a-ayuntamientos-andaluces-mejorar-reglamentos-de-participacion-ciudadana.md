@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Hacia un Reglamento Marco de Participación Ciudadana de Andalucía"
-image: https://ik.imagekit.io/enreda/Granada-enreda.jpeg?updatedAt=1700214919597
+image: https://ik.imagekit.io/enreda/noticias/Granada-enreda.jpeg?updatedAt=1700214919597
 date: "2018-06-25"
 firstParagraph: >
   El pasado martes estuvimos en Granada,  invitados por la Dirección General de Participación Ciudadana de la Junta de Andalucía, en el "Encuentro Andaluz con representantes de las Corporaciones Locales".

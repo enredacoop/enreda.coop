@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Santiago de Compostela confía a Enreda el desarrollo de su portal de participación basado en Consul"
-image: https://ik.imagekit.io/enreda/santiago-portal-part.png?updatedAt=1700214297463
+image: https://ik.imagekit.io/enreda/noticias/santiago-portal-part.png?updatedAt=1700214297463
 date: "2018-05-31"
 firstParagraph: >
   El Concello de Santiago de Compostela ha decidido confiar a la Cooperativa Enreda la asistencia técnica para la instalación y configuración de una plataforma de participación ciudadana, basada en Consul.

@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "El Ayuntamiento de Tarifa lanza su primer Presupuesto Participativo Joven de la mano de Enreda"
-image: https://ik.imagekit.io/enreda/sole-tarifa.jpg?updatedAt=1700047966000
+image: https://ik.imagekit.io/enreda/noticias/sole-tarifa.jpg?updatedAt=1700047966000
 date: "2016-11-12"
 firstParagraph: >
   El Ayuntamiento de Tarifa ha aprobado iniciar un proceso de presupuestos participativos para su presupuesto de 2017. En concreto se realizará un proyecto piloto con el prepuesto del Área de Juventud, cuyo destino se decidirá a través de una votación directa y vinculante entre los y las jóvenes del municipio. 

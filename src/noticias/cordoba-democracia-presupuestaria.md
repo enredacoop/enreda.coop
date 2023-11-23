@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Colaboramos con el Ayuntamiento de Córdoba en su camino hacia la #DemocraciaPresupuestaria"
-image: https://ik.imagekit.io/enreda/cordoba-democracia-presupuestaria.png?updatedAt=1699968077019
+image: https://ik.imagekit.io/enreda/noticias/cordoba-democracia-presupuestaria.png?updatedAt=1699968077019
 date: "2016-05-05"
 firstParagraph: >
   Esta sábado comienzan las jornadas de formación en Democracia Presupuestaria organizadas por el Ayuntamiento de Córdoba, con la colaboración de ENREDA, y contará con la participación de diversos ayuntamientos españoles, así como representantes de la sociedad civil como los Observatorios Ciudadanos Municipales y Openkratio.

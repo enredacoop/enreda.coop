@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: 'Enreda desarrollará la plataforma de participación "Consul" de Arcos de la Frontera'
-image: https://ik.imagekit.io/enreda/arcos_5.jpg?updatedAt=1700139459240
+image: https://ik.imagekit.io/enreda/noticias/arcos_5.jpg?updatedAt=1700139459240
 date: "2018-04-04"
 firstParagraph: >
   El pasado mes firmamos un contrato con el Ayuntamiento de Arcos de la Frontera para la instalación, el desarrollo y el soporte, además del asesoramiento, de la plataforma digital de participación ciudadana Consul.

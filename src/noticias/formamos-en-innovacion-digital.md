@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Capacitamos en innovación digital para el impulso de los ODS en la Diputación de Málaga"
-image: https://ik.imagekit.io/enreda/curso-open-ods.jpg?updatedAt=1700485217411
+image: https://ik.imagekit.io/enreda/noticias/curso-open-ods.jpg?updatedAt=1700485217411
 date: "2021-12-03"
 firstParagraph: >
   La Cooperativa Enreda ha desarrollado durante esta semana un curso de capacitación  para distintos tipos de entidades de la provincia de Málaga para impulsar la Agenda 2030 a través de la innovación digital. Estos talleres han sido organizados por la Diputación de Málaga a través del Centro de Innovación Social La Noria.

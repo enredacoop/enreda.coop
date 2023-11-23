@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Sevilla ES Innovación y Economía Social"
-image: https://ik.imagekit.io/enreda/sevilla-es-innovacion.png?updatedAt=1700139825439
+image: https://ik.imagekit.io/enreda/noticias/sevilla-es-innovacion.png?updatedAt=1700139825439
 date: "2018-04-22"
 firstParagraph: >
   Del 6 al 8 de Junio la Economía Social tiene una cita obligada en Sevilla. 

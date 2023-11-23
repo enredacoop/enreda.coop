@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Enreda participará en la tercera fase de Poletika"
-image: https://ik.imagekit.io/enreda/reunion-tercera-poletika.jpg?updatedAt=1700049908160
+image: https://ik.imagekit.io/enreda/noticias/reunion-tercera-poletika.jpg?updatedAt=1700049908160
 date: "2016-11-16"
 firstParagraph: >
   La cooperativa Enreda ha conseguido ser proveedora tecnológica de Poletika en su tercera fase. Poletika es un proyecto formado por diversas ONGs y asociaciones con la intención de realizar indicencia política en temas cruciales para el desarrollo social de un país que van desde infancia a fiscalidad.

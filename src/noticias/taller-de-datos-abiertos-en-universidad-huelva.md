@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Impartimos Taller de Datos Abiertos en la Universidad de Huelva"
-image: https://ik.imagekit.io/enreda/Isidoro_Morales_Apaisado.jpg?updatedAt=1700057367758
+image: https://ik.imagekit.io/enreda/noticias/Isidoro_Morales_Apaisado.jpg?updatedAt=1700057367758
 date: "2017-04-21"
 firstParagraph: >
   Ayer jueves 20 de abril impartí (yo, Pablo Martín) un Taller de Datos Abiertos en la Universidad de Huelva destinado a los alumnos y alumnas del Máster Oficial en Ingeniería Informática y del Grado en Ingeniería Informática.

@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Presentamos el nuevo Portal de Participación Ciudadana del Ayuntamiento de Málaga"
-image: https://ik.imagekit.io/enreda/malaga-2.jpg?updatedAt=1700486863891
+image: https://ik.imagekit.io/enreda/noticias/malaga-2.jpg?updatedAt=1700486863891
 date: "2022-07-01"
 firstParagraph: >
   Esta semana hemos presentado el nuevo Portal Participación del Ayuntamiento de Málaga en el que llevamos trabajando los últimos meses. El nuevo portal - disponible en portalparticipacion.malaga.eu - está basado en Consul.

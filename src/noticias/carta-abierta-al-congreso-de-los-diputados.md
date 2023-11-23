@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Carta abierta al Congreso de los Diputados"
-image: https://ik.imagekit.io/enreda/congreso-lazo.png?updatedAt=1700223502159
+image: https://ik.imagekit.io/enreda/noticias/congreso-lazo.png?updatedAt=1700223502159
 date: "2020-05-28"
 firstParagraph: >
   El pasado lunes, el Congreso de los Diputados de España anunciaba que había habilitado un buzón de correo electrónico al que se podrán enviar sugerencias y propuestas a la “Comisión de Reconstrucción Social y Económica”, encargada de estudiar medidas que aceleren la salida de la crisis del coronavirus.

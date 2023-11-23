@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "#ParticipaODS el papel de las plataformas digitales en la Agenda 2030"
-image: https://ik.imagekit.io/enreda/participaods.jpeg?updatedAt=1700469101024
+image: https://ik.imagekit.io/enreda/noticias/participaods.jpeg?updatedAt=1700469101024
 date: "2020-12-10"
 firstParagraph: >
   La Dirección General de Participación Ciudadana del Cabildo de Gran Canarias organiza el próximo Jueves 17 de  diciembre a las 18h (19h hora peninsular) el seminario web “¿Cómo facilitar la participación ciudadana en los ODS?  El papel de las plataformas de participación digital”.

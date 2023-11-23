@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Guía de servicios de Enreda ¿En qué podemos ayudarte?"
-image: https://ik.imagekit.io/enreda/guia-servicios-enreda.jpg?updatedAt=1700056954666
+image: https://ik.imagekit.io/enreda/noticias/guia-servicios-enreda.jpg?updatedAt=1700056954666
 date: "2017-03-15"
 firstParagraph: >
   Os presentamos nuestra nueva Guía de servicios, donde os contamos los servicios que ofrece nuestra cooperativa; los trabajos que hemos realizado estos últimos años y nuestra visión, ya sabéis: crear tecnología para la transformación social partiendo de tres principios:

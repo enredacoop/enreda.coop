@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Alcalá del Valle lanza, de la mano de Enreda, sus primeros Presupuestos Participativos"
-image: https://ik.imagekit.io/enreda/alcala-del-valle.jpeg?updatedAt=1700045232114
+image: https://ik.imagekit.io/enreda/noticias/alcala-del-valle.jpeg?updatedAt=1700045232114
 date: "2016-09-29"
 firstParagraph: >
   Esta mañana el Ayuntamiento de Alcalá del Valle (Cádiz) ha presentado su primer proyecto piloto de Presupuestos Participativos. 

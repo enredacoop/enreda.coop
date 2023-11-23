@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Formando en género y participación a los ayuntamientos de la provincia de Cádiz"
-image: https://ik.imagekit.io/enreda/formando-cadiz.jpeg?updatedAt=1700222410020
+image: https://ik.imagekit.io/enreda/noticias/formando-cadiz.jpeg?updatedAt=1700222410020
 date: "2019-12-04"
 firstParagraph: >
   El pasado jueves 29 de Noviembre, estuvimos en Puerto Real invitados por la Diputación de Cádiz en la Jornada Provincial que organizó para la divulgación de la Ley de Participación Ciudadana de Andalucía, a la que asistieron más de 100 representantes políticos, técnicos municipales e integrantes de asociaciones llegados de toda la provincia.

@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "El destino de 1.500.000€ en manos de la ciudadanía de Mijas en un nuevo proceso participativo diseñado por Enreda"
-image: https://ik.imagekit.io/enreda/mijas-proceso-part.jpg?updatedAt=1700140011282
+image: https://ik.imagekit.io/enreda/noticias/mijas-proceso-part.jpg?updatedAt=1700140011282
 date: "2018-05-23"
 firstParagraph: >
   El Ayuntamiento de Mijas ha presentado #MijasParticipa, su proyecto piloto de presupuestos participativos, dotado con un millón y medio de euros, cuyo destino se decidirá a través de una votación directa y vinculante entre todos las personas mayores de 16 años empadronadas en el municipio.

@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: 'Vamos a la Universidad de Sevilla para hablar de "Tecnología para cambiar la sociedad"'
-image: https://ik.imagekit.io/enreda/quique-open.jpg?updatedAt=1700049652869
+image: https://ik.imagekit.io/enreda/noticias/quique-open.jpg?updatedAt=1700049652869
 date: "2016-11-15"
 firstParagraph: >
   Los próximos miércoles 16 y viernes 18 de noviembre se celebran los InnoSoft Days, unas jornadas sobre innovación y emprendimiento que se desarrollan en la E.T.S.I.I. de la Universidad de Sevilla.

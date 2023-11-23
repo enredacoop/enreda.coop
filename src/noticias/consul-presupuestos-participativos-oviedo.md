@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "El Ayuntamiento de Oviedo confía a Enreda su Portal de Participación"
-image: https://ik.imagekit.io/enreda/presupuestos-part-oviedo.png?updatedAt=1700139623202
+image: https://ik.imagekit.io/enreda/noticias/presupuestos-part-oviedo.png?updatedAt=1700139623202
 date: "2018-04-11"
 firstParagraph: >
   El Ayuntamiento de Oviedo ha presentado esta semana su proceso de Presupuestos Participativos, mediante el cual los ovetenses decidirán el destino de 1,5 millones de euros a través de una votación directa y vinculante.

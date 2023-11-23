@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Entrevista a Enreda en Radiopolis"
-image: https://ik.imagekit.io/enreda/entrevista-radiopolis.jpg?updatedAt=1700139248930
+image: https://ik.imagekit.io/enreda/noticias/entrevista-radiopolis.jpg?updatedAt=1700139248930
 date: "2018-02-01"
 firstParagraph: >
   Esta semana hemos tenido el placer de ser entrevistados en Radiopolis por el programa "Economía para la Ciudadanía", elaborado por ATTAC. 

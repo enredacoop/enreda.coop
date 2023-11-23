@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: El Ayuntamiento de Marbella se alía con Enreda para mejorar su transparencia presupuestaria
-image: https://ik.imagekit.io/enreda/marbella.jpg?updatedAt=1699967388723
+image: https://ik.imagekit.io/enreda/noticias/marbella.jpg?updatedAt=1699967388723
 date: "2016-03-29"
 firstParagraph: >
   El Ayuntamiento de Marbella, tras el oscuro pasado del gilismo, quiere ponerse a la vanguardia en transparencia presupuestaria, y para ello ha buscado la colaboración de la cooperativa andaluza sin ánimo de lucro enreda.coop, especializada en innovación, transparencia y participación ciudadana, y con más de nueve años de experiencia en el desarrollo tecnológico para la transformación social.

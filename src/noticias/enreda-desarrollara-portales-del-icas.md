@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "ENREDA desarrollará los portales web del ICAS, del Festival de Cine Europeo de Sevilla y del FeMÁS"
-image: https://ik.imagekit.io/enreda/logo-vector-icas.jpg?updatedAt=1700139000565
+image: https://ik.imagekit.io/enreda/noticias/logo-vector-icas.jpg?updatedAt=1700139000565
 date: "2018-01-29"
 firstParagraph: >
   Desde hace unos meses ENREDA ya está trabajando junto con el Instituto de la Cultura y las Artes del Ayuntamiento de Sevilla (ICAS) en este proyecto que se desarrollará durante los próximos meses y que incluye la creación de varios portales web.

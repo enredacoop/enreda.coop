@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Marbella presenta su portal de Gobierno Abierto"
-image: https://ik.imagekit.io/enreda/presentacion-marbella.jpg?updatedAt=1699969341985
+image: https://ik.imagekit.io/enreda/noticias/presentacion-marbella.jpg?updatedAt=1699969341985
 date: "2016-05-26"
 firstParagraph: >
   Hace un par de meses anunciamos nuestra alianza  con el Ayuntamiento de Marbella para ayudarle en su objetivo de alejarse de la oscura época del gilismo, y situarse a la vanguardia de la transparencia municipal. Hoy se ha presentado el primer gran paso de este camino: el Portal de Gobierno Abierto de Marbella.

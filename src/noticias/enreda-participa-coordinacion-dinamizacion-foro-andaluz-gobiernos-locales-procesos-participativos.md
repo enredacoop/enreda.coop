@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Enreda participa en la coordinación y dinamización del Foro Andaluz de Gobiernos Locales y Procesos Participativos"
-image: https://ik.imagekit.io/enreda/foroandaluzggll.png?updatedAt=1700064997085
+image: https://ik.imagekit.io/enreda/noticias/foroandaluzggll.png?updatedAt=1700064997085
 date: "2017-07-26"
 firstParagraph: >
   El proyecto presentado por la cooperativa Enreda, en unión con U-Space, ha sido seleccionado por la Federación Andaluza de Municipios y Provincias para desarrollar el conjunto de trabajos previstos en el marco de la creación del Foro Andaluz de Gobiernos Locales y Procesos Participativos.

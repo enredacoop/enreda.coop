@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Desarrollo de la plataforma de participación para la reforma constitucional de Somalia"
-image: https://ik.imagekit.io/enreda/image-somalia-blog.jpg?updatedAt=1700221544629
+image: https://ik.imagekit.io/enreda/noticias/image-somalia-blog.jpg?updatedAt=1700221544629
 date: "2019-08-05"
 firstParagraph: >
   La Cooperativa Enreda colaborará en la Reforma Constitucional de la República Federal De Somalia desarrollando su plataforma de participación digital.

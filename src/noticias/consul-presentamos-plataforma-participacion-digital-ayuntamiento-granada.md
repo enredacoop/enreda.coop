@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "[Consul] Presentamos la plataforma de participación digital del Ayuntamiento de Granada"
-image: https://ik.imagekit.io/enreda/partcipacion-granada-consul.jpg?updatedAt=1700215517583
+image: https://ik.imagekit.io/enreda/noticias/partcipacion-granada-consul.jpg?updatedAt=1700215517583
 date: "2019-05-15"
 firstParagraph: >
   El Ayuntamiento de Granada ha decidido confiar a la Cooperativa Enreda la asistencia técnica para la implantación, adaptación y evaluación de su Plataforma de Participación Ciudadana, basada en CONSUL.

@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Hablamos del papel del sector privado en la Agenda 2030 en el foro de PNUD Y ACCID"
-image: https://ik.imagekit.io/enreda/Arantza-Lozano.jpeg?updatedAt=1700469588320
+image: https://ik.imagekit.io/enreda/noticias/Arantza-Lozano.jpeg?updatedAt=1700469588320
 date: "2021-04-07"
 firstParagraph: >
   El pasado martes, 6 de abril,  fuimos invitados a participar en el evento “El papel del sector privado en la implementación de la Agenda 2030: una mirada desde Andalucía”, organizado por la Agencia Andaluza de Cooperación Internacional para el Desarrollo (AACID) y el Programa de las Naciones Unidas para el Desarrollo (PNUD).

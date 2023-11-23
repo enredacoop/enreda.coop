@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Presentamos REDPÚBLICA la plataforma de participación impulsada por PNUD para crear una agenda ciudadana para Perú"
-image: https://ik.imagekit.io/enreda/redpublica2.png?updatedAt=1700470966135
+image: https://ik.imagekit.io/enreda/noticias/redpublica2.png?updatedAt=1700470966135
 date: "2021-10-29"
 firstParagraph: >
   Con el fin de impulsar la participación ciudadana y reunir las propuestas de los peruanos y peruanas para crear una “Agenda país”, un grupo de instituciones de la sociedad civil, lideradas por el Programa de las Naciones Unidas para el Desarrollo (PNUD), han presentado hoy la plataforma Redpública.
@@ -31,7 +31,7 @@ Asimismo, se trabajará documentos de investigación y divulgación, campañas d
 **El turno de los jóvenes**
 Alrededor de 100 jóvenes de todo el país participan en Redpública en diversos roles, como el monitoreo de propuestas, activismo digital, convocatoria y facilitación de los grupos focales.
 
-![Redpublica ilustración página de inicio](https://ik.imagekit.io/enreda/redpublicape.png?updatedAt=1700479803931)
+![Redpublica ilustración página de inicio](https://ik.imagekit.io/enreda/noticias/redpublicape.png?updatedAt=1700479803931)
 
 **Innovación para la participación política**
 La plataforma se enmarca dentro del proyecto  “Innovación para la participación política ciudadana: más allá de la recuperación del COVID-19”, que tiene como propósito contribuir al fortalecimiento de la democracia y la cohesión social en el Perú, a través de soluciones innovadoras frente a los desafíos de gobernanza y disrupción digital.

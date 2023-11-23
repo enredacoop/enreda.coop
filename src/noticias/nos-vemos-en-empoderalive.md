@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Nos vemos en #EmpoderaLIVE"
-image: https://ik.imagekit.io/enreda/empoderalive.jpg?updatedAt=1700043750601
+image: https://ik.imagekit.io/enreda/noticias/empoderalive.jpg?updatedAt=1700043750601
 date: "2016-09-19"
 firstParagraph: >
   El 20 y 21 de septiembre tendrá lugar en Málaga la X edición de #EmpoderaLIVE, un espacio de intercambio de experencias entre personas y organizaciones sobre como uso de la tecnología puede cambiar el mundo en favor de la participación, la libertad y el compromiso social.

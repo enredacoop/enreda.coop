@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Los portales locales de participación como canalizadores de la solidaridad frente el coronavirus"
-image: https://ik.imagekit.io/enreda/image-38.png?updatedAt=1700222993855
+image: https://ik.imagekit.io/enreda/noticias/image-38.png?updatedAt=1700222993855
 date: "2020-04-02"
 firstParagraph: >
   Hace unos días publicábamos un hilo en twitter repasando algunas iniciativas cercanas que están poniendo la tecnología al servicio de la gente para afrontar la crisis generada ante la aparición de la COVID-19. Hoy queremos dar un paso más en esta línea y analizar lo que están haciendo los principales ayuntamientos españoles en sus portales para canalizar esa ola de solidaridad - de "resiliencia cívica" que le llaman los amigos de Frena la curva - que ha desatado la alerta global.

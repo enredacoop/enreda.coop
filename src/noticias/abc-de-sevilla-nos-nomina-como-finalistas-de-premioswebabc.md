@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "El ABC de Sevilla nos nomina como finalistas de los #PremiosWebABC"
-image: https://ik.imagekit.io/enreda/abc.png?updatedAt=1700058758269
+image: https://ik.imagekit.io/enreda/noticias/abc.png?updatedAt=1700058758269
 date: "2017-06-21"
 firstParagraph: >
   El Diario ABC de Sevilla no comunicó en el día de ayer que Enreda era uno de los tres finalistas de Los #PremiosWebABC en la categoría "mejor web de empresa".

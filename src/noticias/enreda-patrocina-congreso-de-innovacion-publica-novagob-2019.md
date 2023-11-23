@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Enreda patrocina el mayor evento de la innovación pública de España: Novagob 2019"
-image: https://ik.imagekit.io/enreda/novagob.jpeg?updatedAt=1700221783296
+image: https://ik.imagekit.io/enreda/noticias/novagob.jpeg?updatedAt=1700221783296
 date: "2019-10-22"
 firstParagraph: >
   La Cooperativa Enreda ha querido aprovechar que esta edición de Novagob se celebraba en Sevilla, para dar un paso más en su apoyo a este gran evento anual de la innovación pública, pasando a ser uno de sus patrocinadores.
@@ -15,4 +15,4 @@ Enreda aprovechó este evento para presentar ante distintas administraciones su 
 
 Enreda se sumó a la iniciativa para hacer el evento más sostenible, siendo la primera edición del congreso que se planteaba ser un congreso #SinPapel, y dió un paso más en la iniciativa, repartiendo entre los asistentes botellas de metal reutilizables, con el objetivo de conseguir un congreso #SinPlásticos.
 
-![Botellas reutilizables en Novagob](https://ik.imagekit.io/enreda/novagob-2.jpeg?updatedAt=1700221888100)
+![Botellas reutilizables en Novagob](https://ik.imagekit.io/enreda/noticias/novagob-2.jpeg?updatedAt=1700221888100)

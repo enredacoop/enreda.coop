@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Liberamos nuestra herramienta de Transparencia Presupuestaria"
-image: https://ik.imagekit.io/enreda/compara.png?updatedAt=1700046171111
+image: https://ik.imagekit.io/enreda/noticias/compara.png?updatedAt=1700046171111
 date: "2016-11-03"
 firstParagraph: >
   Una de las líneas transversales de trabajo de nuestra cooperativa es la construcción de herramientas digitales cívicas (lo que se conoce como CivicTech). Y dentro de estos procesos de desarrollo una de las piezas clave del engranaje es la liberación de su código como parte de la transferencia de conocimiento y su reutilización.

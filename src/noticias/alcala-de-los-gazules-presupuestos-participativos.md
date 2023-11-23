@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Alcalá de los Gazules inicia su camino hacia los presupuestos participativos de la mano de Enreda"
-image: https://ik.imagekit.io/enreda/alcala-gazules.jpeg?updatedAt=1700047759125
+image: https://ik.imagekit.io/enreda/noticias/noticias/alcala-gazules.jpeg?updatedAt=1700047759125
 date: "2016-11-04"
 firstParagraph: >
   El Ayuntamiento de Alcalá de los Gazules (Cádiz) ha empezado a desarrollar un programa de formación denominado "Alcalá de los Gazules: Caminando hacia los presupuestos participativos", de cara a afrontar el reto de mejorar la democracia presupuestaria del municipio.

@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: Nuevos tiempos, nueva identidad, los mismos principios
-image: https://ik.imagekit.io/enreda/enreda-new-logo.png?updatedAt=1699965282385
+image: https://ik.imagekit.io/enreda/noticias/enreda-new-logo.png?updatedAt=1699965282385
 date: "2015-12-18"
 firstParagraph: >
   El mundo, en incesante cambio, nos obliga a adaptarnos. No son pocas las situaciones vividas, sin hablar de la "crisis económica" que padecemos en España. Después de ocho años de trayectoria social/empresarial las identidades (gráficas) han cambiado, las narrativas también, pero no los valores y los principios que nos motivaron a empezar este proyecto de empresa social: ENREDA Cooperativa.

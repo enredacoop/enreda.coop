@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Una plataforma de participación perfecta para tu Agenda Urbana"
-image: https://ik.imagekit.io/enreda/consul-agenda-urbana.png?updatedAt=1700485744952
+image: https://ik.imagekit.io/enreda/noticias/consul-agenda-urbana.png?updatedAt=1700485744952
 date: "2022-02-18"
 firstParagraph: >
   La Cooperativa Enreda ha desarrollado durante esta semana un curso de capacitación  para distintos tipos de entidades de la provincia de Málaga para impulsar la Agenda 2030 a través de la innovación digital. Estos talleres han sido organizados por la Diputación de Málaga a través del Centro de Innovación Social La Noria.
@@ -24,7 +24,7 @@ CONSUL es el software desarrollado por el Ayuntamiento de Madrid destinado a fac
 
 CONSUL permite llevar a cabo todos los procesos participativos más relevantes, y adaptarse a las necesidades concretas de cada situación. Se ha diseñado de manera totalmente configurable para que se puedan activar o desactivar los diferentes procesos, y configurarlos de maneras distintas. De esta manera se puede adaptar a cualquier necesidad.
 
-![Premio Naciones Unidas al Servicio Público](https://ik.imagekit.io/enreda/premio-nu.png?updatedAt=1700485744915)
+![Premio Naciones Unidas al Servicio Público](https://ik.imagekit.io/enreda/noticias/premio-nu.png?updatedAt=1700485744915)
 
 CONSUL se ha extendido a ya  a más de 135 Instituciones en 35 Países, recibiendo el Premio de las Naciones Unidas al servicio público por su labor en la democratización de las instituciones Los principales procesos de participación que se pueden realizar en CONSUL son los siguientes:
 
@@ -37,7 +37,7 @@ CONSUL se ha extendido a ya  a más de 135 Instituciones en 35 Países, recibien
 ## CONSUL para la Agenda Urbana
 Cómo hemos visto CONSUL, tiene todos los módulos qué podríamos desear para desarrollar los diferentes proceso asociados a la elaboración y ejecución de la Agenda Urbana (Debates, propuestas, encuestas, votaciones…); también tiene varias herramientas para dar seguimiento a las acciones (a través de líneas de hitos y barras de progreso) e incluso con módulo para procesos avanzados para su desarrollo, cómo los presupuestos participativos, pero lo más interesante probablemente es que desde el pasado año CONSUL cuenta con un módulo para alinear todo el contenido de la plataforma con la Agenda 2030:
 
-![Captura de una plataforma consul](https://ik.imagekit.io/enreda/consul-plataforma.png?updatedAt=1700485744940)
+![Captura de una plataforma consul](https://ik.imagekit.io/enreda/noticias/consul-plataforma.png?updatedAt=1700485744940)
 
 Este módulo vincula toda la estructura de datos de los Objetivos de Desarrollo Sostenible (ODS y metas de la Agenda 2030) y la información arquitectónica de CONSUL, siguiendo la metodología desarrollada por Naciones Unidas sobre los ODS. Esta arquitectura de datos se aplica internacionalmente y permite el más alto nivel de interoperabilidad entre ellos.
 
