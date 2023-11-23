@@ -18,6 +18,7 @@ emprendimiento.
 - **Recoger ideas, medidas, acciones y propuestas** de actividades que den
 respuesta a esas necesidades.
 
+
 ### METODOLOGÍA GENERAL 
 La metodología propuesta se sustenta en la Investigación-Acción-Participativa (IAP) que asegura que tanto el diagnóstico como la elaboración del Plan sean protagonizadas directamente por los diferentes actores implicados. 
 
@@ -38,7 +39,7 @@ El informe con los resultados del proceso está disponible [disponible para su d
 ### EN PRENSA
 
 - **La Razón-** [*La Diputación de Valladolid impulsa un proyecto de participación ciudadana sobre empleo femenino y juvenil en el medio rural*](https://www.larazon.es/castilla-y-leon/diputacion-valladolid-impulsa-proyecto-participacion-ciudadana-empleo-femenino-juvenil-medio-rural_20230922650dbaed1fb4a6000145e698.html))
-- **EuropaPressn-** [*Solo una de cada cuatro personas muestra espíritu emprendedor en la provincia de Valladolid*](https://www.europapress.es/castilla-y-leon/noticia-solo-cada-cuatro-personas-muestra-espiritu-emprendedor-provincia-valladolid-20231121130326.html)
+- **EuropaPress-** [*Solo una de cada cuatro personas muestra espíritu emprendedor en la provincia de Valladolid*](https://www.europapress.es/castilla-y-leon/noticia-solo-cada-cuatro-personas-muestra-espiritu-emprendedor-provincia-valladolid-20231121130326.html)
 - **El Norte de Castilla-** [*Por qué no se emprende en los pueblos de Valladolid*](https://www.elnortedecastilla.es/valladolid/provincia/emprende-pueblos-valladolid-20231123001247-nt.html?ref=https%3A%2F%2Fwww.google.com%2F)
 
 
