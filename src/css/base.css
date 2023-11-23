@@ -114,55 +114,55 @@ label {
 /* Montserrat Alternates */
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Black.woff2") format('woff2');
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.woff2") format('woff2');
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.woff2") format('woff2');
   font-weight: bold; /* 700 */
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.woff2") format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.woff2") format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.woff2") format('woff2');
   font-weight: normal; /* 400 */
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.woff2") format('woff2');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.woff2") format('woff2');
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Thin.ttf");
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Thin.woff2") format('woff2');
   font-weight: 100;
   font-style: normal;
 }
@@ -170,31 +170,31 @@ label {
 /* Montserrat */
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+  src: url("../assets/fonts/Montserrat/Montserrat-Bold.woff2") format('woff2');
   font-weight: bold; /* 700 */
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+  src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.woff2") format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+  src: url("../assets/fonts/Montserrat/Montserrat-Medium.woff2") format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("../assets/fonts/Montserrat/Montserrat-Regular.woff2") format('woff2');
   font-weight: normal; /* 400 */
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-Light.ttf");
+  src: url("../assets/fonts/Montserrat/Montserrat-Light.woff2") format('woff2');
   font-weight: 300;
   font-style: normal;
 }
@@ -202,25 +202,25 @@ label {
 /* Work Sans */
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/Work_Sans/WorkSans-SemiBold.ttf");
+  src: url("../assets/fonts/Work_Sans/WorkSans-SemiBold.woff2") format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/Work_Sans/WorkSans-Medium.ttf");
+  src: url("../assets/fonts/Work_Sans/WorkSans-Medium.woff2") format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/Work_Sans/WorkSans-Regular.ttf");
+  src: url("../assets/fonts/Work_Sans/WorkSans-Regular.woff2") format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/Work_Sans/WorkSans-Light.ttf");
+  src: url("../assets/fonts/Work_Sans/WorkSans-Light.woff2") format('woff2');
   font-weight: 300;
   font-style: normal;
 }
