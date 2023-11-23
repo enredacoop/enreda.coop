@@ -34,7 +34,7 @@ Esta metodología, testada en multitud de procesos, parece la más adecuada para
 El informe con los resultados del proceso está disponible [disponible para su descarga](https://gobiernoabierto.diputaciondevalladolid.es/procesos-participativos) en la página de la Gobierno Abierto de la Diputación de Valladolid.
 
 ### EN PRENSA
-- **La Razón-** [*La Diputación de Valladolid impulsa un proyecto de participación ciudadana sobre empleo femenino y juvenil en el medio rural*](https://www.larazon.es/castilla-y-leon/diputacion-valladolid-impulsa-proyecto-participacion-ciudadana-empleo-femenino-juvenil-medio-rural_20230922650dbaed1fb4a6000145e698.html))
+- **La Razón-** [*La Diputación de Valladolid impulsa un proyecto de participación ciudadana sobre empleo femenino y juvenil en el medio rural*](https://www.larazon.es/castilla-y-leon/diputacion-valladolid-impulsa-proyecto-participacion-ciudadana-empleo-femenino-juvenil-medio-rural_20230922650dbaed1fb4a6000145e698.html)
 - **EuropaPress-** [*Solo una de cada cuatro personas muestra espíritu emprendedor en la provincia de Valladolid*](https://www.europapress.es/castilla-y-leon/noticia-solo-cada-cuatro-personas-muestra-espiritu-emprendedor-provincia-valladolid-20231121130326.html)
 - **El Norte de Castilla-** [*Por qué no se emprende en los pueblos de Valladolid*](https://www.elnortedecastilla.es/valladolid/provincia/emprende-pueblos-valladolid-20231123001247-nt.html?ref=https%3A%2F%2Fwww.google.com%2F)
 
