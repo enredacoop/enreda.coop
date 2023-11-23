@@ -25,9 +25,7 @@ Esta metodología, testada en multitud de procesos, parece la más adecuada para
 
 ### FASES
 - **Fase 1:** Encuesta a 400 jóvenes y 400 mujeres de la provincia.
-
 - **Fase 2:**  Encuentros participativos en las diferentes comarcas de la provincia.
-
 - **Fase 3** Elaboración del plan de acción con las ideas recogidas.
 
 ### RESULTADOS
