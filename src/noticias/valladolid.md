@@ -15,4 +15,4 @@ En la primera fase, que comenzó en abril, se llevaron a cabo encuestas telefón
 
 La segunda fase, en septiembre, se destacó por talleres participativos que reunieron a técnicos provinciales, orientadores laborales, asociaciones juveniles y de mujeres, empresas familiares, y diversos actores locales. Cuatro encuentros estratégicos en Íscar, Medina de Rioseco, Tordesillas y Peñafiel acercaron la institución provincial a la ciudadanía.
 
-El informe con los resultados del proceso está disponible para su descarga en la página de la Gobierno Abierto de la Diputación de Valladolid.
+El informe con los resultados del proceso está [disponible para su descarga]([https://enreda.coop/](https://gobiernoabierto.diputaciondevalladolid.es/procesos-participativos )https://gobiernoabierto.diputaciondevalladolid.es/procesos-participativos )  en la página de la Gobierno Abierto de la Diputación de Valladolid.
