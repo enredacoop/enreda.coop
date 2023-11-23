@@ -18,24 +18,23 @@ emprendimiento.
 - **Recoger ideas, medidas, acciones y propuestas** de actividades que den
 respuesta a esas necesidades.
 
-
-###METODOLOGÍA GENERAL 
+### METODOLOGÍA GENERAL 
 La metodología propuesta se sustenta en la Investigación-Acción-Participativa (IAP) que asegura que tanto el diagnóstico como la elaboración del Plan sean protagonizadas directamente por los diferentes actores implicados. 
 
 Esta metodología, testada en multitud de procesos, parece la más adecuada para desarrollar los procesos de elaboración de las Estrategias, por su capacidad de poner en valor los saberes de todos los actores obteniendo resultados fiables y útiles para afrontar la construcción colectiva de la estrategia.
 
-###FASES
+### FASES
 - **Fase 1:** Encuesta a 400 jóvenes y 400 mujeres de la provincia.
 
 - **Fase 2:**  Encuentros participativos en las diferentes comarcas de la provincia.
 
 - **Fase 3** Elaboración del plan de acción con las ideas recogidas.
 
-###RESULTADOS
+### RESULTADOS
 
 El informe con los resultados del proceso está disponible para su descarga en la página de la Gobierno Abierto de la Diputación de Valladolid.
 
-###EN PRENSA
+### EN PRENSA
 
 
 
