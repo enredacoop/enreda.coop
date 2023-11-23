@@ -7,13 +7,13 @@ Añade las cabeceras. Para los proyectos estas son:
 ```
 ---
 layout: proyecto.html
-title: <Titulo del proyecto>
-image: <URL de la imágen principal>
-subtitle: <Subtitulo del proyecto>
-client: <Nombre del cliente>
-ods: <Listado de ods. E.g. [1, 3, 17]>
-categories: <Listado de servicios con los que está relacionado. E.g. ["Diseño y desarrollo", "Sostenibilidad"]>
-summary: <Resumen del proyecto, pueden ser varias lineas>
+title: Titulo del proyecto
+image: URL de la imágen principal
+subtitle: Subtitulo del proyecto
+client: Nombre del cliente
+ods: Listado de ods entre corchetes. E.g. [1, 3, 17]
+categories: Listado de servicios con los que está relacionado entre corchetes y con comillas. E.g. ["Diseño y desarrollo", "Sostenibilidad"]
+summary: Resumen del proyecto, pueden ser varias lineas
 ---
 ```
 
@@ -54,10 +54,10 @@ Añade las cabeceras. Para las noticias estas son:
 ```
 ---
 layout: noticia.html
-title: <Título de la noticia>
-image: <URL de la imagen principal>
-date: <YYYY-MM-DD>
-firstParagraph: <Texto de resumen (normalmente el primer párrafo) que se podrá leer en el listado de noticias>
+title: Título de la noticia
+image: URL de la imagen principal
+date: YYYY-MM-DD
+firstParagraph: Texto de resumen (normalmente el primer párrafo) que se podrá leer en el listado de noticias
 ---
 ```
 
