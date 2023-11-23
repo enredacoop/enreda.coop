@@ -32,9 +32,10 @@ Esta metodología, testada en multitud de procesos, parece la más adecuada para
 
 ### RESULTADOS
 
-El informe con los resultados del proceso está disponible para su descarga en la página de la Gobierno Abierto de la Diputación de Valladolid.
+El informe con los resultados del proceso está disponible [disponible para su descarga](https://gobiernoabierto.diputaciondevalladolid.es/procesos-participativos) en la página de la Gobierno Abierto de la Diputación de Valladolid.
 
 ### EN PRENSA
 
+- **La Razón-** [*La Diputación de Valladolid impulsa un proyecto de participación ciudadana sobre empleo femenino y juvenil en el medio rural*](https://gobiernoabierto.diputaciondevalladolid.es/procesos-participativos)
 
 
