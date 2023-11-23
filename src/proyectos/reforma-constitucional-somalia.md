@@ -1,18 +1,18 @@
 ---
 layout: proyecto.html
 title: Reforma constitucional de Somalia
-image: https://ik.imagekit.io/5sj5zvywt/Proyectos/reforma-somalia.jpeg?updatedAt=1699551928974
+image: https://ik.imagekit.io/enreda/proyectos/reforma-somalia.png?updatedAt=1700671436140
 subtitle: Desarrollo de una plataforma de participación digital para la reforma constitucional.
 client: Naciones Unidas para el Desarrollo (PNUD)
 ods: [16, 17]
 categories:
   ["Participación ciudadana", "Software de participación", "Sostenibilidad"]
-summary: Enreda va a trabajar junto con la oficina somalí del Programa de las Naciones Unidas para el Desarrollo (PNUD -UNDP) para desarrollar una plataforma de participación digital, que será usada por Ministerio de Asuntos Constitucionales del Gobierno de Somalia para recibir propuestas ciudadanas en el proceso de reforma constitucional.
+summary: Enreda va a trabajar junto con la oficina somalí del Programa de las Naciones Unidas para el Desarrollo (PNUD-UNDP) para desarrollar una plataforma de participación digital, que será usada por Ministerio de Asuntos Constitucionales del Gobierno de Somalia para recibir propuestas ciudadanas en el proceso de reforma constitucional.
 
 # Meta tags
 metadescription: Desarrollo de una plataforma de participación digital para la reforma constitucional.
 ogtype: website
-ogimage: https://ik.imagekit.io/5sj5zvywt/Proyectos/reforma-somalia.jpeg?updatedAt=1699551928974
+ogimage: https://ik.imagekit.io/enreda/proyectos/reforma-somalia.png?updatedAt=1700671436140
 ogdescription: Desarrollo de una plataforma de participación digital para la reforma constitucional.
 ---
 
@@ -24,4 +24,4 @@ ENREDA ya ha trabajado en más de 15 proyectos relacionados con esta plataforma 
 
 La plataforma será de gran ayuda para facilitar la participación en el proceso de los somalíes residentes en el exterior del país, que según datos de Naciones Unidas son entorno a dos millones de personas (un 13% de la población total del país).
 
-Además de la plataforma para el Ministerio de Asuntos Constitucionales, se realizarán adaptaciones para (crear 3 plataformas de participación ciudadana locales) que sean usadas (inicialmentente) por el gobierno local de Mogadiscio y (posteriormente por) otras ciudades del país. Estas plataformas locales se enmarcan dentro del plan estratégico para mejorar la resiliencia de las ciudades del país a través de la búsqueda colaborativa de soluciones, involucrando a los ciudadanos, particularmente mujeres y jóvenes, en el proceso de establecimiento de prioridades.
+Además de la plataforma para el Ministerio de Asuntos Constitucionales, se realizarán adaptaciones para (crear 3 plataformas de participación ciudadana locales) que sean usadas (inicialmentente) por el gobierno local de Mogadiscio y (posteriormente) por otras ciudades del país. Estas plataformas locales se enmarcan dentro del plan estratégico para mejorar la resiliencia de las ciudades del país a través de la búsqueda colaborativa de soluciones, involucrando a los ciudadanos, particularmente mujeres y jóvenes, en el proceso de establecimiento de prioridades.
