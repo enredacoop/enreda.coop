@@ -102,7 +102,7 @@ css: ["/css/index.css"]
     />
     <h3>Proyectos destacados</h3>
     <div class="project-list">
-      {% for proyecto in collections.proyecto %} {% render
+      {% for proyecto in collections.proyecto limit:3 %} {% render
       "components/project-card.html", url: proyecto.url, image:
       proyecto.data.image, title: proyecto.data.title, subtitle:
       proyecto.data.subtitle, client: proyecto.data.client, ods:

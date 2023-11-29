@@ -7,7 +7,7 @@ ogimage: https://ik.imagekit.io/enreda/proyectos/transparencia-presupuestaria.pn
 subtitle: Visualiza su presupuesto
 client: Producto propio
 ods: [16]
-categories: ["Diseño y desarrollo"]
+categories: ["Diseño y desarrollo", "Transparencia"]
 summary: Web de visualización de datos en la que se intenta hacer comprensible el presupuesto de cualquier entidad. Además se compara con años anteriores para generar referencias y contextos en los datos. Una oportunidad para empezar a explicar los números.
 ---
 
