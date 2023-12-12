@@ -1,0 +1,54 @@
+:root {
+    --software-participacion-consul-mobile-img-width: 25.48rem;
+    --software-participacion-consul-mobile-img-height: 42.36rem;
+}
+
+@media screen and (max-width: 1023px) {
+    :root {
+        --software-participacion-consul-mobile-img-width: auto;
+        --software-participacion-consul-mobile-img-height: 29.6rem;
+    }
+}
+/* information */
+.software-participacion .information .consul-images {
+    display: flex;
+    flex-direction: column;
+    width: 31.4rem;
+    height: 50.908rem;
+    gap: 1.19rem;
+    justify-content: center;
+    align-items: center;
+}
+.software-participacion .information .consul-images .consul-mobile-img {
+    width: var(--software-participacion-consul-mobile-img-width);
+    height: var(--software-participacion-consul-mobile-img-height);
+    object-fit: cover;
+}
+.software-participacion .information .consul-images .consul-awarded-img {
+    width: 18.375rem;
+    height: 7.357rem;
+    object-fit: cover;
+}
+
+.software-participacion .information .information-text {
+    align-self: center;
+}
+.software-participacion .information .information-text .button-primary {
+    position: relative;
+    margin-left: calc(
+        var(--servicios-information-paragraph-title-img-width) + 
+        var(--servicios-information-paragraph-title-img-margin)
+        );
+    margin-top: 1.5rem;
+}
+/* responsive */
+@media screen and (max-width: 1023px) {
+    .software-participacion section.information {
+        flex-direction: column-reverse;
+    }
+
+    .software-participacion .information .consul-images {
+        width: 100%;
+        height: auto;
+    }
+}

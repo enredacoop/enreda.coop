@@ -1,0 +1,30 @@
+:root {
+    --diseño-desarrollo-information-img-width: 31.6rem;
+    --diseño-desarrollo-information-img-height: 36.9rem;
+}  
+   
+@media screen and (max-width: 1023px) {
+    :root {
+        --diseño-desarrollo-information-img-width: 100%;
+        --diseño-desarrollo-information-img-height: 26.8rem;
+    }  
+}
+/* information */
+.diseno-y-desarrollo .information .information-img {
+    width: var(--diseño-desarrollo-information-img-width);
+    height: var(--diseño-desarrollo-information-img-height);
+    object-fit: cover;
+    border-radius: 1rem;
+}
+/* responsive */
+@media screen and (max-width: 1023px) {
+    .diseno-y-desarrollo section.information {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .diseno-y-desarrollo section.information {
+        gap: 2.5rem;
+    }
+}

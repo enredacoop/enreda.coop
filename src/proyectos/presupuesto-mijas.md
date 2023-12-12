@@ -1,6 +1,6 @@
 ---
 layout: proyecto.html
-title: Presupuesto Participativos de Mijas
+title: Presupuesto Participativo de Mijas
 image: https://ik.imagekit.io/enreda/proyectos/presupuesto-participativo-mijas.png?updatedAt=1700671434750
 ogtype: website
 ogimage: https://ik.imagekit.io/enreda/proyectos/presupuesto-participativo-mijas.png?updatedAt=1700671434750

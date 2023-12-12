@@ -1,0 +1,29 @@
+:root {
+    --transparencia-information-img-width: 31.47rem;
+    --transparencia-information-img-height: 25.85rem;
+}  
+
+@media screen and (max-width: 1023px) {
+    :root {
+        --transparencia-information-img-width: 100%;
+        --transparencia-information-img-height: auto;
+    }  
+}
+/* information */
+.transparencia .information .information-img {
+    width: var(--transparencia-information-img-width);
+    height: var(--transparencia-information-img-height);
+    object-fit: cover;
+}
+/* responsive */
+@media screen and (max-width: 1023px) {
+    .transparencia section.information {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .transparencia section.information {
+        gap: 2.5rem;
+    }
+}

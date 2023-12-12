@@ -1,6 +1,11 @@
 :root {
   --servicios-projects-title-margin-b: 3.5rem;
   --servicios-projects-project-list-gap: 3.75rem;
+  --servicios-information-padding-y: 5rem;
+  --servicios-information-gap: 3.75rem;
+  --servicios-information-paragraph-title-img-width: 1.875rem;
+  --servicios-information-paragraph-title-img-height: 1.875rem;
+  --servicios-information-paragraph-title-img-margin: 1.38rem;
 }
 @media screen and (max-width: 1023px) {
   :root {
@@ -9,6 +14,11 @@
 }
 @media screen and (max-width: 640px) {
   :root {
+    --servicios-information-padding-y: 3.75rem;
+    --servicios-information-gap: 2.5rem;
+    --servicios-information-paragraph-title-img-width: 1.5rem;
+    --servicios-information-paragraph-title-img-height: 1.5rem;
+    --servicios-information-paragraph-title-img-margin: 1rem;
     --servicios-projects-title-margin-b: 2.5rem;
   }
 }
@@ -19,7 +29,7 @@
   flex-direction: row;
   align-items: center;
   margin: auto;
-  padding: 9.7rem var(--layout-padding-x);
+  padding: var(--layout-padding-top) var(--layout-padding-x);
   max-width: 1920px;
 }
 .servicios section.hero .right,
@@ -70,6 +80,40 @@
     height: 7rem;
     margin: auto;
   }
+}
+
+.servicios section.information {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--servicios-information-gap);
+  margin: auto;
+  padding: var(--servicios-information-padding-y) var(--layout-padding-x);
+  max-width: 1920px;
+}
+.servicios .information .paragraph-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.servicios .information .paragraph-title img {
+  width: var(--servicios-information-paragraph-title-img-width);
+  height: var(--servicios-information-paragraph-title-img-height);
+  margin-right: var(--servicios-information-paragraph-title-img-margin);
+}
+.servicios .information .paragraph-title h2 {
+  font: var(--font-heading-xl);
+}
+.servicios .information p {
+  position: relative;
+  margin-left: calc(
+    var(--servicios-information-paragraph-title-img-width) + 
+    var(--servicios-information-paragraph-title-img-margin)
+    );
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font: var(--font-text-md);
 }
 
 .servicios section.projects {
