@@ -34,7 +34,7 @@ label {
   --body-font: "Work Sans", sans-serif;
   --default-font-size: 1.11111vw; /* 16px on 1440px width */
 
-  --layout-padding-x: 5.19rem; /* 83px */
+  --layout-padding-x: 6rem; /* 96px 1440px width */
   --layout-padding-top: 6.25rem;
   --menu-height: 6.25rem;
   --menu-height-pinned: 5rem;

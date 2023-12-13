@@ -1,0 +1,111 @@
+:root {
+  --sostenibilidad-card-img-width: 26.25rem;
+  --sostenibilidad-card-img-height: 26.25rem;
+}
+
+@media screen and (max-width: 1023px) {
+  :root {
+    --sostenibilidad-card-img-width: 100%;
+    --sostenibilidad-card-img-height: 17.6rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  :root {
+    --sostenibilidad-card-img-width: 20rem;
+    --sostenibilidad-card-img-height: 15rem;
+  }
+}
+/* intro */
+.sostenibilidad section.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  color: var(--white);
+  background-color: var(--primary);
+  width: 100%;
+  text-align: center;
+  padding: 2.5rem 0rem;
+}
+.sostenibilidad section.intro h2 {
+  font: var(--font-heading-xl);
+}
+.sostenibilidad section.intro p {
+  font: var(--font-text-xxl);
+  max-width: 53rem;
+}
+.sostenibilidad section.intro img {
+  height: 3.25rem;
+}
+/* information */
+.sostenibilidad section.information {
+  flex-direction: column;
+  gap: 5rem
+}
+.sostenibilidad .information .information-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.sostenibilidad .information .information-card .information-text {
+  align-self: flex-start;
+  max-width: 44.397rem;
+}
+.sostenibilidad .information .information-card .information-card-img {
+  border-radius: 1rem;
+  width: var(--sostenibilidad-card-img-width);
+  height: var(--sostenibilidad-card-img-height);
+  object-fit: cover;
+}
+/* urbandata card */
+.sostenibilidad .information .information-card #sostenibilidad-urbandata {
+  background:  #708396;
+  object-fit: contain;
+}
+/* consul sdg card* */
+.sostenibilidad .information .information-card .consul-image-spacer {
+  border-radius: 1rem;
+  width: var(--sostenibilidad-card-img-width);
+  height: var(--sostenibilidad-card-img-height);
+  background: #BBD3F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sostenibilidad .information .information-card #sostenibilidad-consul-sdg {
+  width: calc(var(--sostenibilidad-card-img-width) - 2.5rem);
+  height: calc(var(--sostenibilidad-card-img-width) - 3.5rem);
+  object-fit: contain;
+}
+.sostenibilidad .information .information-text .button-primary {
+  position: relative;
+  margin-left: calc(
+      var(--servicios-information-paragraph-title-img-width) + 
+      var(--servicios-information-paragraph-title-img-margin)
+      );
+  margin-top: 1.5rem;
+}
+/* responsive */
+@media screen and (max-width: 1023px) {
+  .sostenibilidad section.intro {
+    padding: 2.5rem var(--layout-padding-x);
+  }
+
+  .sostenibilidad .information {
+    gap: 3.75rem;
+  }
+  .sostenibilidad .information .information-card {
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .sostenibilidad section.intro {
+    display: none;
+  }
+}
