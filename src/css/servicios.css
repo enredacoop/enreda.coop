@@ -1,11 +1,19 @@
 :root {
   --servicios-projects-title-margin-b: 3.5rem;
   --servicios-projects-project-list-gap: 3.75rem;
+  --servicios-projects-padding-b: 7.5rem;
+
   --servicios-information-padding-y: 5rem;
   --servicios-information-gap: 3.75rem;
   --servicios-information-paragraph-title-img-width: 1.875rem;
   --servicios-information-paragraph-title-img-height: 1.875rem;
   --servicios-information-paragraph-title-img-margin: 1.38rem;
+
+  --servicios-other-button-padding: 0.5rem 1.5rem;
+  --servicios-other-button-font-size: 0.9375rem;
+  --servicios-other-button-line-height: 1.8615rem;
+  --servicios-other-button-font: 400 var(--servicios-other-button-font-size) /
+    var(--servicios-other-button-line-height) var(--title-font);
 }
 @media screen and (max-width: 1023px) {
   :root {
@@ -19,7 +27,13 @@
     --servicios-information-paragraph-title-img-width: 1.5rem;
     --servicios-information-paragraph-title-img-height: 1.5rem;
     --servicios-information-paragraph-title-img-margin: 1rem;
+
     --servicios-projects-title-margin-b: 2.5rem;
+    --servicios-projects-padding-b: 5rem;
+
+    --servicios-other-button-padding: 0.25rem 0.75rem;
+    --servicios-other-button-font-size: 0.875rem;
+    --servicios-other-button-line-height: 1.656rem;
   }
 }
 
@@ -119,7 +133,8 @@
 .servicios section.projects {
   width: 100%;
   margin: auto;
-  padding: var(--layout-padding-x);
+  padding: var(--section-padding);
+  padding-bottom: var(--servicios-projects-padding-b);
   max-width: 1920px;
 }
 
@@ -127,7 +142,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 4rem;
 }
 .servicios section.projects > h3 {
   font: var(--font-heading-lg);
@@ -139,7 +153,7 @@
   grid-template-columns: repeat(1, 1fr);
   align-items: start;
   gap: var(--servicios-projects-project-list-gap);
-  margin-bottom: var(--servicios-projects-project-list-gap);
+  margin-bottom: 3.75rem;
 }
 .servicios section.projects .button-primary {
   width: fit-content;
@@ -153,5 +167,50 @@
 @media screen and (max-width: 640px) {
   .servicios section.projects .project-list {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.servicios section.other-services {
+  display: flex;
+  padding: var(--section-padding);
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.servicios section.other-services h3 {
+  font-family: var(--display-font);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.servicios section.other-services .service-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  align-content: center; 
+  gap: 1rem;
+  align-self: stretch;
+}
+.servicios section.other-services .service-list a {
+  text-decoration: none;
+  font: var(--servicios-other-button-font);
+  border: 1px solid var(--black);
+  color: var(--black);
+  border-radius: 6.25rem;
+  padding: var(--servicios-other-button-padding);
+}
+.servicios section.other-services .service-list a:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .servicios section.other-services h3 {
+    font-size: 1.5rem;
   }
 }
