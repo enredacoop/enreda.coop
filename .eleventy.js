@@ -59,6 +59,14 @@ module.exports = function (eleventyConfig) {
     return filtered;
   });
 
+  eleventyConfig.addFilter("excludeServiceFilter", function (collection, service) {
+    if (!service) return collection;
+    const filtered = collection.filter((item) =>
+      !item.data.title.includes(service)
+    );
+    return filtered;
+  })
+
   let options = {
     html: true,
     breaks: true,

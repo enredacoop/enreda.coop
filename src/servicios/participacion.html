@@ -1,5 +1,4 @@
 ---
-layout: base.html
 title: Participación ciudadana
 css: ["/css/servicios.css", "/css/servicios/participacion.css"]
 ---
@@ -92,5 +91,15 @@ css: ["/css/servicios.css", "/css/servicios/participacion.css"]
       proyecto.data.ods, categories: proyecto.data.categories %} {% endfor %}
     </div>
     <a class="button-primary" href="/proyectos/"> Ver todos los proyectos </a>
+  </section>
+  <section class="other-services">
+    <h3>Más servicios</h3>
+    <div class="service-list">
+      {% assign filteredServicios = collections.servicio | excludeServiceFilter:
+      "Participación ciudadana" %} 
+      {% for servicio in filteredServicios %} 
+        <a href="{{ servicio.url }}">{{ servicio.data.title }}</a>
+      {% endfor %}
+    </div>
   </section>
 </div>
