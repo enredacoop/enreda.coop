@@ -408,3 +408,26 @@ function _requestIndex() {
     xhr.send();
   });
 }
+
+export function initSdgInteractiveTables() {
+  _mainTargetsTableHandler()
+}
+
+function _mainTargetsTableHandler() {
+  const sdgMainTable = document.getElementById("main-sdg-targets-table");
+  let sdgGrid = sdgMainTable.querySelector(".sdg-grid");
+  let sdgButtons = sdgGrid.getElementsByTagName("button");
+  for (const button of sdgButtons) {
+    button.addEventListener("click", () => {
+      // reset all buttons
+      Array.from(sdgButtons).forEach((item) => { item.classList.remove("active")});
+      // hide all targets list
+      sdgMainTable.querySelectorAll(".targets-list").forEach((list) => {
+        list.classList.remove("active");
+      });
+      // show the selected target list and mark the selected button as active
+      document.getElementById("main-" + button.value).classList.add("active");
+      button.classList.add("active");
+    });
+  };
+}

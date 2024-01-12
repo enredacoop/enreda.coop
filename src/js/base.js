@@ -5,6 +5,7 @@ import {
   mobileMenuHandler,
   scrollUp,
   scrollDown,
+  initSdgInteractiveTables
 } from "./functions.js";
 import { getPathName } from "./utils.js";
 
@@ -16,6 +17,9 @@ const commonScripts = () => {
   scrollDown();
   if (getPathName() === "/proyectos/") {
     initProjectSearch();
+  }
+  if (getPathName() === "/ods/") {
+    initSdgInteractiveTables()
   }
 };
 

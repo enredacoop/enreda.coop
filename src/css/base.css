@@ -28,6 +28,7 @@ label {
   --accent: #ff0000;
   --white: #fbfbfb;
   --black: #212121;
+  --blue: #19486a;
   /* Font variables */
   --display-font: "Montserrat Alternates", sans-serif;
   --title-font: "Montserrat", sans-serif;
@@ -56,6 +57,7 @@ label {
   --font-heading-notice: 700 1.5rem / 2rem var(--title-font);
   --font-heading-xs: 700 1rem / normal var(--title-font);
   --font-heading-md-regular: 400 1.75rem / normal var(--title-font);
+  --font-text-targets-table: 900 1.5rem / normal var(--body-font);
 }
 
 /* Breakpoints */
@@ -90,6 +92,7 @@ label {
     --font-heading-lg: 700 1.5rem / normal var(--display-font);
     --font-heading-md: 700 1.25rem / normal var(--title-font);
     --font-heading-md-regular: 400 1.5rem / normal var(--title-font);
+    --font-table: 900 1.25rem / 1.75rem var(--body-font);
   }
 }
 /* Mobile */

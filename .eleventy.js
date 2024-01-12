@@ -59,6 +59,20 @@ module.exports = function (eleventyConfig) {
     return filtered;
   });
 
+  eleventyConfig.addCollection("sdgRelatedToProjects", function (collectionApi) {
+    const projectsCollection = collectionApi.getFilteredByTag("proyecto");
+    const sdgRelatedToProjects = new Set();
+    projectsCollection.forEach((el) => {
+      el.data.ods.forEach((sdg) => {
+        sdgRelatedToProjects.add(sdg);
+      });
+    });
+    
+    const orderedSdgRelatedToProjects = Array.from(sdgRelatedToProjects)
+      .sort((a, b) => a - b);
+    return orderedSdgRelatedToProjects;
+  });
+
   let options = {
     html: true,
     breaks: true,
