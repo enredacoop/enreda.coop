@@ -81,3 +81,5 @@ Los elementos básicos a utilizar en el contenido de los proyectos y noticias so
 | cursiva  | `*cursiva*`                                                        | *cursiva*                                                          |
 | link     | `[Web de Enreda](https://enreda.coop/)`                              | [Web de Enreda](https://enreda.coop/)                              |
 | imagen   | `![Logo de Enreda](https://enreda.coop/assets/img/enreda-black.png)` | ![Logo de Enreda](https://enreda.coop/assets/img/enreda-black.png) |
+
+mejoras ux
