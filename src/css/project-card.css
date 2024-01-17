@@ -64,12 +64,16 @@
   background-color: var(--white);
   padding: var(--card-padding);
   border-radius: 1rem;
-  box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.12);
   width: var(--card-width);
   min-height: var(--card-height);
   /* antialised */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: 0.3s;
+}
+.project-card:hover{
+  box-shadow: 0 0.25rem 1.4375rem 0 rgba(0, 0, 0, 0.25);
 }
 .project-card .thumbnail img {
   width: var(--card-image-width);
