@@ -83,4 +83,4 @@ Los elementos básicos a utilizar en el contenido de los proyectos y noticias so
 | imagen   | `![Logo de Enreda](https://enreda.coop/assets/img/enreda-black.png)` | ![Logo de Enreda](https://enreda.coop/assets/img/enreda-black.png) |
 
 
-Cambios ux-prueba-2
+
