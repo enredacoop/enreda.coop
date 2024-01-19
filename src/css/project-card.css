@@ -168,6 +168,9 @@
   text-transform: uppercase;
   margin-right: 0.91rem;
 }
+.project-card .content .action span:hover{
+  color: #DB5125;
+}
 .project-card .content .action img {
   width: 3.87rem;
 }
