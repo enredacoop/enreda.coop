@@ -395,6 +395,8 @@
 }
 .cooperativa section.contacto {
   text-align: center;
+  background-color: white;
+
 }
 .cooperativa section.contacto h2 {
   border-bottom: 1px solid var(--primary);

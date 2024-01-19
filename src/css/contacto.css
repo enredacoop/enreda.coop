@@ -101,8 +101,13 @@
   margin-right: 1rem;
   margin-left: 1rem;
 }
+
+.contacto section.head .info .list a {
+  text-decoration: none;
+  color: var(--black);
+}
 .contacto section.head .contacto-img {
-  width: 38.25rem;
+  width: 34.5rem;
   height: auto;
 }
 @media screen and (max-width: 640px) {
@@ -112,19 +117,24 @@
   }
 }
 .contacto section.head .info .social {
-  margin-top: 1.5rem;
+  margin-top: 2.8rem;
   display: flex;
   flex-direction: row;
   align-items: start;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .contacto section.head .info .social img {
-  width: 4.8rem;
+  width: 2.9rem;
   height: auto;
+  transition: 0.3s;
+}
+.contacto section.head .info .social img:hover{
+  filter: drop-shadow(4px 8px #e48f75);
 }
 
 .contacto section.locations {
   text-align: center;
+  background-color: white;
 }
 .contacto section.locations h2 {
   border-bottom: 1px solid var(--primary);
