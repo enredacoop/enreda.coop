@@ -1,9 +1,9 @@
 ---
 layout: proyecto.html
 title: RedPública
-image: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
+image: https://ik.imagekit.io/enreda/proyectos/redpublica.png?updatedAt=1700671436028
 ogtype: website
-ogimage: https://ik.imagekit.io/5sj5zvywt/redpublica.png?updatedAt=1697531941087
+ogimage: https://ik.imagekit.io/enreda/proyectos/redpublica.png?updatedAt=1700671436028
 subtitle: Plataforma de participación ciudadana de Perú
 client: Naciones Unidas para el Desarrollo (PNUD)
 ods: [1, 2, 3, 4, 5, 6, 7]
