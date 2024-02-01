@@ -1,6 +1,6 @@
 ---
 layout: noticia.html
-title: "Participamos como invitado en el Encuentro Nacional del Pacto de las Alcaldías"
+title: "Participamos como invitados en el Encuentro Nacional del Pacto de las Alcaldías"
 image: https://ik.imagekit.io/enreda/noticias/aran1.jpeg?updatedAt=1706794727737
 date: "2024-02-01"
 firstParagraph: Esta semana hemos estado en Tenerife invitados por el Pacto de las Alcaldías para hablar en su Encuentro Nacional sobre Participación y Gobernanza junto a la Fundación Novagob y Factoria Social.
