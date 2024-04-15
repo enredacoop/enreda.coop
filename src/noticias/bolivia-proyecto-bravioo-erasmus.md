@@ -7,37 +7,19 @@ firstParagraph: >
   El pasado mes de marzo estuvimos en Santa Cruz de la Sierra (Bolivia) en la primera reunión del proyecto BRAVIOO ERASMUS+ en la que participamos a través de nuestra inciciativa openODS. Este proyecto está formado por 10 universidades europeas y latinoamericanas y tiene el objetivo de mejorar la Gobernanza y los Derechos Humanos entre la comunidad universitaria lationamericana. El proyecto tendrá una duración de tres años y está financiado por Unión Europea con 800.000€.
 ---
 
-El pasado mes de marzo estuvimos en Santa Cruz de la Sierra (Bolivia) en la primera reunión del proyecto BRAVIOO ERASMUS+ 
-en la que participamos a través de nuestra iniciativa [openODS](https://openods.es/es/). Este proyecto está formado por 10 universidades
-europeas y latinoamericanas y tiene el objetivo de mejorar la Gobernanza y los Derechos Humanos entre la comunidad universitaria lationamericana. 
-El proyecto tendrá una duración de tres años y está financiado por Unión Europea con 800.000€.
+El pasado mes de marzo estuvimos en Santa Cruz de la Sierra (Bolivia) en la primera reunión del proyecto BRAVIOO ERASMUS+ en la que participamos a través de nuestra iniciativa [openODS] (https://openods.es/es/). Este proyecto está formado por 10 universidades europeas y latinoamericanas y tiene el objetivo de mejorar la Gobernanza y los Derechos Humanos entre la comunidad universitaria lationamericana. El proyecto tendrá una duración de tres años y está financiado por Unión Europea con 800.000€.
 
-Además de  OpenODS , los  socios europeos son la Universidad Carlos III de Madrid (UC3M) y la   Universidade   da   Beira   Interior   de   Portugal. 
-Los socios  latinoamericanas con ocho universidades:  la   Universidad   Nacional   de Córdoba   y   la   Universidad   Nacional   del   Nordeste   de   
-Argentina;   la Universidad Tecnológica Privada de Santa Cruz y la Universidad Privada del Valle de Bolivia; la Universidad Adolfo Ibáñez y la Universidad 
-de la Frontera de Chile y la Universidad Nacional Autónoma de Honduras y la Universidad Pedagógica Nacional Francisco Morazán de Honduras. 
+Además de  OpenODS , los  socios europeos son la Universidad Carlos III de Madrid (UC3M) y la   Universidade   da   Beira   Interior   de   Portugal. Los socios  latinoamericanas con ocho universidades: la Universidad Nacional de Córdoba y la Universidad Nacional del Nordeste de Argentina; la Universidad Tecnológica Privada de Santa Cruz y la Universidad Privada del Valle de Bolivia; la Universidad Adolfo Ibáñez y la Universidad de la Frontera de Chile y la Universidad Nacional Autónoma de Honduras y la Universidad Pedagógica Nacional Francisco Morazán de Honduras. 
 
 ![Primer encuentro](https://ik.imagekit.io/enreda/noticias/20240322093514_IMG_1786.JPG?updatedAt=1713172085704)
 
-Durante este primer encuentro se coordinaron los siete paquetes de trabajo: el plan de acción, las áreas legales y financieras además de los roles y
-responsabilidades, los detalles técnicos y requerimientos existentes del proyecto, pero lo más significativo ha sido la cohesión de equipo que se
-reveló en esta primera experiencia. El conocerse entre los partícipes del evento fue muy importante, pues cada uno compartió ideas, vivencias y
-experiencias de sus instituciones para fortalecer los vínculos entre las distintas culturas que hacen parte de BRAVIOO. Cada miembro coincidió
-en manifestar que es vital fomentar la comprensión y contacto entre los integrantes de las universidades colaboradoras, además de desarrollar
-un trabajo de concienciación a través de la formación de las entidades copartícipes en las áreas antes mencionadas. 
+Durante este primer encuentro se coordinaron los siete paquetes de trabajo: el plan de acción, las áreas legales y financieras además de los roles y responsabilidades, los detalles técnicos y requerimientos existentes del proyecto, pero lo más significativo ha sido la cohesión de equipo que se reveló en esta primera experiencia. El conocerse entre los partícipes del evento fue muy importante, pues cada uno compartió ideas, vivencias y experiencias de sus instituciones para fortalecer los vínculos entre las distintas culturas que hacen parte de BRAVIOO. Cada miembro coincidió en manifestar que es vital fomentar la comprensión y contacto entre los integrantes de las universidades colaboradoras, además de desarrollar un trabajo de concienciación a través de la formación de las entidades copartícipes en las áreas antes mencionadas. 
 
-Los   resultados   del   proyecto   se   plasmarán   en   la   producción   de   una página web en donde se visibilizará el proyecto, la edición del Libro
-Verde que recogerá las reflexiones y propuestas de los participantes de las Universidades en América Latina, el diseño de un curso MOOC para la 
-formación de defensores o funcionarios que se dediquen a trabajar en el fortalecimiento del bienestar universitario, una caja de herramientas
-para la creación de defensorías y encuentros de intercambio de buenas prácticas en desarrollo humano, gobernanza, seguridad, paz y derechos
+Los   resultados   del   proyecto   se   plasmarán   en   la   producción   de   una página web en donde se visibilizará el proyecto, la edición del Libro Verde que recogerá las reflexiones y propuestas de los participantes de las Universidades en América Latina, el diseño de un curso MOOC para la formación de defensores o funcionarios que se dediquen a trabajar en el fortalecimiento del bienestar universitario, una caja de herramientas para la creación de defensorías y encuentros de intercambio de buenas prácticas en desarrollo humano, gobernanza, seguridad, paz y derechos
 humanos.
 
 ![Primer encuentro](https://ik.imagekit.io/enreda/noticias/Captura%20de%20pantalla%202024-04-15%20090130.jpg?updatedAt=1713172104462)
 
-Es transcendental mencionar que el proyecto trabaja por y para los estudiantes, que son el objetivo principal y es por ese motivo que se
-contó con representación estudiantil, a través de la estudiante de la carrera de Derecho de UTEPSA, María Fernanda Arancibia, que destacó
-la   integración   del   estudiantado   en   los   trabajos   que   se   realizarán fomentando la protección, defensa de los derechos y el bienestar del
-estudiante de cada universidad partícipe. 
+Es transcendental mencionar que el proyecto trabaja por y para los estudiantes, que son el objetivo principal y es por ese motivo que se contó con representación estudiantil, a través de la estudiante de la carrera de Derecho de UTEPSA, María Fernanda Arancibia, que destacó la   integración   del   estudiantado   en   los   trabajos   que   se   realizarán fomentando la protección, defensa de los derechos y el bienestar del estudiante de cada universidad partícipe. 
 
-El próximo   encuentro   se   realizará   el   mes   de   junio   de   2024   en   la Universidade da Beira Interior de Portugal, en donde se efectuará la
-evaluación de las acciones que se lleven a cabo en el proyecto hasta esa fecha.
+El próximo   encuentro   se   realizará   el   mes   de   junio   de   2024   en   la Universidade da Beira Interior de Portugal, en donde se efectuará la evaluación de las acciones que se lleven a cabo en el proyecto hasta esa fecha.
