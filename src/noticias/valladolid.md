@@ -1,7 +1,7 @@
 ---
 layout: noticia.html
 title: "Presentamos el Plan de Acción participativo sobre empleo para mujeres y jóvenes del medio rural"
-image: https://ik.imagekit.io/enreda/valaldolid.jpg?updatedAt=1700660013051
+image: https://ik.imagekit.io/enreda/valaldolid.jpg?updatedAt=1700660013051](https://ik.imagekit.io/enreda/noticias/valladolid.jpg?updatedAt=1713174039862
 date: "2023-11-22"
 firstParagraph: El pasado 21 de noviembre presentamos las conclusiones del proceso participativo de elaboración del plan de acción para mejorar la empleabilidad y el emprendimiento entre las mujeres y jóvenes del mundo rural de la Provincia de Valladolid. Este proceso ha sido impulsado por la Diputación Provincial de Valladolid y desarrollado por la Cooperativa Enreda durante los últimos meses.
 ---
