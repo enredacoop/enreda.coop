@@ -1,6 +1,6 @@
 ---
 layout: noticia.html
-title: "Iniciamos en Bolivia el proyecto BRAVIOO"
+title: "Iniciamos en Bolivia el proyecto"
 image: https://ik.imagekit.io/enreda/noticias/sonrisa%20limpia.jpeg?updatedAt=1713172068604
 date: "2024-04-15"
 firstParagraph: > 
