@@ -8,7 +8,7 @@ firstParagraph: >
 ---
 
 El pasado mes de marzo estuvimos en Santa Cruz de la Sierra (Bolivia) en la primera reunión del proyecto BRAVIOO ERASMUS+ 
-en la que participamos a través de nuestra inciciativa [openODS](https://openods.es/es/). Este proyecto está formado por 10 universidades
+en la que participamos a través de nuestra iniciativa [openODS](https://openods.es/es/). Este proyecto está formado por 10 universidades
 europeas y latinoamericanas y tiene el objetivo de mejorar la Gobernanza y los Derechos Humanos entre la comunidad universitaria lationamericana. 
 El proyecto tendrá una duración de tres años y está financiado por Unión Europea con 800.000€.
 
