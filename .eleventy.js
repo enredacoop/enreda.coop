@@ -1,5 +1,6 @@
 const lunr = require("lunr");
 const markdownit = require("markdown-it");
+const mila = require("markdown-it-link-attributes");
 const CleanCSS = require("clean-css");
 
 module.exports = function (eleventyConfig) {
@@ -84,7 +85,30 @@ module.exports = function (eleventyConfig) {
     breaks: true,
     linkify: true,
   };
-  eleventyConfig.setLibrary("md", markdownit(options));
+  const markdownIt = markdownit(options);
+
+  // Remember the old renderer if overridden, or proxy to the default renderer.
+  var defaultRender =
+    markdownIt.renderer.rules.link_open ||
+    function (tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+
+  markdownIt.renderer.rules.link_open = function (
+    tokens,
+    idx,
+    options,
+    env,
+    self
+  ) {
+    // Add a new `target` attribute, or replace the value of the existing one.
+    tokens[idx].attrSet("target", "_blank");
+
+    // Pass the token to the default renderer.
+    return defaultRender(tokens, idx, options, env, self);
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt);
 
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
