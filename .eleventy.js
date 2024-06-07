@@ -59,13 +59,25 @@ module.exports = function (eleventyConfig) {
     return filtered;
   });
 
-  eleventyConfig.addFilter("excludeServiceFilter", function (collection, service) {
-    if (!service) return collection;
-    const filtered = collection.filter((item) =>
-      !item.data.title.includes(service)
-    );
-    return filtered;
-  })
+  eleventyConfig.addFilter(
+    "excludeServiceFilter",
+    function (collection, service) {
+      if (!service) return collection;
+      const filtered = collection.filter(
+        (item) => !item.data.title.includes(service)
+      );
+      return filtered;
+    }
+  );
+
+  eleventyConfig.addFilter("formattedDate", function (value) {
+    const date = new Date(value);
+    return date.toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  });
 
   let options = {
     html: true,
@@ -74,7 +86,7 @@ module.exports = function (eleventyConfig) {
   };
   eleventyConfig.setLibrary("md", markdownit(options));
 
-  eleventyConfig.addFilter("cssmin", function(code) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 

@@ -7,7 +7,7 @@ css: ["/css/noticia.css"]
   <img class="head-image" src="{{image}}" alt="" />
   <div class="content">
     <h1>{{title}}</h1>
-    <p class="publish-date">{{ date }}</p>
+    <p class="publish-date">{{ date | formattedDate }}</p>
     <div class="body">{{content}}</div>
   </div>
 </div>
