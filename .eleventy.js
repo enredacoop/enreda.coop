@@ -1,6 +1,5 @@
 const lunr = require("lunr");
 const markdownit = require("markdown-it");
-const mila = require("markdown-it-link-attributes");
 const CleanCSS = require("clean-css");
 
 module.exports = function (eleventyConfig) {

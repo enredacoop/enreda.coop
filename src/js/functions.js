@@ -194,6 +194,8 @@ async function resetServicesMenu() {
 }
 
 export async function initProjectSearch() {
+  // load the index data
+  const indexData = await _requestIndex();
   // search when the user types
   const searchInput = document.getElementById("text-input");
   searchInput.addEventListener("input", () => {
@@ -201,14 +203,14 @@ export async function initProjectSearch() {
     const category = document.querySelector(
       'input[name="category"]:checked'
     ).value;
-    _projectSearch(searchInput.value, category);
+    _projectSearch(searchInput.value, category, indexData);
   });
   // search when the user selects a category
   const categoryInputs = document.querySelectorAll('input[name="category"]');
   categoryInputs.forEach((input) => {
     input.addEventListener("change", () => {
       console.log(input.value);
-      _projectSearch(searchInput.value, input.value);
+      _projectSearch(searchInput.value, input.value, indexData);
     });
   });
   const urlParams = new URLSearchParams(window.location.search);
@@ -218,13 +220,13 @@ export async function initProjectSearch() {
     document.querySelector(
       `input[name="category"][value="${category}"]`
     ).checked = true;
-    await _projectSearch("", category);
+    await _projectSearch("", category, indexData);
   }
 }
 
-async function _projectSearch(query, category) {
+async function _projectSearch(query, category, indexData) {
   // load the index data into lunr
-  const indexData = await _requestIndex();
+
   const idx = lunr.Index.load(indexData.index);
 
   const textSearchResults = idx.query((q) => {
