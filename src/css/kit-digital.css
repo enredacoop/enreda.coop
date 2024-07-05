@@ -99,6 +99,10 @@
   margin-right: var(--layout-padding-x);
   margin-left: var(--layout-padding-x);
 }
+.kit-digital .soluciones .card-list .card img {
+  width: 5rem;
+  height: 5rem;
+}
 .kit-digital .soluciones .card-list .card {
   display: flex;
   flex-direction: column;
