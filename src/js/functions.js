@@ -15,10 +15,10 @@ export function setEventListener() {
         document.startViewTransition(() => {
           document.querySelector("#content").innerHTML = newContent;
           document.querySelector("head").innerHTML = newHead;
-          document.documentElement.scroll({
+          window.scrollTo({
             top: 0,
             left: 0,
-            option: "instantly",
+            behavior: "instant",
           });
           console.log("Navigated to " + toUrl.pathname);
           document.dispatchEvent(new Event("changed-view"));
