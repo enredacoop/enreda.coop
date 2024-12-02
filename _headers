@@ -1,2 +1,3 @@
+/js/*.js
 /bundle.css
   Cache-Control: max-age=86400, immutable
