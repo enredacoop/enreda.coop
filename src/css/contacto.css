@@ -104,6 +104,8 @@
 
 .contacto section.head .info .list a {
   text-decoration: none;
+  cursor: text;
+  user-select: text;
   color: var(--black);
 }
 .contacto section.head .contacto-img {
