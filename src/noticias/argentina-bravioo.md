@@ -3,10 +3,9 @@ layout: noticia.html
 title: "Enreda participa en Argentina en el II Encuentro de Intercambio de Buenas Prácticas Europa–América Latina"
 image: https://ik.imagekit.io/enreda/noticias/2%20enceuntro%20bravioo.jpg
 date: "2025-12-12"
-firstParagraph: Arantza Lozano, CEO de la Cooperativa Enreda, acudió el pasado mes a Córdoba (Argentina) al II Encuentro de Intercambio de Buenas Prácticas Europa–América Latina y la IV Reunión Transnacional de Gestión del [Proyecto Bravioo](https://erasmusbravioo.com/), en el Enreda participa a través de su iniciativa en [OpenODS](https://openods.es/es/).  
-
+firstParagraph: Arantza Lozano, CEO de la Cooperativa Enreda, acudió el pasado mes a Córdoba (Argentina) al II Encuentro de Intercambio de Buenas Prácticas Europa–América Latina y a la IV Reunión Transnacional de Gestión del Proyecto Bravioo, en el que Enreda participa a través de su iniciativa OpenODS..  
 ---
-Arantza Lozano, CEO de la Cooperativa Enreda, acudió el pasado mes a Córdoba (Argentina) al II Encuentro de Intercambio de Buenas Prácticas Europa–América Latina y a la IV Reunión Transnacional de Gestión del Proyecto Bravioo, en el que Enreda participa a través de su iniciativa OpenODS.
+Arantza Lozano, CEO de la Cooperativa Enreda, acudió el pasado mes a Córdoba (Argentina) al II Encuentro de Intercambio de Buenas Prácticas Europa–América Latina y la IV Reunión Transnacional de Gestión del [Proyecto Bravioo](https://erasmusbravioo.com/), en el Enreda participa a través de su iniciativa en [OpenODS](https://openods.es/es/)
 
 El encuentro tenía como objetivo la articulación de modelos universitarios más justos, democráticos e inclusivos, uniendo a las delegaciones de Europa y América Latina para vivir una semana de intercambio y trabajo conjunto en torno a la construcción y el fortalecimiento de las Defensorías Universitarias y de las áreas institucionales dedicadas a la protección de los derechos humanos.
 
