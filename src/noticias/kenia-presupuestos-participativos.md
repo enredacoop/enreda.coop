@@ -1,6 +1,6 @@
 ---
 layout: noticia.html
-title: "Enreda colabora con el Banco Bundial en el desarrollo de la Participación Digital de Kenia "
+title: "Enreda colabora con el Banco Mundial en el desarrollo de la Participación Digital de Kenia "
 image: https://ik.imagekit.io/enreda/noticias/Naoribi%20diciembre%2026%20world%20bank.jpeg
 date: "2025-12-30"
 firstParagraph: Diego Calvo, CTO de la Cooperativa Enreda, acudió a Nairobi (Kenia) invitado a participar en la “CIVIC Residency”, coorganizada por The World Bank y el Nairobi City County,
