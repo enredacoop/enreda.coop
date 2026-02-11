@@ -25,26 +25,33 @@ Por ello, el proyecto apuesta por una metodología en la que las aportaciones ve
 
 Se contempla la realización de encuestas tanto de forma presencial como de cuestionarios con recogida virtual. 
 
-✅ *Recogida de información puerta a puerta*
+✅ **Recogida de información puerta a puerta** 
+
 Con visitase a los residentes en sus hogares, buscando aumentar la participación directa de las personas de la zona en el proyecto.
 
-✅ *Acciones a pie de calle* 
+✅ **Acciones a pie de calle** 
+
 Mesas informativas, actividades creativas y difusión directa en espacios públicos
 
-✅ *Workshops* 
+✅ **Workshops** 
+
 Sesiones interactivas y dinámicas que buscan la contribución activa de la comunidad. Proporcionan un espacio para la discusión, generación de ideas y colaboración directa en el proceso de toma de decisiones.
 
-✅ *Foros grupales de discusión* 
+✅ **Foros grupales de discusión** 
+
 Reuniones organizadas para que los miembros de la comunidad compartan opiniones, preocupaciones y sugerencias sobre el proyecto.
 
-✅ *Web y Redes sociales* 
+✅ **Web y Redes sociales** 
+
 Un espacio digital donde se alojará y se difundirá la información 
 
-✅ *Informes de expertos en urbanismo* 
+✅ **Informes de expertos en urbanismo**
+
 Para proporcionar una visión crítica e informada de las necesidades de la obra a llevar a cabo y de la comunidad.
 
-✅ *Talleres con niños y niñas* 
-en actividades lúdicas diseñadas para involucrar a los/as pequeños/as en el proceso participativo y utilizando el dibujo, las manualidades o el debate adaptados a su nivel y necesidades.
+✅ **Talleres con niños y niñas**
+
+Actividades lúdicas diseñadas para involucrar a los/as pequeños/as en el proceso participativo y utilizando el dibujo, las manualidades o el debate adaptados a su nivel y necesidades.
 
 ✅ *Evento de cierre* 
 Para finalizar, mostrar los resultados del programa (devolución de feedback) a los/as participantes. Para ello, se organizaría un evento cultural que incluye
