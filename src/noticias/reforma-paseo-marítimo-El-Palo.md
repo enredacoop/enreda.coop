@@ -21,13 +21,13 @@ Por ello, el proyecto apuesta por una metodología en la que las aportaciones ve
 
 ### Actividades previstas durante el proceso
 
-✅ **Encuestas hibridas** 
+✅ **Encuestas híbridas** 
 
 Se contempla la realización de encuestas tanto de forma presencial como de cuestionarios con recogida virtual. 
 
 ✅ **Recogida de información puerta a puerta** 
 
-Con visitase a los residentes en sus hogares, buscando aumentar la participación directa de las personas de la zona en el proyecto.
+Con visitas a los residentes en sus hogares, buscando aumentar la participación directa de las personas de la zona en el proyecto.
 
 ✅ **Acciones a pie de calle** 
 
