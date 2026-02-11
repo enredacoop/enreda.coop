@@ -2,7 +2,7 @@
 layout: noticia.html
 title: "Enreda desarrollará el ambicioso plan participativo para transformar el Paseo de El Palo (Málaga)"
 image: https://ik.imagekit.io/enreda/noticias/1.jpg
-date: "2026-02-11"
+date: 2026-02-11
 firstParagraph: Un ambicioso proceso destinado a intervenir en uno de los espacios más emblemáticos y con mayor identidad de la capital: el paseo marítimo de El Palo.
 ---
 
@@ -53,7 +53,8 @@ Para proporcionar una visión crítica e informada de las necesidades de la obra
 
 Actividades lúdicas diseñadas para involucrar a los/as pequeños/as en el proceso participativo y utilizando el dibujo, las manualidades o el debate adaptados a su nivel y necesidades.
 
-✅ *Evento de cierre* 
+✅ **Evento de cierre** 
+
 Para finalizar, mostrar los resultados del programa (devolución de feedback) a los/as participantes. Para ello, se organizaría un evento cultural que incluye
 actividades como actuaciones, stands, y por supuesto, mostrar a la ciudadanía la incorporación de sus sugerencias a modo de presentación, haciendo partícipe al distrito desde el inicio hasta el final.
 
