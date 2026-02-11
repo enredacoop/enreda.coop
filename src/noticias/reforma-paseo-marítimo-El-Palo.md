@@ -3,7 +3,7 @@ layout: noticia.html
 title: "Enreda desarrollará el ambicioso plan participativo para transformar el Paseo de El Palo (Málaga)"
 image: https://ik.imagekit.io/enreda/noticias/1.jpg
 date: "2026-02-11"
-firstParagraph: Un ambicioso proceso de participación ciudadana destinado a intervenir en uno de los espacios más emblemáticos y con mayor identidad de la capital: el paseo marítimo de El Palo.
+firstParagraph: Un ambicioso proceso destinado a intervenir en uno de los espacios más emblemáticos y con mayor identidad de la capital: el paseo marítimo de El Palo.
 ---
 
 El Ayuntamiento de Málaga ha anunciado esta semana que ha elegido a la Cooperativa Enreda para desarrollar el ambicioso proceso de participación ciudadana destinado a intervenir en uno de los espacios más emblemáticos y con mayor identidad de la capital: el paseo marítimo de El Palo.
@@ -21,7 +21,8 @@ Por ello, el proyecto apuesta por una metodología en la que las aportaciones ve
 
 ### Actividades previstas durante el proceso
 
-✅ *Encuestas hibridas* 
+✅ **Encuestas hibridas** 
+
 Se contempla la realización de encuestas tanto de forma presencial como de cuestionarios con recogida virtual. 
 
 ✅ *Recogida de información puerta a puerta*
