@@ -10,12 +10,12 @@ El Ayuntamiento de Málaga ha anunciado esta semana que ha elegido a la Cooperat
 
 La iniciativa pretende implicar a vecinos, comerciantes, profesionales y entidades sociales en el diseño del futuro paseo, cuya remodelación tendrá un coste en torno a los 15 millones de euros.
 
-Tal y como el contrato, el objetivo es «impulsar la participación ciudadana en los procesos de transformación urbana», de modo que las propuestas finales incorporen soluciones viables, consensuadas y realmente útiles para quienes usan y habitan a diario este espacio.
+Tal y como marca el contrato, el objetivo es «impulsar la participación ciudadana en los procesos de transformación urbana», de modo que las propuestas finales incorporen soluciones viables, consensuadas y realmente útiles para quienes usan y habitan a diario este espacio.
 
 
 ### Un espacio emblemático 
 
-Este proceso es espcialmente complejo porque pretende reformar un entorno emblemático con múltiples realidades superpuestas: barrio tradicional de pescadores, eje turístico, entrada de centros escolares, sede del mercadillo y de la feria del barrio...
+Este proceso es especialmente complejo porque pretende reformar un entorno emblemático con múltiples realidades superpuestas: barrio tradicional de pescadores, eje turístico, entrada de centros escolares, sede del mercadillo y de la feria del barrio...
 
 Por ello, el proyecto apuesta por una metodología en la que las aportaciones vecinales tengan un peso decisivo en la configuración final del diseño urbano.
 
