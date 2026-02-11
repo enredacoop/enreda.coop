@@ -2,7 +2,7 @@
 layout: noticia.html
 title: "Enreda desarrollará el ambicioso plan participativo para transformar el Paseo de El Palo (Málaga)"
 image: https://ik.imagekit.io/enreda/noticias/1.jpg
-date: 2026-02-11
+date: "2026-02-11"
 firstParagraph: Un ambicioso proceso destinado a intervenir en uno de los espacios más emblemáticos y con mayor identidad de la capital: el paseo marítimo de El Palo.
 ---
 
