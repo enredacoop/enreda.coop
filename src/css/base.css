@@ -14,17 +14,16 @@ a {
   -ms-user-select: none;
   user-select: none;
 }
-p a{
+p a {
   color: #db5125;
   text-decoration: none;
   font-weight: 700;
-  
 }
 a:focus {
   outline: none !important;
 }
 label {
-  -webkit-tap-highlight-color: transparent  
+  -webkit-tap-highlight-color: transparent;
 }
 
 :root {
@@ -54,7 +53,7 @@ label {
   --font-text-xl: 400 1.25rem / 1.875 var(--body-font);
   --font-text-md: 400 1rem / 1.75rem var(--body-font);
   --font-text-button-ghost: 600 0.9375rem / normal var(--title-font);
-  --font-text-service: 900 3.75rem / normal var(--display-font);
+  --font-text-service: 900 3rem / normal var(--display-font);
   --font-text-label-s: 500 0.75rem / normal var(--title-font);
   --font-heading-xl: 900 2.25rem / normal var(--display-font);
   --font-heading-lg: 700 2rem / normal var(--display-font);
@@ -109,7 +108,7 @@ label {
     --font-text-xxl-2: 500 1rem / 1.5rem var(--body-font);
     --font-text-xxl: 400 1rem / 1.75rem var(--title-font);
     --font-text-xl-2: 400 1rem / normal var(--title-font);
-    --font-text-service: 900 1rem / normal var(--display-font);
+    --font-text-service: 900 1.5rem / normal var(--display-font);
     --font-heading-xl: 900 1.5rem / normal var(--display-font);
     --font-heading-lg: 700 1.25rem / normal var(--display-font);
     --font-heading-md: 700 1.25rem / normal var(--title-font);
@@ -120,55 +119,64 @@ label {
 /* Montserrat Alternates */
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Black.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Black.woff2")
+    format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.woff2")
+    format("woff2");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.woff2")
+    format("woff2");
   font-weight: bold; /* 700 */
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.woff2")
+    format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.woff2")
+    format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.woff2")
+    format("woff2");
   font-weight: normal; /* 400 */
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.woff2")
+    format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.woff2")
+    format("woff2");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat Alternates";
-  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Thin.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat_Alternates/MontserratAlternates-Thin.woff2")
+    format("woff2");
   font-weight: 100;
   font-style: normal;
 }
@@ -176,31 +184,33 @@ label {
 /* Montserrat */
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-Bold.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat/Montserrat-Bold.woff2") format("woff2");
   font-weight: bold; /* 700 */
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.woff2")
+    format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-Medium.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat/Montserrat-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-Regular.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat/Montserrat-Regular.woff2")
+    format("woff2");
   font-weight: normal; /* 400 */
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../assets/fonts/Montserrat/Montserrat-Light.woff2") format('woff2');
+  src: url("../assets/fonts/Montserrat/Montserrat-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
@@ -208,25 +218,25 @@ label {
 /* Work Sans */
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/Work_Sans/WorkSans-SemiBold.woff2") format('woff2');
+  src: url("../assets/fonts/Work_Sans/WorkSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/Work_Sans/WorkSans-Medium.woff2") format('woff2');
+  src: url("../assets/fonts/Work_Sans/WorkSans-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/Work_Sans/WorkSans-Regular.woff2") format('woff2');
+  src: url("../assets/fonts/Work_Sans/WorkSans-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("../assets/fonts/Work_Sans/WorkSans-Light.woff2") format('woff2');
+  src: url("../assets/fonts/Work_Sans/WorkSans-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
@@ -342,7 +352,7 @@ header ~ .menu menu {
   align-items: start;
   justify-content: center;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
   top: var(--menu-height);
   left: 0;
   width: 100%;
@@ -359,10 +369,12 @@ header.is-pinned ~ .menu menu {
   min-height: calc(100vh - var(--menu-height-pinned));
 }
 header ~ .menu li {
+  width: 100%;
   list-style: none;
-  padding: 0rem 2rem;
+  padding: 0rem 1rem;
 }
 header ~ .menu li a {
+  display: block;
   text-decoration: none;
   color: var(--black);
 }
@@ -419,14 +431,14 @@ footer {
   font-family: var(--title-font);
 }
 footer .prefooter {
-  background-color: #EBDDDD;;
+  background-color: #ebdddd;
   padding: var(--section-padding);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2.5rem;
 }
-footer .prefooter  h4 {
+footer .prefooter h4 {
   color: var(--black);
   font-weight: 400;
   font-size: 2rem;
@@ -527,7 +539,7 @@ footer .subfooter p a {
   header ~ .menu li {
     text-align: center;
   }
-  footer .prefooter  h4 {
+  footer .prefooter h4 {
     font-size: 1.75rem;
   }
   footer .main {
@@ -575,9 +587,10 @@ footer .subfooter p a {
 @media screen and (max-width: 640px) {
   header ~ .menu menu {
     gap: 1.75rem;
+    padding-bottom: 20vh;
   }
   footer .prefooter h4 {
-    font-size: 1.5rem;;
+    font-size: 1.5rem;
     gap: 1.5rem;
   }
 }
@@ -595,9 +608,9 @@ footer .subfooter p a {
   background-color: var(--primary);
   color: var(--white);
   text-decoration: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 .button-primary:hover {
   box-shadow: 8px 8px #e48f75;
-  transition: .5s;
+  transition: 0.5s;
 }
