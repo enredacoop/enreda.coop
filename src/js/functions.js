@@ -228,13 +228,17 @@ export async function initProjectSearch() {
   }
 }
 
+function stripDiacritics(str) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 async function _projectSearch(query, category, indexData) {
   // load the index data into lunr
 
   const idx = lunr.Index.load(indexData.index);
 
   const textSearchResults = idx.query((q) => {
-    lunr.tokenizer(query).forEach((token) => {
+    lunr.tokenizer(stripDiacritics(query)).forEach((token) => {
       q.term(token.toString(), {
         fields: ["title"],
         boost: 10,

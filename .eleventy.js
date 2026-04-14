@@ -1,4 +1,5 @@
 const lunr = require("lunr");
+require("lunr-folding")(lunr);
 const markdownit = require("markdown-it");
 const CleanCSS = require("clean-css");
 
