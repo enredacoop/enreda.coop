@@ -67,12 +67,23 @@
     <script src="/js/base.js" type="module" defer></script>
     <script src="https://unpkg.com/lunr@2.3.9/lunr.js"></script>
     <!-- Privacy-friendly analytics by Plausible -->
-    <script async src="https://metricas.enreda.coop/js/pa-4Ng0fy6RA3XsTsSCfgnCB.js"></script>
+    <script
+      async
+      src="https://plausible.io/js/pa-6azSgconuG0Qp6OLStb7X.js"
+    ></script>
     <script>
-      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-      plausible.init()
+      (window.plausible =
+        window.plausible ||
+        function () {
+          (plausible.q = plausible.q || []).push(arguments);
+        }),
+        (plausible.init =
+          plausible.init ||
+          function (i) {
+            plausible.o = i || {};
+          });
+      plausible.init();
     </script>
-
   </head>
   <body>
     <svg
@@ -148,12 +159,12 @@
           >
         </li>
         <li>
-          <a href="/servicios/diseno-y-desarrollo">Diseño y desarrollo de productos</a>
+          <a href="/servicios/diseno-y-desarrollo"
+            >Diseño y desarrollo de productos</a
+          >
         </li>
         <li>
-          <a href="/servicios/transparencia"
-            >Transparencia</a
-          >
+          <a href="/servicios/transparencia">Transparencia</a>
         </li>
         <li><a href="/servicios/sostenibilidad">Sostenibilidad</a></li>
       </menu>
